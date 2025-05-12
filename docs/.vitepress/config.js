@@ -16,6 +16,9 @@ export default {
                     { text: "3", link: "/bigFrontEnd/js/" },
                 ]
             }
-        ]
+        ],
+        search: {
+            provider: "local",
+        },
     }
 };
