@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /bigFrontEnd/html/
+      link: /about
     - theme: alt
       text: View on GitHub
       link: https://github.com/WHUDAYS/WHUDAYS.github.io

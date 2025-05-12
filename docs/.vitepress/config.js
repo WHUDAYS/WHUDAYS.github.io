@@ -20,6 +20,13 @@ export default {
                 ]
             }
         ],
+        lastUpdated: {
+            text: "最后更新",
+            formatOptions: {
+                dateStyle: "medium",
+                timeStyle: "short"
+            }
+        },
         search: {
             provider: "local",
         },
