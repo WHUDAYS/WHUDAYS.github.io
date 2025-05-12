@@ -15,6 +15,15 @@ hero:
     - theme: alt
       text: View on GitHub
       link: https://github.com/WHUDAYS/WHUDAYS.github.io
+
+features:
+  - title: 2024冬日祭
+    details: 武汉大学2024冬日祭晚会
+    link: https://space.bilibili.com/20942465/lists/4270925
+
+  - title: 站点维护人员
+    details: 我讨厌期末周...
+    link: https://github.com/shenxianovo
 ---
 
 <style>
