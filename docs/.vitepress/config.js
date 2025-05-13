@@ -6,7 +6,8 @@ export default {
         hostname: "https://whudays.github.io/", // 网站域名
     },
     head: [
-        ['meta', { name: 'keywords', content: '武汉大学动漫协会, 武大漫协, ACGN, 动漫社团, 武汉大学' }]
+        ['meta', { name: 'keywords', content: '武汉大学动漫协会, 武大漫协, WHUDAYS, ACGN, 动漫社团, 武汉大学' }],
+        ['link', { rel: 'icon', href: '/favicon.ico' }]
     ],
 
     themeConfig: {
