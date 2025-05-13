@@ -5,6 +5,9 @@ export default {
     sitemap: {
         hostname: "https://whudays.github.io/", // 网站域名
     },
+    head: [
+        ['meta', { name: 'keywords', content: '武汉大学动漫协会, 武大漫协, ACGN, 动漫社团, 武汉大学' }]
+    ],
 
     themeConfig: {
         // 主题级选项
