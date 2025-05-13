@@ -1,3 +1,12 @@
+---
+prev:
+  text: false
+  link: false
+next:
+  text: "2024萌新指南"
+  link: "/newbie-guide/2024"
+---
+
 # 介绍
 
 ::: warning 警告

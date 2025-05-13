@@ -1,3 +1,12 @@
+---
+prev:
+  text: "二、武大漫协大群群规"
+  link: "/newbie-guide/2024/02-rules"
+next:
+  text: "部门简介"
+  link: "/department"
+---
+
 # 武大漫协相关平台信息
 
 **B 站账号：武汉大学动漫协会**

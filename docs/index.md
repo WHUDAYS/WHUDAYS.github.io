@@ -10,11 +10,11 @@ hero:
     alt: logo
   actions:
     - theme: brand
-      text: Get Started
+      text: 开始吧 (⁠≧⁠▽⁠≦⁠)
       link: /about
     - theme: alt
-      text: View on GitHub
-      link: https://github.com/WHUDAYS/WHUDAYS.github.io
+      text: GitHub链接
+      link: https://github.com/WHUDAYS
 
 features:
   - title: 2024冬日祭
