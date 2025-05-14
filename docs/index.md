@@ -3,17 +3,17 @@ layout: home
 
 hero:
   name: WHUDAYS
-  text: 武汉大学动漫协会工作文档
+  text: 武汉大学动漫协会
   tagline: 这是什么QAQ
   image:
     src: /WHUDAYS.png
     alt: logo
   actions:
     - theme: brand
-      text: 开始吧 (⁠≧⁠▽⁠≦⁠)
+      text: 关于漫协 (⁠≧⁠▽⁠≦⁠)
       link: /about
     - theme: alt
-      text: GitHub链接
+      text: GitHub仓库
       link: https://github.com/WHUDAYS
 
 features:

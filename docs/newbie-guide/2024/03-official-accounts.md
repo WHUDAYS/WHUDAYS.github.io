@@ -3,8 +3,8 @@ prev:
   text: "二、武大漫协大群群规"
   link: "/newbie-guide/2024/02-rules"
 next:
-  text: "部门简介"
-  link: "/department"
+  text: "四、2024萌新指南（pdf）"
+  link: "/newbie-guide/2024/04-raw"
 ---
 
 # 武大漫协相关平台信息
