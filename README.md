@@ -1,5 +1,5 @@
 # Website
 
-武汉大学动漫协会工作文档存档点
+武汉大学动漫协会社团网站
 
 - [whudays.github.io](https://whudays.github.io/)
