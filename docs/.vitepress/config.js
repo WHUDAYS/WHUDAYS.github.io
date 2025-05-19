@@ -15,48 +15,52 @@ export default {
         nav: [
             { text: '首页', link: '/' },
             { text: '关于', link: '/about' },
-            {
-                text: '文档',
-                items: [
-                    { text: "2024", link: "/bigFrontEnd/html/" },
-                    { text: "2", link: "/bigFrontEnd/css/" },
-                    { text: "3", link: "/bigFrontEnd/js/" },
-                ]
-            }
+            { text: '留声箱', link: "/message-box/" }
         ],
-        sidebar: [
-            {
-                text: "关于社团",
-                collapsed: true,
-                items: [
-                    { text: "社团介绍", link: "/about" }
-                ]
-            },
-            {
-                text: "萌新指南",
-                collapsed: false,
-                items: [
-                    { text: "2024萌新指南", link: "/newbie-guide/2024" },
-                    { text: "一、武大漫协Q&A", link: "/newbie-guide/2024/01-faq" },
-                    { text: "二、武大漫协大群群规", link: "/newbie-guide/2024/02-rules" },
-                    { text: "三、关注武大漫协官方账号", link: "/newbie-guide/2024/03-official-accounts" },
-                    { text: "四、2024萌新指南（pdf）", link: "/newbie-guide/2024/04-raw" }
-                ]
-            },
-            {
-                text: "社团部门",
-                collapsed: false,
-                items: [
-                    { text: "部门简介", link: "/department" },
-                    { text: "暗部", link: "/department/dark" },
-                    { text: "演音部", link: "/department/va" },
-                    { text: "夏樱乐团", link: "/department/band" },
-                    { text: "cos部", link: "/department/cos" },
-                    { text: "编辑部", link: "/department/edit" },
-                    { text: "2024部门介绍（pdf）", link: "/department/raw" }
-                ]
-            }
-        ],
+        sidebar: {
+            '/about': [
+                {
+                    text: "关于社团",
+                    collapsed: true,
+                    items: [
+                        { text: "社团介绍", link: "/about" }
+                    ]
+                },
+                {
+                    text: "萌新指南",
+                    collapsed: false,
+                    items: [
+                        { text: "2024萌新指南", link: "/newbie-guide/2024" },
+                        { text: "一、武大漫协Q&A", link: "/newbie-guide/2024/01-faq" },
+                        { text: "二、武大漫协大群群规", link: "/newbie-guide/2024/02-rules" },
+                        { text: "三、关注武大漫协官方账号", link: "/newbie-guide/2024/03-official-accounts" },
+                        { text: "四、2024萌新指南（pdf）", link: "/newbie-guide/2024/04-raw" }
+                    ]
+                },
+                {
+                    text: "社团部门",
+                    collapsed: false,
+                    items: [
+                        { text: "部门简介", link: "/department" },
+                        { text: "暗部", link: "/department/dark" },
+                        { text: "演音部", link: "/department/va" },
+                        { text: "夏樱乐团", link: "/department/band" },
+                        { text: "cos部", link: "/department/cos" },
+                        { text: "编辑部", link: "/department/edit" },
+                        { text: "2024部门介绍（pdf）", link: "/department/raw" }
+                    ]
+                }
+            ],
+            'message-box': [
+                {
+                    text: "留声箱",
+                    collapsed: false,
+                    items: [
+                        { text: "喵呜", link: "/message-box/" },
+                    ]
+                }
+            ]
+        },
         lastUpdated: {
             text: "最后更新",
             formatOptions: {
