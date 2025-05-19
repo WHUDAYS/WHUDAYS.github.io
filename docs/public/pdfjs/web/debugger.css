@@ -22,10 +22,7 @@
   font: message-box;
 }
 #PDFBug {
-  color-scheme: only light;
-
-  background-color: white;
-  color: black;
+  background-color: rgb(255 255 255);
   border: 1px solid rgb(102 102 102);
   position: fixed;
   top: 32px;
