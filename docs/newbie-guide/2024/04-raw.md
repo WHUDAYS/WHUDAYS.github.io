@@ -9,4 +9,9 @@ next:
 
 # 2024萌新指南（PDF）
 
-<iframe src="/2024漫协萌新指南.pdf" width="100%" height="600px"></iframe>
+<iframe 
+  src="/pdfjs/web/viewer.html?file=/2024漫协萌新指南.pdf" 
+  width="100%" 
+  height="800px" 
+  style="border: 1px solid #ddd;">
+</iframe>
