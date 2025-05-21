@@ -1,6 +1,6 @@
 export default {
     // 站点级选项
-    title: "WHUDAYS", // 网站标题
+    title: "武汉大学动漫协会-WHUDAYS", // 网站标题
     description: "武汉大学动漫协会", // 网站描述
     sitemap: {
         hostname: "https://whudays.github.io/", // 网站域名
