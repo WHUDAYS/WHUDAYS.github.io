@@ -3,11 +3,11 @@ prev:
   text: false
   link: false
 next:
-  text: "2024萌新指南"
-  link: "/about/newbie-guide/2024"
+  text: "社团介绍"
+  link: "/about/introduction"
 ---
 
-# 介绍
+# 关于本站
 
 ::: warning 警告
 阿巴阿巴阿巴
@@ -15,8 +15,6 @@ next:
 :::
 
 ~~你是怎么找到这里的 Σ(;ﾟдﾟ)~~
-
-## 这是什么
 
 本站是[`武大漫协HQ工作文档存档项目`](https://github.com/WHUDAYS)的副产物（x
 
