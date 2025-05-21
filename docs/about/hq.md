@@ -52,7 +52,7 @@ const hqMembers = [
     title: '暗部秘书组组长',
   },
   {
-    avatar: '/avatar.png',
+    avatar: '/2024/yy.png',
     name: 'YY',
     title: 'cos部部长',
   },
