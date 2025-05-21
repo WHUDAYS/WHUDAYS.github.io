@@ -37,6 +37,11 @@ const hqMembers = [
     title: '夏樱乐团团长',
   },
   {
+    avatar: '/avatar.png',
+    name: 'storm',
+    title: '暗部部长',
+  },
+  {
     avatar: '/2024/wweiyi.jpeg',
     name: 'wweiyi',
     title: '暗部外联组组长',
@@ -44,7 +49,7 @@ const hqMembers = [
   {
     avatar: '/2024/chiya.jpeg',
     name: '风又千夜',
-    title: '暗部线上组组长',
+    title: '暗部秘书组组长',
   },
   {
     avatar: '/avatar.png',
@@ -67,7 +72,7 @@ const hqMembers = [
     title: '编辑部美编',
   },
   {
-    avatar: '/avatar.png',
+    avatar: '/2024/sigal.jpeg',
     name: '西加尔',
     title: '演音部歌姬组组长',
   },
@@ -75,6 +80,11 @@ const hqMembers = [
     avatar: '/avatar.png',
     name: 'scapino',
     title: '演音部配音组组长',
+  },
+  {
+    avatar: '/avatar.png',
+    name: '阳',
+    title: '夏樱组组长',
   },
 ]
 </script>
