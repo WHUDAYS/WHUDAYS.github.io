@@ -16,7 +16,7 @@ const hqLeaders = [
     title: '社长',
 	},
 	{
-    avatar: '/avatar.png',
+    avatar: '/2024/satsuki.jpeg',
     name: '纱月Satsuki',
     title: '指导老师',
 	},
