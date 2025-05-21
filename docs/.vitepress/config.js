@@ -18,13 +18,16 @@ export default {
             { text: '部门', link: '/department' },
             { text: '留声箱', link: "/message-box/" }
         ],
+        sidebarMenuLabel: '菜单',
+        returnToTopLabel: '回到顶部',
         sidebar: {
             '/about': [
                 {
                     text: "关于社团",
                     collapsed: false,
                     items: [
-                        { text: "社团介绍", link: "/about" }
+                        { text: "关于本站", link: "/about" },
+                        { text: "社团介绍", link: "/about/introduction" }
                     ]
                 },
                 {
@@ -38,19 +41,6 @@ export default {
                         { text: "四、2024萌新指南（pdf）", link: "/about/newbie-guide/2024/04-raw" }
                     ]
                 },
-                {
-                    text: "社团部门",
-                    collapsed: false,
-                    items: [
-                        { text: "部门简介", link: "/department" },
-                        { text: "暗部", link: "/department/dark" },
-                        { text: "演音部", link: "/department/va" },
-                        { text: "夏樱乐团", link: "/department/band" },
-                        { text: "cos部", link: "/department/cos" },
-                        { text: "编辑部", link: "/department/edit" },
-                        { text: "2024部门介绍（pdf）", link: "/department/raw" }
-                    ]
-                }
             ],
             'department': [
                 {

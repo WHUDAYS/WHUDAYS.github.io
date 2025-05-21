@@ -62,7 +62,7 @@ const hqMembers = [
     title: 'cos部副部长',
   },
   {
-    avatar: '/avatar.png',
+    avatar: '/2024/shuzhi.jpeg',
     name: '树枝',
     title: '编辑部部长',
   },
@@ -77,7 +77,7 @@ const hqMembers = [
     title: '演音部歌姬组组长',
   },
   {
-    avatar: '/avatar.png',
+    avatar: '/2024/scapino.jpeg',
     name: 'scapino',
     title: '演音部配音组组长',
   },
@@ -92,7 +92,7 @@ const hqMembers = [
 <VPTeamPage>
   <VPTeamPageTitle>
     <template #title>2024HQ</template>
-    <!-- <template #lead>这是一段文字</template> -->
+    <template #lead>2024-2025学年社团干部</template>
   </VPTeamPageTitle>
   <VPTeamMembers size="medium" :members="hqLeaders" />
   <VPTeamPageSection>
