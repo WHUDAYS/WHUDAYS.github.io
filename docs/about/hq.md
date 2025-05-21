@@ -37,7 +37,7 @@ const hqMembers = [
     title: '夏樱乐团团长',
   },
   {
-    avatar: '/avatar.png',
+    avatar: '/2024/storm.jpeg',
     name: 'storm',
     title: '暗部部长',
   },
@@ -67,7 +67,7 @@ const hqMembers = [
     title: '编辑部部长',
   },
   {
-    avatar: '/avatar.png',
+    avatar: '/2024/siguaduntang.jpeg',
     name: '丝瓜炖汤',
     title: '编辑部美编',
   },
