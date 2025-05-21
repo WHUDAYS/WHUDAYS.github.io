@@ -1,10 +1,10 @@
 ---
 prev:
   text: "2024萌新指南"
-  link: "/newbie-guide/2024"
+  link: "/about/newbie-guide/2024"
 next:
   text: "二、武大漫协大群群规"
-  link: "/newbie-guide/2024/02-rules"
+  link: "/about/newbie-guide/2024/02-rules"
 ---
 
 # ❓ Q&A | 漫协萌新提问箱
