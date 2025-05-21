@@ -4,7 +4,7 @@ prev:
   link: "/about"
 next:
   text: "一、武大漫协Q&A"
-  link: "/newbie-guide/2024/01-faq"
+  link: "/about/newbie-guide/2024/01-faq"
 ---
 
 # 2024萌新指南

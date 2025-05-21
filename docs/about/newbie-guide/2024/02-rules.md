@@ -1,10 +1,10 @@
 ---
 prev:
   text: "一、武大漫协Q&A"
-  link: "/newbie-guide/2024/01-faq"
+  link: "/about/newbie-guide/2024/01-faq"
 next:
   text: "三、关注武大漫协官方账号"
-  link: "/newbie-guide/2024/03-official-accounts"
+  link: "/about/newbie-guide/2024/03-official-accounts"
 ---
 
 # 武大漫协大群群规
