@@ -12,13 +12,17 @@
     - `pdfjs`: 前端pdf预览库
   - `about`: 关于
     - `newbie-guide`: **本学年**萌新指南
+  - `activity`: 活动
   - `department`: 部门
+  - `group`: 小群
+  - `maintainer`: 站点维护人员
   - `message-box`: 留声箱
 
-## 部署指南
+## 本地部署指南
 
 （写的不是很完整...不会的问ai吧...）
 
 1. 克隆仓库
-2. 命令行输入 `pnpm dev` 启动本地服务器。默认会启动在 `http://localhost:5173/`
-   - 需要先安装 `node.js` 与 `pnpm`
+2. 安装 `node.js` 与 `pnpm`
+3. 运行 `pnpm install` 安装依赖性
+4. 命令行输入 `pnpm dev` 启动本地服务器。默认会启动在 `http://localhost:5173/`
