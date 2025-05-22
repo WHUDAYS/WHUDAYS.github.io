@@ -1,7 +1,7 @@
 ---
 prev:
   text: "三、武大漫协相关平台信息"
-  link: "/newbie-guide/2024/03-official-accounts"
+  link: "/about/newbie-guide/2024/03-official-accounts"
 next:
   text: "部门简介"
   link: "/department"

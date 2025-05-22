@@ -1,7 +1,7 @@
 ---
 prev:
   text: "编辑部"
-  link: "/newbie-guide/2024/04-edit"
+  link: "/about/newbie-guide/2024/04-edit"
 next:
   text: false
   link: false
