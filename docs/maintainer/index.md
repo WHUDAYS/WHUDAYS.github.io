@@ -5,7 +5,7 @@ import { VPTeamMembers } from 'vitepress/theme'
 
 const members = [
   {
-    avatar: '/2024/quq.jpeg',
+    avatar: '/about/hq/2024/quq.jpeg',
     name: '-QuQ-',
     title: '2025-现在'
   },
