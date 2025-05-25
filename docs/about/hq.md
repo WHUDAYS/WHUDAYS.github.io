@@ -82,6 +82,11 @@ const hqMembers = [
     title: '演音部配音组组长',
   },
   {
+    avatar: '/about/hq/2024/um.jpeg',
+    name: '悠梦',
+    title: 'wota艺部部长',
+  },
+  {
     avatar: '/avatar.png',
     name: '阳',
     title: '夏樱组组长',
