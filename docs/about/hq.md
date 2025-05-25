@@ -87,7 +87,7 @@ const hqMembers = [
     title: 'wota艺部部长',
   },
   {
-    avatar: '/avatar.png',
+    avatar: '/about/hq/avatar.png',
     name: '阳',
     title: '夏樱组组长',
   },
