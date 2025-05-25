@@ -17,15 +17,23 @@ WOTA艺（光棒艺），最早起源于日式应援，如今已经发展成为�
 
 在这里，我们用自己独特的方式，通过爬台表演或者录制视频企划的方式演绎自己热爱的歌曲，应援喜欢的偶像，或者仅仅是记录平凡或者不平凡的一天。
 
-<p align="center">
-  <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114063107425616&bvid=BV1N2PaeiEn6&cid=28566685060&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="500"></iframe>
-  <span style="font-size: 0.95em; color: #888;">爬台演出：武大漫协2024冬日祭</span>
-</p>
+<div align="center">
+  <iframe
+    src="//player.bilibili.com/player.html?isOutside=true&aid=113582742247487&bvid=BV18H6TYVEJg&cid=27141800408&p=1&autoplay=0"
+    allowfullscreen="true"
+    style="width:100%;aspect-ratio:16/9;max-width:700px;border:none;"
+  ></iframe>
+  <div style="font-size: 0.95em; color: #888; margin: 0.5em 0 1.2em 0;">爬台演出：武大漫协2024冬日祭</div>
+</div>
 
-<p align="center">
-  <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114541509742209&bvid=BV1yjJezMECC&cid=30064119089&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="500"></iframe>
-  <span style="font-size: 0.95em; color: #888;">视频企划：礎の花冠</span>
-</p>
+<div align="center">
+  <iframe
+    src="//player.bilibili.com/player.html?isOutside=true&aid=114541509742209&bvid=BV1yjJezMECC&cid=30064119089&p=1&autoplay=0"
+    allowfullscreen="true"
+    style="width:100%;aspect-ratio:16/9;max-width:700px;border:none;"
+  ></iframe>
+  <div style="font-size: 0.95em; color: #888; margin: 0.5em 0 1.2em 0;">视频企划：礎の花冠</div>
+</div>
 
 ## 日常活动
 
