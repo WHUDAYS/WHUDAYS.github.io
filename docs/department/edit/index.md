@@ -3,8 +3,8 @@ prev:
   text: "cos部"
   link: "/department/cos"
 next:
-  text: "2024部门介绍（PDF）"
-  link: "department/raw"
+  text: "wota艺部"
+  link: "department/wota"
 ---
 
 # 编辑部

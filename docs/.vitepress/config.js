@@ -52,7 +52,8 @@ export default {
                         { text: "演音部", link: "/department/va" },
                         { text: "夏樱乐团", link: "/department/band" },
                         { text: "cos部", link: "/department/cos" },
-                        { text: "编辑部", link: "/department/edit" }
+                        { text: "编辑部", link: "/department/edit" },
+                        { text: "wota艺部", link: "/department/wota" }
                     ]
                 }
             ],
