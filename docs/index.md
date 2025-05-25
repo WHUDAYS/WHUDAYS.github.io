@@ -23,7 +23,7 @@ features:
 
   - title: 2024冬日祭
     details: 武汉大学2024冬日祭晚会
-    link: https://space.bilibili.com/20942465/lists/4270925
+    link: /activity/2024/winter-festival
   
   - title: 2025樱染初夏乐队专场
     details: あなたのチンコは何センチ？
