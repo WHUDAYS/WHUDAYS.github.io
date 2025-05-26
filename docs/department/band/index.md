@@ -3,8 +3,8 @@ prev:
   text: "演音部"
   link: "/department/va"
 next:
-  text: "cos部"
-  link: "/department/cos"
+  text: "管弦组"
+  link: "/department/band/orchestra"
 ---
 
 # 夏樱乐团
