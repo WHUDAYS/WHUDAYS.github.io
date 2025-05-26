@@ -50,7 +50,16 @@ export default {
                         { text: "部门简介", link: "/department" },
                         { text: "暗部", link: "/department/dark" },
                         { text: "演音部", link: "/department/va" },
-                        { text: "夏樱乐团", link: "/department/band" },
+
+                        { text: "夏樱乐团",
+                            collapsed: true,
+                            items: [
+                                { text: "概览", link: "/department/band" },
+                                { text: "管弦组", link: "/department/band/orchestra" },
+                                { text: "..."},
+                            ]
+                        },
+
                         { text: "cos部", link: "/department/cos" },
                         { text: "编辑部", link: "/department/edit" },
                         { text: "wota艺部", link: "/department/wota" }
