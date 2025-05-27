@@ -1,12 +1,3 @@
----
-prev:
-  text: "部门简介"
-  link: "/department"
-next:
-  text: "演音部"
-  link: "/department/va"
----
-
 # 暗部
 
 ::: warning 警告

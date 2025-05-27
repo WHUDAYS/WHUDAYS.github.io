@@ -1,12 +1,3 @@
----
-prev:
-  text: "关于社团"
-  link: "/about"
-next:
-  text: "一、武大漫协Q&A"
-  link: "/about/newbie-guide/2024/01-faq"
----
-
 # 2024萌新指南
 
 首先欢迎各位喜爱二次元的宅宅& COSER 们加入武汉大学动漫协会大群—春日影。

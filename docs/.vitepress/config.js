@@ -14,20 +14,21 @@ export default {
         // 主题级选项
         nav: [
             { text: '首页', link: '/' },
-            { text: '关于', link: '/about' },
-            { text: '部门', link: '/department' },
-            { text: '小群', link: '/group' },
+            { text: '关于', link: '/about/' },
+            { text: '活动', link: '/activity/' },
+            { text: '部门', link: '/department/' },
+            { text: '小群', link: '/group/' },
             { text: '留声箱', link: "/message-box/" }
         ],
         sidebarMenuLabel: '菜单',
         returnToTopLabel: '回到顶部',
         sidebar: {
-            '/about': [
+            '/about/': [
                 {
                     text: "关于社团",
                     collapsed: false,
                     items: [
-                        { text: "关于本站", link: "/about" },
+                        { text: "关于本站", link: "/about/" },
                         { text: "社团介绍", link: "/about/introduction" }
                     ]
                 },
@@ -35,7 +36,7 @@ export default {
                     text: "萌新指南",
                     collapsed: false,
                     items: [
-                        { text: "2024萌新指南", link: "/about/newbie-guide/2024" },
+                        { text: "2024萌新指南", link: "/about/newbie-guide/2024/" },
                         { text: "一、武大漫协Q&A", link: "/about/newbie-guide/2024/01-faq" },
                         { text: "二、武大漫协大群群规", link: "/about/newbie-guide/2024/02-rules" },
                         { text: "三、关注武大漫协官方账号", link: "/about/newbie-guide/2024/03-official-accounts" },
@@ -43,41 +44,40 @@ export default {
                     ]
                 },
             ],
-            'department': [
+            '/activity/': [
+            ],
+            '/department/': [
                 {
                     text: "社团部门",
                     collapsed: false,
                     items: [
-                        { text: "部门简介", link: "/department" },
-                        { text: "暗部", link: "/department/dark" },
-                        { text: "演音部", link: "/department/va" },
-
+                        { text: "部门简介", link: "/department/" },
+                        { text: "暗部", link: "/department/dark/" },
+                        { text: "演音部", link: "/department/va/" },
                         { text: "夏樱乐团",
                             collapsed: true,
                             items: [
-                                { text: "概览", link: "/department/band" },
-                                { text: "管弦组", link: "/department/band/orchestra" },
-                                { text: "..."},
+                                { text: "夏樱乐团", link: "/department/band/" },
+                                { text: "管弦组", link: "/department/band/orchestra/" },
                             ]
                         },
-
-                        { text: "cos部", link: "/department/cos" },
-                        { text: "编辑部", link: "/department/edit" },
-                        { text: "wota艺部", link: "/department/wota" }
+                        { text: "cos部", link: "/department/cos/" },
+                        { text: "编辑部", link: "/department/edit/" },
+                        { text: "wota艺部", link: "/department/wota/" }
                     ]
                 }
             ],
-            'group': [
+            '/group/': [
                 {
                     text: "社团小群",
                     collapsed: false,
                     items: [
-                        { text: "小群简介", link: "/group" },
-                        { text: "WHUDAYS Galgame Party", link: "/group/galgame" },
+                        { text: "小群简介", link: "/group/" },
+                        { text: "WHUDAYS Galgame Party", link: "/group/galgame/" },
                     ]
                 }
             ],
-            'message-box': [
+            '/message-box/': [
                 {
                     text: "留声箱",
                     collapsed: false,

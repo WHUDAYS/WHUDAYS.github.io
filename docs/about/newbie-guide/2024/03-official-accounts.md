@@ -1,12 +1,3 @@
----
-prev:
-  text: "二、武大漫协大群群规"
-  link: "/about/newbie-guide/2024/02-rules"
-next:
-  text: "四、2024萌新指南（pdf）"
-  link: "/about/newbie-guide/2024/04-raw"
----
-
 # 武大漫协相关平台信息
 
 **B 站账号：[武汉大学动漫协会](https://space.bilibili.com/20942465)**

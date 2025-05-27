@@ -1,12 +1,3 @@
----
-prev:
-  text: "暗部"
-  link: "/department/dark"
-next:
-  text: "夏樱乐团"
-  link: "/department/band"
----
-
 # 演音部
 
 ::: warning 警告
@@ -27,7 +18,7 @@ next:
 
 <p align="center">
   <iframe
-    src="//player.bilibili.com/player.html?isOutside=true&aid=113116939617458&bvid=BV11F4BerEAy&cid=25820202444&p=1autoplay=0"
+    src="//player.bilibili.com/player.html?isOutside=true&aid=113116939617458&bvid=BV11F4BerEAy&cid=25820202444&p=1&autoplay=0"
     allowfullscreen="true"
     style="width:100%;aspect-ratio:16/9;max-width:700px;border:none;"
   ></iframe>

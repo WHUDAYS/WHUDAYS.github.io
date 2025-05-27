@@ -1,12 +1,3 @@
----
-prev:
-  text: false
-  link: false
-next:
-  text: "社团介绍"
-  link: "/about/introduction"
----
-
 # 关于本站
 
 ::: warning 警告

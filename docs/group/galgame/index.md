@@ -1,10 +1,3 @@
----
-prev:
-  text: "..."
-next:
-  text: "..."
----
-
 # WHUDAYS Galgame Party
 
 ::: warning 警告

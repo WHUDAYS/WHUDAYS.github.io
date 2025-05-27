@@ -1,12 +1,3 @@
----
-prev:
-  text: 关于本站
-  link: "/about"
-next:
-  text: "2024萌新指南"
-  link: "/about/newbie-guide/2024"
----
-
 # 社团介绍
 
 ::: danger 警告
