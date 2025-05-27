@@ -3,6 +3,8 @@
 - 网址：[whudays.github.io](https://whudays.github.io/)
 - GitHub组织首页：[WHUDAYS](https://github.com/WHUDAYS)
 
+本站点为`武大漫协HQ工作文档存档项目`的**副产物**，初始定位是**保存库**
+
 ## 仓库结构
 
 - `.github`: GitHub workflow 配置
