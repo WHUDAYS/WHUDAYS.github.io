@@ -16,6 +16,7 @@ export default {
             { text: '首页', link: '/' },
             { text: '关于', link: '/about' },
             { text: '部门', link: '/department' },
+            { text: '小群', link: '/group' },
             { text: '留声箱', link: "/message-box/" }
         ],
         sidebarMenuLabel: '菜单',
@@ -63,6 +64,16 @@ export default {
                         { text: "cos部", link: "/department/cos" },
                         { text: "编辑部", link: "/department/edit" },
                         { text: "wota艺部", link: "/department/wota" }
+                    ]
+                }
+            ],
+            'group': [
+                {
+                    text: "社团小群",
+                    collapsed: false,
+                    items: [
+                        { text: "小群简介", link: "/group" },
+                        { text: "WHUDAYS Galgame Party", link: "/group/galgame" },
                     ]
                 }
             ],
