@@ -1,12 +1,3 @@
----
-prev:
-  text: "2024萌新指南"
-  link: "/about/newbie-guide/2024"
-next:
-  text: "二、武大漫协大群群规"
-  link: "/about/newbie-guide/2024/02-rules"
----
-
 # ❓ Q&A | 漫协萌新提问箱
 
 ## ⚫ Q1：进群了，我该怎样加入漫协呢？

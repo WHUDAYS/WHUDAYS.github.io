@@ -1,11 +1,3 @@
----
-prev:
-  text: "概览"
-  link: "/department/band"
-next:
-  text: "..."
----
-
 # 管弦组
 
 ::: warning 警告

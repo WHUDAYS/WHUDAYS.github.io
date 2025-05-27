@@ -1,12 +1,3 @@
----
-prev:
-  text: "编辑部"
-  link: "/about/newbie-guide/2024/04-edit"
-next:
-  text: false
-  link: false
----
-
 # 2024部门介绍（PDF）
 
 <iframe 
