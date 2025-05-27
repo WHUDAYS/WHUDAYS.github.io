@@ -10,10 +10,6 @@ export default defineConfig({
 			GitChangelog({
 				// 填写在此处填写您的仓库链接
 				repoURL: () => 'https://github.com/WHUDAYS/WHUDAYS.github.io',
-				ui: {
-					contributors: '贡献者',
-					changelog: '变更记录',
-				},
 				mapAuthors: [
 					{
 						name: '-QuQ-',
@@ -29,7 +25,12 @@ export default defineConfig({
 					},
 				],
 			}),
-			GitChangelogMarkdownSection(),
+			GitChangelogMarkdownSection({
+				sections: {
+					disableContributors: true, // 关闭贡献者
+					// disableChangelog: true, // 关闭 changelog
+				}
+			}),
 		],
 	},
 	// 站点级选项
