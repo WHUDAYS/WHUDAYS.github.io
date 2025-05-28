@@ -64,7 +64,8 @@ export default defineConfig({
 					collapsed: false,
 					items: [
 						{ text: "关于本站", link: "/about/" },
-						{ text: "社团介绍", link: "/about/introduction" }
+						{ text: "社团介绍", link: "/about/introduction" },
+						{ text: "英灵殿", link: "/about/hq/" }
 					]
 				},
 				{
@@ -80,6 +81,13 @@ export default defineConfig({
 				},
 			],
 			'/activity/': [
+				{
+					text: "社团活动",
+					collapsed: false,
+					items: [
+						{ text: "漫协大事记", link: "/activity/" },
+					]
+				},
 			],
 			'/department/': [
 				{
