@@ -13,7 +13,7 @@
 - **2025-03-23**：3月23日晚6点30，二代夏樱毕业回直播
 - **2024-12-27**：在椅子的全力支持和推动下，演音部重启配音工作室，工作室名称为Re:START
 - **2024-11-30**：在梅操举办了[冬日祭](/activity/2024/winter-festival)，这里是现场[volg](https://www.bilibili.com/video/BV1C6fBYKEDv)！
-- **2024-10-13**：在工学部珞青之家（原工学部浴室）举办了[迎新晚会](https://www.bilibili.com/video/BV1rq17Y6EQK)
+- **2024-10-13**：在工学部珞青之家（原工学部浴室）举办了[迎新晚会](https://www.bilibili.com/video/BV1rq17Y6EQK)，晚会上[2024迎新片](https://www.bilibili.com/video/BV1MGmGYgEEE)首映
 - **2024-09-28**：百团大战
 - **2024-08-17**：演音部和夏樱组联合举办了线上[夏日歌会](https://www.bilibili.com/video/BV11F4BerEAy)
 

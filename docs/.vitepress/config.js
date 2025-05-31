@@ -86,6 +86,13 @@ export default defineConfig({
 					collapsed: false,
 					items: [
 						{ text: "漫协大事记", link: "/activity/" },
+						{
+							text: "冬日祭系列",
+							collapsed: false,
+							items: [
+								{ text: "第十三届冬日祭（2024）", link: "/activity/2024/winter-festival" },
+							]
+						},
 					]
 				},
 			],
