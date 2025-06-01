@@ -29,3 +29,13 @@
   <img src="/department/va/k.png" alt="夏日歌会" style="max-width:100%;">
   <span style="font-size: 0.95em; color: #888;">线下约k</span>
 </p>
+
+除了歌姬组与CV组之外，演音部还有一个神秘工作室————
+
+Re:START 工作室
+前身生卒年月不详  
+目前以每月的ag作品翻配为主要工作方向  
+每当期末周与神秘日期都会消失一批骨干成员(划掉)  
+预备计划于成员达到一定规模时逐渐解锁：幕后小剧场，影视剧翻配  
+求求你们来玩配音吧我什么都会做的......
+![](/department/va/isu.png)
