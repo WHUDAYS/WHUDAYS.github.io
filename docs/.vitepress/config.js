@@ -65,7 +65,8 @@ export default defineConfig({
 					items: [
 						{ text: "关于本站", link: "/about/" },
 						{ text: "社团介绍", link: "/about/introduction" },
-						{ text: "英灵殿", link: "/about/hq/" }
+						{ text: "英灵殿", link: "/about/hq/" },
+						{ text: "历年大群", link: "/about/annual-group" }
 					]
 				},
 				{
