@@ -1,5 +1,10 @@
 # 历年大群
 
+::: warning 警告
+2018年以前大群的群头像缺失。
+欢迎知情人士投稿QAQ
+:::
+
 - 2024：WHUDAYS-春日影
 - 2023：WHUDAYS-愛言葉
 - 2022：WHUDAYS-虹之咲
@@ -26,12 +31,18 @@ const annualGroups = [
   { avatar: '/about/annual-group/迦勒底.jpg', name: '迦勒底', title: '2021' },
   { avatar: '/about/annual-group/秀知院.jpg', name: '秀知院', title: '2020' },
   { avatar: '/about/annual-group/绯想天.jpg', name: '绯想天', title: '2019' },
+  { avatar: '/about/hq/avatar.png', name: '樱公馆', title: '2018' },
+  { avatar: '/about/hq/avatar.png', name: '卡巴拉生命树', title: '2017' },
+  { avatar: '/about/hq/avatar.png', name: '异世界', title: '2016' },
+  { avatar: '/about/hq/avatar.png', name: '奥德赛圣殿', title: '2015' },
+  { avatar: '/about/hq/avatar.png', name: '世界线', title: '2014' },
+  { avatar: '/about/hq/avatar.png', name: '自漫协新世界', title: '2013' }
   { avatar: '/about/annual-group/樱公馆.png', name: '樱公馆', title: '2018' },
-  { avatar: '/about/annual-group/卡巴拉生命树.png', name: '卡巴拉生命树', title: '2017' },
-  { avatar: '/about/annual-group/异世界.png', name: '异世界', title: '2016' },
-  { avatar: '/about/annual-group/奥德赛圣殿.png', name: '奥德赛圣殿', title: '2015' },
-  { avatar: '/about/annual-group/世界线.png', name: '世界线', title: '2014' },
-  { avatar: '/about/annual-group/自漫协新世界.png', name: '自漫协新世界', title: '2013' }
+  // { avatar: '/about/annual-group/卡巴拉生命树.png', name: '卡巴拉生命树', title: '2017' },
+  // { avatar: '/about/annual-group/异世界.png', name: '异世界', title: '2016' },
+  // { avatar: '/about/annual-group/奥德赛圣殿.png', name: '奥德赛圣殿', title: '2015' },
+  // { avatar: '/about/annual-group/世界线.png', name: '世界线', title: '2014' },
+  // { avatar: '/about/annual-group/自漫协新世界.png', name: '自漫协新世界', title: '2013' }
 ];
 </script>
 
