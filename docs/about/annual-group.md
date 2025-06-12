@@ -1,7 +1,7 @@
 # 历年大群
 
 ::: warning 警告
-2018年以前大群的群头像缺失。
+2018年以前大群的群头像缺失。  
 欢迎知情人士投稿QAQ
 :::
 
@@ -36,8 +36,8 @@ const annualGroups = [
   { avatar: '/about/hq/avatar.png', name: '异世界', title: '2016' },
   { avatar: '/about/hq/avatar.png', name: '奥德赛圣殿', title: '2015' },
   { avatar: '/about/hq/avatar.png', name: '世界线', title: '2014' },
-  { avatar: '/about/hq/avatar.png', name: '自漫协新世界', title: '2013' }
-  { avatar: '/about/annual-group/樱公馆.png', name: '樱公馆', title: '2018' },
+  { avatar: '/about/hq/avatar.png', name: '自漫协新世界', title: '2013' },
+  // { avatar: '/about/annual-group/樱公馆.png', name: '樱公馆', title: '2018' },
   // { avatar: '/about/annual-group/卡巴拉生命树.png', name: '卡巴拉生命树', title: '2017' },
   // { avatar: '/about/annual-group/异世界.png', name: '异世界', title: '2016' },
   // { avatar: '/about/annual-group/奥德赛圣殿.png', name: '奥德赛圣殿', title: '2015' },
