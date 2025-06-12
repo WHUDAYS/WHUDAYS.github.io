@@ -7,7 +7,8 @@ const members = [
   {
     avatar: '/about/hq/2024/-QuQ-.jpeg',
     name: '-QuQ-',
-    title: '2025-现在'
+    title: '2025-现在',
+    links: [ { icon: 'github', link: 'https://github.com/shenxianovo' } ]
   },
 ]
 </script>

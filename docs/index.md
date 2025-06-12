@@ -31,7 +31,7 @@ features:
   
   - title: 站点维护人员
     details: 我讨厌期末周...
-    link: https://github.com/shenxianovo
+    link: /maintainer/
 ---
 
 <style>

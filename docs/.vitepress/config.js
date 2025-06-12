@@ -10,20 +10,6 @@ export default defineConfig({
 			GitChangelog({
 				// 填写在此处填写您的仓库链接
 				repoURL: () => 'https://github.com/WHUDAYS/WHUDAYS.github.io',
-				mapAuthors: [
-					{
-						name: '-QuQ-',
-						username: 'shenxianovo',
-					},
-					{
-						name: 'INFINITY',
-						username: 'xingzelei',
-					},
-					{
-						name: 'Animnia',
-						username: 'Animnia',
-					},
-				],
 			}),
 			GitChangelogMarkdownSection({
 				sections: {
