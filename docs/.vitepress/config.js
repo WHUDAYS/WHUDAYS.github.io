@@ -28,7 +28,19 @@ export default defineConfig({
 	},
 	head: [
 		['meta', { name: 'keywords', content: '武汉大学动漫协会, 武大漫协, WHUDAYS, ACGN, 动漫社团, 武汉大学' }],
-		['link', { rel: 'icon', href: '/favicon.ico' }]
+		['link', { rel: 'icon', href: '/favicon.ico' }],
+		[
+			'script',
+			{
+				async: '',
+				src: 'https://www.googletagmanager.com/gtag/js?id=G-LQLQ2CEQ64'
+			}
+		],
+		[
+			'script',
+			{},
+			"window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-LQLQ2CEQ64');"
+		]
 	],
 
 	themeConfig: {
