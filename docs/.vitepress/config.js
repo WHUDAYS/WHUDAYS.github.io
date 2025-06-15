@@ -154,6 +154,10 @@ export default defineConfig({
 		},
 		search: {
 			provider: "local",
+		},
+		footer: {
+			message: '本站点内容采用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可',
+			copyright: "Copyright © 1997-2025 武汉大学动漫协会<br>站内标明作者的图片、文档等，版权归原作者所有，未经授权禁止使用。"
 		}
 	}
 })
