@@ -25,14 +25,14 @@
 ## 2024学年（2024.6-2025.6）
 
 - **2025-06-01**：举办2024学年换届大会，宣布[2025学年社团干部（~~牛马~~）](/about/hq/2025)的任命
-- **2025-05-26**：[BanG Dream十校联动企划](https://www.bilibili.com/video/BV1A8jJzpEgY)发布（邦多利国服六周年企划）
+- **2025-05-26**：BanG Dream十校联动企划发布（邦多利国服六周年企划），[这里](https://www.bilibili.com/video/BV1A8jJzpEgY)是企划视频~
 - **2025-05-24**：与武汉的其他七所高校共同举办了江城学园FES“浮光星图 八维结系”八校联展企划，[这里](https://www.bilibili.com/video/BV1n77PzuEsc)有晚会录播~
 - **2025-05-12**：[武大漫协HQ工作文档存档项目](https://github.com/WHUDAYS)启动，本站建站
 - **2025-05-11**：在信息学部操场举办，由夏樱乐团的小伙伴为大家带来的[樱染初夏](/activity/2024/live)路演
 - **2025-03-23**：3月23日晚6点30，二代夏樱毕业回直播
 - **2024-12-27**：在椅子的全力支持和推动下，演音部重启配音工作室，工作室名称为Re:START
-- **2024-11-30**：在梅操举办了[冬日祭](/activity/2024/winter-festival)，这里是现场[volg](https://www.bilibili.com/video/BV1C6fBYKEDv)！
-- **2024-10-13**：在工学部珞青之家（原工学部浴室）举办了[迎新晚会](https://www.bilibili.com/video/BV1rq17Y6EQK)，晚会上[2024迎新片](https://www.bilibili.com/video/BV1MGmGYgEEE)首映
+- **2024-11-30**：在梅操举办了[冬日祭](/activity/2024/winter-festival)！
+- **2024-10-13**：在工学部珞青之家（原工学部浴室）举办了[迎新晚会](/activity/2024/welcome-party)
 - **2024-09-28**：百团大战
 - **2024-08-17**：演音部和夏樱组联合举办了线上[夏日歌会](https://www.bilibili.com/video/BV11F4BerEAy)
 

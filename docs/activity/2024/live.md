@@ -16,14 +16,14 @@
 
 - 主持人：Izumi、糸雨
 
-| 乐队           | 参演者                                                                                                               | 曲目                                                                                                                                     |
-| -------------- | -------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| DayBreak       | guitar：银鱼、蓝子、龙井<br>drums：糸雨<br>vocal：谷川夏<br>keyboard：盒子<br>bass：乌冬                             | [ノーチラス<br>Ave Mujica<br>KiLL KiSS](https://www.bilibili.com/video/BV1q4EWzoERJ)                                                     |
-| Void           | vocal：艾其<br>guitar：Suika、怀仓<br>bass：kkiruboom<br>keyboard：空月<br>drums：wing<br>violin：kini<br>erhu：南南 | [空の箱<br>ダレモ<br>花になって<br>夜隐染<br>Georgette Me, Georgette You<br>Imprisoned XII](https://www.bilibili.com/video/BV18yEWzLEAM) |
-| 夏樱乐团管弦组 | violin：INFINITY、山花木、残长<br>trumpet：滑瓢<br>flute：辂木<br>alto sax：Animnia<br>keyboard：剑语<br>bass：烛木<br>drums：wing                                                                                                                   | [Only My Railgun<br>宝岛](https://www.bilibili.com/video/BV1EQE4zMECa)                                                                   |
-| 白鸽           |                                                                                                                      | [あなたのチ○コは何センチ？<br>僕らは童貞<br>いけないサンタ<br>ありがとう⚪︎玉](https://www.bilibili.com/video/BV19KE8zvEWu)                |
-| 夜桜           | vocal：纱奈子、伊伊<br>keyboard：剑语<br>guitar：茂桑、clover<br>drums：纱橙靈<br>bass：烛木                         | [Don't say lazy<br>ふわふわタイム<br>可愛くてごめん<br>たぶん](https://www.bilibili.com/video/BV1enE4zbEej)                              |
-|                | vocal：艾其<br>keyboard：inori<br>bass：xRika<br>guitar：Suika<br>drums：龙井                                        | [天使にふれたよ](https://www.bilibili.com/video/BV1fvEDzKEAC)                                                                            |
+| 乐队           | 参演者                                                                                                                             | 曲目                                                                                                                                     |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| DayBreak       | guitar：银鱼、蓝子、龙井<br>drums：糸雨<br>vocal：谷川夏<br>keyboard：盒子<br>bass：乌冬                                           | [ノーチラス<br>Ave Mujica<br>KiLL KiSS](https://www.bilibili.com/video/BV1q4EWzoERJ)                                                     |
+| Void           | vocal：艾其<br>guitar：Suika、怀仓<br>bass：kkiruboom<br>keyboard：空月<br>drums：wing<br>violin：kini<br>erhu：南南               | [空の箱<br>ダレモ<br>花になって<br>夜隐染<br>Georgette Me, Georgette You<br>Imprisoned XII](https://www.bilibili.com/video/BV18yEWzLEAM) |
+| 夏樱乐团管弦组 | violin：INFINITY、山花木、残长<br>trumpet：滑瓢<br>flute：辂木<br>alto sax：Animnia<br>keyboard：剑语<br>bass：烛木<br>drums：wing | [Only My Railgun<br>宝岛](https://www.bilibili.com/video/BV1EQE4zMECa)                                                                   |
+| 白鸽           | vocal：龙井、Suika<br>guitar：Suika、龙井<br>drums：wing<br>bass：烛木                                                             | [あなたのチ○コは何センチ？<br>僕らは童貞<br>いけないサンタ<br>ありがとう⚪︎玉](https://www.bilibili.com/video/BV19KE8zvEWu)                |
+| 夜桜           | vocal：桃沢紗奈子、伊伊<br>keyboard：剑语<br>guitar：茂桑、clover<br>drums：纱橙靈<br>bass：烛木                                   | [Don't say lazy<br>ふわふわタイム<br>可愛くてごめん<br>たぶん](https://www.bilibili.com/video/BV1enE4zbEej)                              |
+|                | vocal：艾其<br>keyboard：inori<br>bass：xRika<br>guitar：Suika<br>drums：龙井                                                      | [天使にふれたよ](https://www.bilibili.com/video/BV1fvEDzKEAC)                                                                            |
 
 完整视频存档：[这里>_<](https://www.bilibili.com/video/BV1A2EbzJEDY)
 
@@ -34,6 +34,6 @@
 - 调音：花緑青
 - 设备调试：Wing
 - 摄像：Jimmy、白夜
-- 后勤：暗部成员
+- 后勤：暗部成员（storm、利落、霂霜、花落未觞、垂杨）
 - 录播剪辑：-QuQ-
 - 特别鸣谢：所有在场/不在场的观众

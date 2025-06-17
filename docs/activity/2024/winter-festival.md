@@ -1,7 +1,8 @@
 # 2024冬日祭
 
 ::: warning 警告
-本页面施工中 (ToT)/~~
+本页面施工中 (ToT)/~~  
+如需补充材料，欢迎联系[维护者](/maintainer/)
 :::
 
 - 主办：武汉大学动漫协会
@@ -18,6 +19,27 @@
   - 斩炎之武
 - 特别鸣谢
   - 顶屋咖喱
+
+这里是`安轩`拍摄的[现场vlog](https://www.bilibili.com/video/BV1C6fBYKEDv)~
+
+## 摊位列表
+
+> 此部分为摊位群中信息
+
+| 摊位   | 摊主     |
+| ------ | -------- |
+| 东方群 | 椿梦     |
+| 模型群 | 红雅     |
+| 术群   | 二氧化碳 |
+| 编辑部 | 树枝     |
+| 音游摊 | icecream |
+| 桌游   | 硝基、泽 |
+| 咖啡厅 | 埃兰     |
+| 乙游群 | 妹宝     |
+
+### 女仆~~混沌主题~~咖啡厅 菜单
+
+## 随舞歌单
 
 ## 晚会节目单
 
@@ -50,5 +72,30 @@
 | 社内                 | 九尾晨<br>梨紫                                                                      | [打上花火](https://www.bilibili.com/video/BV11fq5YJE1K)                                            | 歌曲          |
 | -                    | 全体观众                                                                            | [春日影](https://www.bilibili.com/video/BV17DzZYaEb9)                                              | 大合唱        |
 
+## STAFF表
 
-[现场vlog](https://www.bilibili.com/video/BV1C6fBYKEDv)
+> STAFF人数众多，难免有遗漏QAQ，我们在此感谢每一位为本次活动付出过的朋友！
+
+- 策划：茂桑
+- 场地：茂桑
+- 后勤&打杂：暗部成员（茂桑、storm、安轩、WIASSLK、利洛、风又千夜、涅普智可、花落未觞、shiro、ascend、九尾晨、-QuQ-、...）
+- 特别鸣谢：漫协全体社员与所有支持漫协的朋友
+
+### 女仆咖啡厅
+
+### 晚会
+
+- 主催：-QuQ-
+- 外联：wweiyi
+- 幕后控制：风又千夜、-QuQ-
+- 摄像：四角五十分、Jimmy
+- 直播：诺克（想吃海鲜）
+- 录播剪辑：-QuQ-
+
+> 来自-QuQ-的怨念：  
+> 晚会主催经验文档见[HQ2024演音部仓库](https://github.com/WHUDAYS/WHUDAYS-HQ/tree/main/2024/%E6%BC%94%E9%9F%B3%E9%83%A8)  
+> *本仓库仅对HQ成员开放。如果你是未来HQ成员，需要添加权限，请联系任意[仓库owner](https://github.com/orgs/WHUDAYS/people)*  
+> 如果以后你协资料又双叒叕断代了...有相关问题可以找我问。  
+> 联系方式详见[维护者](/maintainer/)
+
+![alt text](/activity/2024/winter-festival/image.png)
