@@ -27,7 +27,11 @@ features:
   
   - title: 2025樱染初夏乐队专场
     details: あなたのチンコは何センチ？
-    link: https://space.bilibili.com/241970168/lists/5440904
+    link: /activity/2024/live
+
+  - title: HQ工作文档存档
+    details: 你协小网站建站的原因原来是这样（？
+    link: /message-box/quq/words
   
   - title: 站点维护人员
     details: 我讨厌期末周...
