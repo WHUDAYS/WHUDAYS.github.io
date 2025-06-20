@@ -9,7 +9,7 @@
   - 其他高校社团：华科风蓝动漫社
   - 武汉大学社团：日语协会、樱之音口琴社、仙剑文化社、四圣兽cosplay社、棒球协会
 
-![](/activity/2015/cover.jpg)
+![](/activity/2015/winter-festival/cover.jpg)
 
 ## 晚会节目单
 

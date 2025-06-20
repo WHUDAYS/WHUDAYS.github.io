@@ -87,13 +87,33 @@ export default defineConfig({
 						{ text: "漫协大事记", link: "/activity/" },
 						{
 							text: "冬日祭系列",
-							collapsed: false,
+							collapsed: true,
 							items: [
 								{ text: "第十三届冬日祭（2024）", link: "/activity/2024/winter-festival" },
 								{ text: "第四届冬日祭（2015）", link: "/activity/2015/winter-festival" },
 								{ text: "第三届冬日祭（2014）", link: "/activity/2014/winter-festival" },
 								{ text: "第二届冬日祭（2013）", link: "/activity/2013/winter-festival" },
 								{ text: "第一届冬日祭（2012）", link: "/activity/2012/winter-festival" },
+							]
+						},
+						{
+							text: "社刊《樱次元》",
+							collapsed: true,
+							items:[
+								{ text: "2019年6月号", link: "/activity/2019/magazine" },
+								{ text: "2018年9月号", link: "/activity/2018/magazine" },
+								{ text: "2017年9月号", link: "/activity/2017/magazine" },
+								{ text: "2016年9月号", link: "/activity/2016/magazine" },
+								{ text: "2015年9月号", link: "/activity/2015/magazine" },
+								{ text: "2014年9月号", link: "/activity/2014/magazine" },
+								{ text: "创刊号（2013.9）", link: "/activity/2013/magazine" },
+							]
+						},
+						{
+							text: "迎新片系列",
+							collapsed: false,
+							items:[
+
 							]
 						},
 					]
