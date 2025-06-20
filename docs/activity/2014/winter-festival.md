@@ -9,7 +9,7 @@
   - 其他高校社团：华农FOM动漫社、华科风蓝动漫社、华科同济TJ-HA动漫协会。
   - 武汉大学社团：日语协会、樱之音口琴社、青鸟吉他协会、仙剑文化社、四圣兽cosplay社。
 
-![](/activity/2014/cover.jpg)
+![](/activity/2014/winter-festival/cover.jpg)
 
 ## 晚会节目单
 

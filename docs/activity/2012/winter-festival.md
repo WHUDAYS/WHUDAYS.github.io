@@ -22,7 +22,7 @@
   14. 青鸟吉他协会（C21）进行社团展示并进行文艺演出
   15. 樱之音口琴社（C3）进行社团展示并进行文艺演出
 
-![](/activity/2012/cover.jpg)
+![](/activity/2012/winter-festival/cover.jpg)
 
 ## 晚会节目单
 
