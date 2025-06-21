@@ -5,7 +5,7 @@
 :::
 
 <p align="center">
-  <img src="/group/galgame/logo.jpg" alt="WHUDAYS Galgame Party Logo" style="max-width: 50%; height: auto;">
+  <img src="/group/galgame/logo.png" alt="WHUDAYS Galgame Party Logo" style="max-width: 50%; height: auto;">
 </p>
 
 这里是武汉大学漫协旗下的galgame交流群，在这里有关旮旯的一切你都可以和群友一起畅所欲言！
