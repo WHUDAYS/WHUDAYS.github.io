@@ -39,6 +39,8 @@
 
 ### 女仆~~混沌主题~~咖啡厅 菜单
 
+![](/activity/2024/winter-festival/menu.png)
+
 ## 随舞歌单
 
 ## 晚会节目单
