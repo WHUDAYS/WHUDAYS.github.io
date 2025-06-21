@@ -113,7 +113,11 @@ export default defineConfig({
 							text: "迎新片系列",
 							collapsed: false,
 							items:[
-
+								{text: "2024迎新片", link: "/activity/2024/welcome-video" },
+								{text: "2023迎新片", link: "/activity/2023/welcome-video" },
+								{text: "2022迎新片", link: "/activity/2022/welcome-video" },
+								{text: "2019迎新片", link: "/activity/2019/welcome-video" },
+								{text: "2016迎新片", link: "/activity/2016/welcome-video" },
 							]
 						},
 					]
