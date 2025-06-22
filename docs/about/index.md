@@ -39,7 +39,7 @@
 
 如果你对站点建设有疑问，或是有更多有意思的点子，欢迎联系[维护者](/maintainer/)`ฅ^⩌⩊⩌^ฅ`
 
-站点完整更新历史见 [GitHub 提交记录]()
+站点完整更新历史见 [GitHub 提交记录](https://github.com/WHUDAYS/WHUDAYS.github.io/commits/main/)
 
 ## 欢迎投稿！
 
