@@ -10,11 +10,13 @@
 - `.github`: GitHub workflow 配置
 - `docs`: 网站根目录
   - `.vitepress`: Vitepress 配置
+    - `config.js`: 站点导航栏与菜单设置
   - `public`: 网站资源根目录
     - `pdfjs`: 前端pdf预览库
   - `about`: 关于
+    - `hq`: 社团管理信息
     - `newbie-guide`: 萌新指南
-  - `activity`: 活动
+  - `activity`: 活动，按照**学年**分类
   - `department`: 部门
   - `group`: 小群
   - `maintainer`: 站点维护人员
@@ -28,7 +30,7 @@
 
 （写的不是很完整...不会的问ai吧...）
 
-1. 克隆仓库
+1. 克隆仓库（**若您想撰写页面，请先fork该仓库，然后克隆自己的那一份fork**）
 2. 安装 `node.js` 与 `pnpm`
 3. 运行 `pnpm install` 安装依赖项
 4. 命令行输入 `pnpm dev` 启动本地服务器。默认会启动在 `http://localhost:5173/`
