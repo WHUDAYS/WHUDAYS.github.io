@@ -100,6 +100,10 @@ export default defineConfig({
 							text: "社刊《樱次元》",
 							collapsed: true,
 							items:[
+								{ text: "2024年9月号", link: "/activity/2024/magazine" },
+								{ text: "2023年9月号", link: "/activity/2023/magazine" },
+								{ text: "2021年9月号", link: "/activity/2021/magazine" },
+								{ text: "2020年9月号", link: "/activity/2020/magazine" },
 								{ text: "2019年6月号", link: "/activity/2019/magazine" },
 								{ text: "2018年9月号", link: "/activity/2018/magazine" },
 								{ text: "2017年9月号", link: "/activity/2017/magazine" },
@@ -111,7 +115,7 @@ export default defineConfig({
 						},
 						{
 							text: "迎新片系列",
-							collapsed: false,
+							collapsed: true,
 							items:[
 								{text: "2024迎新片", link: "/activity/2024/welcome-video" },
 								{text: "2023迎新片", link: "/activity/2023/welcome-video" },
