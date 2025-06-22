@@ -15,6 +15,7 @@
 import { VPTeamMembers } from 'vitepress/theme'
 
 const hq_2024 = [{ avatar: '/about/hq/2024/logo.png', name: '2024HQ', title: '2024.6-2025.6' }]
+const hq_2023 = [{ avatar: '/about/hq/2023/logo.png', name: '2023HQ', title: '2023.6-2024.6' }]
 </script>
 
 <VPTeamMembers size="small" :members="hq_2024" />
@@ -45,6 +46,8 @@ const hq_2024 = [{ avatar: '/about/hq/2024/logo.png', name: '2024HQ', title: '20
   - 组长：阳
 
 ## 2023学年
+
+<VPTeamMembers size="small" :members="hq_2023" />
 
 [详情页](/about/hq/2023)
 
