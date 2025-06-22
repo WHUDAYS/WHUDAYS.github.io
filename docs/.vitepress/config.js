@@ -90,6 +90,7 @@ export default defineConfig({
 							collapsed: true,
 							items: [
 								{ text: "第十三届冬日祭（2024）", link: "/activity/2024/winter-festival" },
+								{ text: "第十二届冬日祭（2023）", link: "/activity/2023/winter-festival" },
 								{ text: "第四届冬日祭（2015）", link: "/activity/2015/winter-festival" },
 								{ text: "第三届冬日祭（2014）", link: "/activity/2014/winter-festival" },
 								{ text: "第二届冬日祭（2013）", link: "/activity/2013/winter-festival" },
