@@ -74,6 +74,10 @@
 | 社内                 | 九尾晨<br>梨紫                                                                      | [打上花火](https://www.bilibili.com/video/BV11fq5YJE1K)                                            | 歌曲          |
 | -                    | 全体观众                                                                            | [春日影](https://www.bilibili.com/video/BV17DzZYaEb9)                                              | 大合唱        |
 
+- 大合唱领唱：yOHO、伊伊、九尾晨、空吧哇、-QuQ-、简、烧烤
+
+晚会全程录播在[这里](https://www.bilibili.com/video/BV1drwNeTECN)
+
 ## STAFF表
 
 > STAFF人数众多，难免有遗漏QAQ，我们在此感谢每一位为本次活动付出过的朋友！
