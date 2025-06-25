@@ -65,6 +65,9 @@
 ## 2016年
 
 - **2016-11-12**：于桂操举办第五届冬日祭晚会。
+- **2016-10-28**：武大漫协与网易漫画合作的[万圣节涂鸦活动《你要画个什么鬼？》](/activity/2016/halloween-graffiti)开始
+- **2016-10-22**：[《μ's Final LoveLive Day2》​放映会](/activity/2016/anime-screening/μ's-final-lovelive-day2)
+- **2016-10-05**：[《怪物之子》​放映会](/activity/2016/anime-screening/the-boy-and-the-beast)
 - **2016-09-28**：于教五举办[迎新大会](/activity/2016/welcome-party)。
 - **2016-09-21**：演音部、编辑部共同完成合唱企划《[若能绽放光芒](https://www.bilibili.com/video/BV1Ys411t7En)》。
 - **2016-09-17**：[百团大战](/activity/2016/club-fair)开始
