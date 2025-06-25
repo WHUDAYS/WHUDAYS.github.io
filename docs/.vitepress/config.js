@@ -103,6 +103,7 @@ export default defineConfig({
 							items:[
 								{ text: "2024年9月号", link: "/activity/2024/magazine" },
 								{ text: "2023年9月号", link: "/activity/2023/magazine" },
+								{ text: "2022年9月号", link: "/activity/2022/magazine" },
 								{ text: "2021年9月号", link: "/activity/2021/magazine" },
 								{ text: "2020年9月号", link: "/activity/2020/magazine" },
 								{ text: "2019年6月号", link: "/activity/2019/magazine" },

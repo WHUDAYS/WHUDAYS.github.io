@@ -62,9 +62,19 @@
 - **2018-09**：举办迎新大会。
 - **2018-08**：出版新社刊，百团大战招新。
 
+## 2017年
+- **2017-11-25**：[第六届冬日祭](https://www.bilibili.com/video/BV17W411Y7Vv)举办
+- **2017-09-29**：晚上6点30，在信部国软教学楼304教室举办迎新晚会
+- **2017-09-21**：百团大战
+- **2017-09-15**：开始线下宣传招新工作
+- **2017-06-26**：2017级新大群【WHUDAYS-卡巴拉生命树】建立
+- **2017-05-14**：换届大会圆满结束，[2017~2018学年度社团干部](/about/hq/2017)上岗
+- **2017-03-19**：[新学期放映会第二弹：《龙的牙医》](/activity/2017/anime-screening/the-dragon-dentist)
+- **2017-03-04**：[新学期放映会第一弹：《命运石之门：负荷领域的既视感》](/activity/2017/anime-screening/steins-gate-the-movie−load-region-of-déjà-vu)
+
 ## 2016年
 
-- **2016-11-12**：于桂操举办第五届冬日祭晚会。
+- **2016-11-12**：于桂操举办[第五届冬日祭晚会](https://www.bilibili.com/video/BV1ts411W7Sp)。
 - **2016-10-28**：武大漫协与网易漫画合作的[万圣节涂鸦活动《你要画个什么鬼？》](/activity/2016/halloween-graffiti)开始
 - **2016-10-22**：[《μ's Final LoveLive Day2》​放映会](/activity/2016/anime-screening/μ's-final-lovelive-day2)
 - **2016-10-05**：[《怪物之子》​放映会](/activity/2016/anime-screening/the-boy-and-the-beast)
