@@ -8,7 +8,7 @@
   <img src="/group/galgame/logo.png" alt="WHUDAYS Galgame Party Logo" style="max-width: 50%; height: auto;">
 </p>
 
-这里是武汉大学漫协旗下的galgame交流群，在这里有关旮旯的一切你都可以和群友一起畅所欲言！
+这里是武汉大学漫协旗下的galgame交流群，在这里有关旮旯的一切你都可以和群友一起畅所欲言！我们平时的活动就是在群里吹吹水，偶尔也会有群友组织k歌，还有各种各样的有关galgame的评选活动。如果你是galgame萌新，我们还提供了一些常见的资源下载方式，帮助你打开旮旯世界的大门。
 
 ![](/group/galgame/sakuranouta.png)
 
