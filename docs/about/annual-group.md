@@ -1,5 +1,6 @@
 # 历年大群
 
+- 2025：WHUDAYS-幻想乡
 - 2024：WHUDAYS-春日影
 - 2023：WHUDAYS-愛言葉
 - 2022：WHUDAYS-虹之咲
@@ -21,6 +22,7 @@ import {
 } from 'vitepress/theme';
 
 const annualGroups = [
+  { avatar: '/about/annual-group/幻想乡.png', name: '幻想乡', title: '2025' },
   { avatar: '/about/annual-group/春日影.png', name: '春日影', title: '2024' },
   { avatar: '/about/annual-group/愛言葉.png', name: '愛言葉', title: '2023' },
   { avatar: '/about/annual-group/虹之咲.jpg', name: '虹之咲', title: '2022' },
