@@ -1,11 +1,11 @@
 name: Deploy Pages
 
-# 触发条件，push到main分支或者pull request到main分支
+# 触发条件，main分支被修改后
 on:
   push:
     branches: [main]
-  pull_request:
-    branches: [main]
+  # pull_request:
+  #   branches: [main]
 
   # 支持手动在工作流上触发
   workflow_dispatch:
