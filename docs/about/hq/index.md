@@ -12,9 +12,16 @@
 <script setup>
   import { VPTeamMembers } from 'vitepress/theme'
 
-const hq_2024 = [{ avatar: '/about/hq/2024/logo.png', name: '2024HQ', title: '2024.6-2025.6' }]
-const hq_2023 = [{ avatar: '/about/hq/2023/logo.png', name: '2023HQ', title: '2023.6-2024.6' }]
+const hq_2025 = [{ avatar: '/about/hq/2025/avatar.jpg', name: '2025HQ', title: '2025.6-2026.6' }]
+const hq_2024 = [{ avatar: '/about/hq/2024/avatar.png', name: '2024HQ', title: '2024.6-2025.6' }]
+const hq_2023 = [{ avatar: '/about/hq/2023/avatar.png', name: '2023HQ', title: '2023.6-2024.6' }]
 </script>
+
+## 2025学年
+
+<VPTeamMembers size="small" :members="hq_2025" />
+
+[详情页](/about/hq/2025)
 
 ## 2024学年
 
@@ -52,13 +59,9 @@ const hq_2023 = [{ avatar: '/about/hq/2023/logo.png', name: '2023HQ', title: '20
 [详情页](/about/hq/2023)
 
 - 社长：g瓜
-- 副社长
-  - wiccan
-  - 六花
-  - zeit
-  - kanoto
+- 副社长：wiccan、六花、zeit、kanoto
 - 演音部
-  - 演音部部长：烧烤
+  - 部长：烧烤
   - 歌姬组组长：cosθ
   - cv组组长：安轩
 - 编辑部
@@ -130,12 +133,8 @@ const hq_2023 = [{ avatar: '/about/hq/2023/logo.png', name: '2023HQ', title: '20
 
 [详情页](/about/hq/2020)
 
-- 社长团
-  - 社长：72
-  - 副社长（cos部）：Rosie
-  - 副社长：掉线
-  - 副社长（暗部）：骑士
-  - 副社长（演音部）：大粽
+- 社长：72
+- 副社长：Rosie、掉线、骑士、大粽
 - 编辑部
   - 部长：影临光
   - 文编：壹個、阵雨

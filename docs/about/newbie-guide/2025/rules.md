@@ -1,17 +1,19 @@
 # 武大漫协大群发言规范
 
-<!-- 居中大号 -->
-<div style="text-align:center; font-size:1.6em; font-weight:bold; line-height:2; margin-top: 1.5em; margin-bottom: 1.5em;">
-  1. 不要涉及政治<br>
-  2. 不要谈论色情<br>
-  3. 转发自我过滤<br>
-  4. 玩梗要适度<br>
-  5. 复读要自制<br>
-  6. 推广要商谈<br>
-  7. 真名要保密<br>
-  8. 名片要文明<br>
-  9. 相处要友善<br>
-  10. 群内勿内卷
+<!-- 整体居中，文字左对齐 -->
+<div style="display: flex; justify-content: center; margin-top: 1.5em; margin-bottom: 1.5em;">
+  <div style="font-size:1.6em; font-weight:bold; line-height:2; text-align: left;">
+    1. 不要涉及政治<br>
+    2. 不要谈论色情<br>
+    3. 转发自我过滤<br>
+    4. 玩梗要适度<br>
+    5. 复读要自制<br>
+    6. 推广要商谈<br>
+    7. 真名要保密<br>
+    8. 名片要文明<br>
+    9. 相处要友善<br>
+    10. 群内勿内卷
+  </div>
 </div>
 
 ## 细则
