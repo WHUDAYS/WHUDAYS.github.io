@@ -159,6 +159,7 @@ export default defineConfig({
 						{ text: "小群简介", link: "/group/" },
 						{ text: "WHUDAYS Galgame Party", link: "/group/galgame/" },
 						{ text: "WHUDAYS-冰糖樱花", link: "/group/dry-humor/" },
+						{ text: "WHUDAYS-Touhou-Club", link: "/group/touhou-club/" },
 					]
 				}
 			],
