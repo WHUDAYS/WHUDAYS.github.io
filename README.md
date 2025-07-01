@@ -3,7 +3,7 @@
 - 网址：[whudays.github.io](https://whudays.github.io/)
 - GitHub组织首页：[WHUDAYS](https://github.com/WHUDAYS)
 
-本站点为`武大漫协HQ工作文档存档项目`的**副产物**，初始定位是**保存库**
+本站点为`武大漫协HQ工作文档存档项目`的**副产物**，定位为社团历史活动与部分资料的**保存库**
 
 ## 仓库结构
 
@@ -30,7 +30,7 @@
 
 （写的不是很完整...不会的问ai吧...）
 
-1. 克隆仓库（**若您想撰写页面，请先fork该仓库，然后克隆自己的那一份fork**）
+1. fork该仓库，然后克隆自己的那一份fork到您的本地计算机
 2. 安装 `node.js` 与 `pnpm`
 3. 运行 `pnpm install` 安装依赖项
 4. 命令行输入 `pnpm dev` 启动本地服务器。默认会启动在 `http://localhost:5173/`
