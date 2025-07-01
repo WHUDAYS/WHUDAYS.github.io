@@ -336,4 +336,4 @@ const hq_2023 = [{ avatar: '/about/hq/2023/logo.png', name: '2023HQ', title: '20
 
 [详情页](/about/hq/2009)
 
-- 社长：老大
+- 社长：老大(玳)
