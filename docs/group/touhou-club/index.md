@@ -1,4 +1,4 @@
-# WHUDAYS-Touhou-Club
+# WHUDAYS-Touhou Club
 
 ![](/group/touhou-club/logo.jpeg)
 
