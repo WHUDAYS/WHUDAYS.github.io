@@ -51,7 +51,8 @@ export default defineConfig({
 			{ text: '活动', link: '/activity/' },
 			{ text: '部门', link: '/department/' },
 			{ text: '小群', link: '/group/' },
-			{ text: '留声箱', link: "/message-box/" }
+			{ text: '留声箱', link: "/message-box/" },
+			{ text: '维护者', link: "/maintainer/" }
 		],
 		sidebarMenuLabel: '菜单',
 		returnToTopLabel: '回到顶部',

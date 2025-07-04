@@ -46,5 +46,23 @@ const annualGroups = [
   </template>
 </VPTeamPageSection>
 
+## 时代眼泪.jpg
 
+- 幻想乡：
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+  <img src="/about/annual-group/welcome-message/quq_1.jpg" style="max-width: 48%; height: auto;" />
+  <img src="/about/annual-group/welcome-message/quq_2.jpg" style="max-width: 48%; height: auto;" />
+</div>
+
+- 春日影：
+![](/about/annual-group/welcome-message/茂桑.jpg)
+
+- 愛言葉、虹之咲：
+![](/about/annual-group/welcome-message/瓜.jpg)
+
+- 迦勒底：
+![](/about/annual-group/welcome-message/影临光.jpg)
+
+- 绯想天：
+![](/about/annual-group/welcome-message/名字.jpg)
 
