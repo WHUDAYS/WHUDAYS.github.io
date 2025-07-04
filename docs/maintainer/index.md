@@ -36,7 +36,7 @@ const external = [
 
 您可以将相关材料写成一份word文档发给维护者并告知需求，维护者收到后会第一时间添加~
 
-如果您会使用 `Markdown` 写作，并知道如何使用 `git`，欢迎直接在 [GitHub 仓库](https://github.com/whudays/whudays.github.io) 提 PR
+如果您会使用 `Markdown` 写作，并知道如何使用 `git`，欢迎直接在 [GitHub 仓库](https://github.com/whudays/whudays.github.io) 提 PR。请仔细阅读`README`，若您的PR不符合要求将不予通过。
 
 ## 贡献者
 
