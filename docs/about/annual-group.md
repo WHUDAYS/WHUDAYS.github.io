@@ -1,20 +1,5 @@
 # 历年大群
 
-- 2025：WHUDAYS-幻想乡
-- 2024：WHUDAYS-春日影
-- 2023：WHUDAYS-愛言葉
-- 2022：WHUDAYS-虹之咲
-- 2021：WHUDAYS-迦勒底
-- 2020：WHUDAYS-秀知院
-- 2019：WHUDAYS-绯想天
-- 2018：WHUDAYS-樱公馆
-- 2017：WHUDAYS-卡巴拉生命树
-- 2016：WHUDAYS-异世界
-- 2015：WHUDAYS-奥德赛圣殿
-- 2014：WHUDAYS-世界线
-- 2013：WHU-自漫协新世界
-- 2012：宅居动物集结处
-
 <script setup>
 import {
   VPTeamPageSection,
@@ -40,7 +25,6 @@ const annualGroups = [
 </script>
 
 <VPTeamPageSection>
-  <template #title>历年大群</template>
   <template #members>
     <VPTeamMembers size="small" :members="annualGroups" />
   </template>
