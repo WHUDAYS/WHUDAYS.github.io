@@ -12,6 +12,6 @@
 
 ![](/group/galgame/sakuranouta.png)
 
-<a href="/group/galgame/activity/" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 0.625rem 1.25rem; font-size: 1rem; font-weight: 600; color: var(--vp-button-brand-text); background-color: var(--vp-button-brand-bg); border: 1px solid var(--vp-button-brand-border); border-radius: 20px; text-decoration: none; transition: color 0.25s, border-color 0.25s, background-color 0.25s;">
-  社团活动
+<a href="/group/galgame/activity/" rel="noopener noreferrer" style="display: inline-block; padding: 0.625rem 1.25rem; font-size: 1rem; font-weight: 600; color: var(--vp-button-brand-text); background-color: var(--vp-button-brand-bg); border: 1px solid var(--vp-button-brand-border); border-radius: 20px; text-decoration: none; transition: color 0.25s, border-color 0.25s, background-color 0.25s;">
+  群内活动
 </a>
