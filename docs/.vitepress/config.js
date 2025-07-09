@@ -137,12 +137,17 @@ export default defineConfig({
 					items: [
 						{ text: "部门简介", link: "/department/" },
 						{ text: "暗部", link: "/department/dark/" },
-						{ text: "演音部", link: "/department/va/" },
 						{
-							text: "夏樱乐团",
+							text: "演音部", link: "/department/va/",
 							collapsed: true,
 							items: [
-								{ text: "夏樱乐团", link: "/department/band/" },
+								{ text: "Re:START工作室", link: "/department/va/restart/" },
+							]
+						},
+						{
+							text: "夏樱乐团", link: "/department/band/",
+							collapsed: true,
+							items: [
 								{ text: "管弦组", link: "/department/band/orchestra/" },
 							]
 						},
