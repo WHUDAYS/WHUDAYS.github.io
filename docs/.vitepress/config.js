@@ -27,20 +27,23 @@ export default defineConfig({
 		hostname: "https://whudays.github.io/", // 网站域名
 	},
 	head: [
-		['meta', { name: 'keywords', content: '武汉大学动漫协会, 武大漫协, WHUDAYS, ACGN, 动漫社团, 武汉大学' }],
-		['link', { rel: 'icon', href: '/favicon.ico' }],
-		[
-			'script',
-			{
-				async: '',
-				src: 'https://www.googletagmanager.com/gtag/js?id=G-LQLQ2CEQ64'
-			}
-		],
-		[
-			'script',
-			{},
-			"window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-LQLQ2CEQ64');"
-		]
+		['meta', { name: 'keywords', content: '武汉大学动漫协会, 武大漫协, WHUDAYS, ACGN, 动漫社团, 武大动漫社'}],
+		['meta', { name: 'author', content: '武汉大学动漫协会' }],
+		['meta', { name: 'description', content: '武汉大学动漫协会官方网站，记录社团历史与活动，快来看看吧（！）\\^o^/' }],
+		['meta', { name: 'shenma-site-verification', content: '38a01333865b73c3ddf07f0d0a07c91d_1752196684' }],
+		['meta', { name: 'sogou_site_verification', content: 'YocasSP2y8' }],
+
+		// Open Graph Protocol
+		['meta', { property: 'og:title', content: '武汉大学动漫协会-WHUDAYS' }],
+		['meta', { property: 'og:description', content: '武汉大学动漫协会官方网站，记录社团历史与活动，快来看看吧（！）\\^o^/' }],
+		['meta', { property: 'og:image', content: '/WHUDAYS.png' }],
+		['meta', { property: 'og:url', content: 'https://whudays.github.io/' }],
+		
+		// Google Analytics
+		['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-LQLQ2CEQ64' }],
+		['script', {}, "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-LQLQ2CEQ64');"]
+
+		['link', { rel: 'icon', href: '/favicon.ico' }], 
 	],
 
 	themeConfig: {
@@ -101,7 +104,7 @@ export default defineConfig({
 						{
 							text: "社刊《樱次元》",
 							collapsed: true,
-							items:[
+							items: [
 								{ text: "2024年9月号", link: "/activity/2024/magazine" },
 								{ text: "2023年9月号", link: "/activity/2023/magazine" },
 								{ text: "2022年9月号", link: "/activity/2022/magazine" },
@@ -119,12 +122,12 @@ export default defineConfig({
 						{
 							text: "迎新片系列",
 							collapsed: true,
-							items:[
-								{text: "2024迎新片", link: "/activity/2024/welcome-video" },
-								{text: "2023迎新片", link: "/activity/2023/welcome-video" },
-								{text: "2022迎新片", link: "/activity/2022/welcome-video" },
-								{text: "2019迎新片", link: "/activity/2019/welcome-video" },
-								{text: "2016迎新片", link: "/activity/2016/welcome-video" },
+							items: [
+								{ text: "2024迎新片", link: "/activity/2024/welcome-video" },
+								{ text: "2023迎新片", link: "/activity/2023/welcome-video" },
+								{ text: "2022迎新片", link: "/activity/2022/welcome-video" },
+								{ text: "2019迎新片", link: "/activity/2019/welcome-video" },
+								{ text: "2016迎新片", link: "/activity/2016/welcome-video" },
 							]
 						},
 					]
