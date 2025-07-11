@@ -27,6 +27,14 @@
 
 完整视频存档：[这里>_<](https://www.bilibili.com/video/BV1A2EbzJEDY)
 
+## 追加内容
+
+笑不活了。。。。
+
+[原推链接](https://x.com/Adultfamily_da/status/1943649661362852183?t=NX0JKwt4QkHWVrfttaJOMA&s=19)
+
+![](/activity/2024/live/image.png)
+
 ## STAFF 表
 
 - 策划：灰灰

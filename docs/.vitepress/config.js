@@ -30,8 +30,6 @@ export default defineConfig({
 		['meta', { name: 'keywords', content: '武汉大学动漫协会, 武大漫协, WHUDAYS, ACGN, 动漫社团, 武大动漫社'}],
 		['meta', { name: 'author', content: '武汉大学动漫协会' }],
 		['meta', { name: 'description', content: '武汉大学动漫协会官方网站，记录社团历史与活动，快来看看吧（！）\\^o^/' }],
-		['meta', { name: 'shenma-site-verification', content: '38a01333865b73c3ddf07f0d0a07c91d_1752196684' }],
-		['meta', { name: 'sogou_site_verification', content: 'YocasSP2y8' }],
 
 		// Open Graph Protocol
 		['meta', { property: 'og:title', content: '武汉大学动漫协会-WHUDAYS' }],
