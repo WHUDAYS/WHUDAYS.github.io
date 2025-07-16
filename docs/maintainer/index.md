@@ -24,7 +24,7 @@ const external = [
   { avatar: 'https://www.github.com/Animnia.png', name: 'Animnia', title: '夏樱乐团/东方群' },
   { avatar: 'https://www.github.com/xingzelei.png', name: 'INFINITY', title: '夏樱乐团/gal群' },
   { avatar: '/about/hq/2023/北洛.jpeg', name: '北洛', title: '冰糖樱花'},
-  { avatar: '/maintainer/椅子.jpeg', name: '椅子', title: 'Re:START工作室'},
+  { avatar: '/maintainer/椅子.jpeg', name: '椅子', title: '夏樱组/Re:START工作室'},
 ]
 
 </script>
