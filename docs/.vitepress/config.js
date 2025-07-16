@@ -27,7 +27,7 @@ export default defineConfig({
 		hostname: "https://whudays.github.io/", // 网站域名
 	},
 	head: [
-		['meta', { name: 'keywords', content: '武汉大学动漫协会, 武大漫协, WHUDAYS, ACGN, 动漫社团, 武大动漫社'}],
+		['meta', { name: 'keywords', content: '武汉大学动漫协会, 武大漫协, WHUDAYS, ACGN, 动漫社团, 武大动漫社' }],
 		['meta', { name: 'author', content: '武汉大学动漫协会' }],
 		['meta', { name: 'description', content: '武汉大学动漫协会官方网站，记录社团历史与活动，快来看看吧（！）\\^o^/' }],
 
@@ -36,12 +36,12 @@ export default defineConfig({
 		['meta', { property: 'og:description', content: '武汉大学动漫协会官方网站，记录社团历史与活动，快来看看吧（！）\\^o^/' }],
 		['meta', { property: 'og:image', content: '/WHUDAYS.png' }],
 		['meta', { property: 'og:url', content: 'https://whudays.github.io/' }],
-		
+
 		// Google Analytics
 		['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-LQLQ2CEQ64' }],
 		['script', {}, "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-LQLQ2CEQ64');"],
 
-		['link', { rel: 'icon', href: '/favicon.ico' }], 
+		['link', { rel: 'icon', href: '/favicon.ico' }],
 	],
 
 	themeConfig: {
@@ -154,7 +154,14 @@ export default defineConfig({
 						},
 						{ text: "cos部", link: "/department/cos/" },
 						{ text: "编辑部", link: "/department/edit/" },
-						{ text: "wota艺部", link: "/department/wota/" }
+						{ text: "wota艺部", link: "/department/wota/" },
+						{
+							text: "历史部门",
+							collapsed: true,
+							items: [
+								{ text: "夏樱组", link: "/department/vtb/" },
+							]
+						},
 					]
 				}
 			],
