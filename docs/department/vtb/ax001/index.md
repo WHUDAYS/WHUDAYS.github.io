@@ -1,6 +1,6 @@
 # AX001
 
-![](/department/vtb/ax001/image.png)
+![VUP模型](/department/vtb/ax001/image.png)
 
 ## 设定
 
@@ -15,5 +15,6 @@
 - 最喜欢的事物：樱花团子
 - 最害怕的事物：虫子（bug）
 - 最好奇的事物：超自然现象
-
-[AX001发展史纲要](./history.md)
+- 其他资料：
+  - [论夏樱的身体与服装结构](./apparence.md)
+  - [AX001发展史纲要](./history.md)
