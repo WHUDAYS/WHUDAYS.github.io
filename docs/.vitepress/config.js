@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vitepress'
 import {
 	GitChangelog,
 	GitChangelogMarkdownSection,
