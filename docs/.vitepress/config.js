@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress' // 改为从 vitepress 导入
+import { defineConfig } from 'vite'
 import {
 	GitChangelog,
 	GitChangelogMarkdownSection,
@@ -9,7 +9,7 @@ export default defineConfig({
 		plugins: [
 			GitChangelog({
 				// 填写在此处填写您的仓库链接
-				repoURL: () => 'https://github.com/RemeaMiku/WHUDAYS',
+				repoURL: () => 'https://github.com/WHUDAYS/WHUDAYS.github.io',
 			}),
 			GitChangelogMarkdownSection({
 				sections: {
