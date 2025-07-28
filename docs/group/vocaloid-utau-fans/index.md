@@ -1,13 +1,12 @@
 # WHUDAYS-Vocaloid/Utau Fans
 
-<div style="border-left: 5px solid #E61880; padding: 15px; margin: 20px 0; border-radius: 8px; box-shadow: 0 0px 3px #E61880aa;">
-  <div style="display: flex; align-items: center; margin-bottom: 8px;">
-    <span style="font-size: 1.2em; margin-right: 8px;">🎵</span>
-    <strong style="color: #ffffff; font-size: 1.1em;">把你给 mikumiku 掉～</strong>
-    <span style="font-size: 1.2em; margin-left: 8px;">🎵</span>
-  </div>
-  <p style="color: #ffffff; margin: 5px 0; font-weight: 500;">此页面正在调教中</p>
+<div class="miku-bar-top"></div>
+<div class="miku-bar-center">
+  <p class="miku-bar-text">
+    ~ 此页面正在调教中 ~
+  </p>
 </div>
+<div class="miku-bar-bottom"></div>
 
 ![WHUDAYS-Vocaloid/Utau Fans](/group/vocaloid-utau-fans/logo.jpg)
 
@@ -20,6 +19,15 @@
 ## 成员构成
 
 群里聚集了不少各种类型的虚拟歌姬相关作品创作者，包括调教、画手、编曲等。当然，除了创作者还有热爱虚拟歌手的同好们。
+
+<!-- 在文件头部或按钮前引入样式 -->
+<link rel="stylesheet" href="/group/vocaloid-utau-fans/styles.css">
+
+<p align="center">
+  <a href="/group/vocaloid-utau-fans/members/" class="primary-btn">
+    查看成员详情
+  </a>
+</p>
 
 ## 活动内容
 
