@@ -8,11 +8,12 @@ const maintainers = [
 ]
 
 // 协史编写群中贡献者
+// 除了群主其他人就按年份排了...
 const group = [
   { avatar: '/about/hq/2015/喵少.jpg', name: '喵少' }, // 协史群群主，15-17年资料收集，摇人大神
   { avatar: '/about/hq/2012/店长.jpeg', name: '店长' }, // 14年之前记录
   { avatar: '/about/hq/2012/正面.jpeg', name: '正面' }, // 13冬日祭录播
-  { avatar: '/about/hq/avatar.png', name: '世闲' }, // 夏樱原始设定
+  { avatar: '/about/hq/2013/世闲.jpg', name: '世闲' }, // 夏樱原始设定
   { avatar: '/about/hq/2017/铜鼓.jpg', name: '铜鼓' }, // 15-21hq头像，部分其他资料
   { avatar: '/about/hq/2019/名字.jpg', name: '名字' }, // 给我(-QuQ-)发了很多其他资料
   { avatar: '/about/hq/2021/影临光.jpg', name: '影临光' }, // 23社刊
