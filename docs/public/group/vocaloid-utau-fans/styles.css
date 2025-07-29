@@ -65,13 +65,19 @@
 }
 
 .member-card {
-  background: #fff;
+  background: #eff2f3;
   border-radius: 12px;
   box-shadow: 0 2px 12px #39c5bb33;
   padding: 20px 10px;
   text-align: center;
   transition: box-shadow 0.2s;
 }
+
+.dark .member-card {
+  background: #1c1d1d;
+  box-shadow: 0 2px 12px #39c5bb55;
+}
+
 .member-card:hover {
   box-shadow: 0 4px 24px #E6188055;
 }
@@ -83,6 +89,9 @@
   object-fit: cover;
   margin-bottom: 10px;
   box-shadow: 0 0 8px #39c5bb88;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .member-info .member-name {
