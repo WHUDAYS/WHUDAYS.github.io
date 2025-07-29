@@ -12,6 +12,7 @@ const group = [
   { avatar: '/about/hq/2015/喵少.jpg', name: '喵少' }, // 协史群群主，15-17年资料收集，摇人大神
   { avatar: '/about/hq/2012/店长.jpeg', name: '店长' }, // 14年之前记录
   { avatar: '/about/hq/2012/正面.jpeg', name: '正面' }, // 13冬日祭录播
+  { avatar: '/about/hq/avatar.png', name: '世闲' }, // 夏樱原始设定
   { avatar: '/about/hq/2017/铜鼓.jpg', name: '铜鼓' }, // 15-21hq头像，部分其他资料
   { avatar: '/about/hq/2019/名字.jpg', name: '名字' }, // 给我(-QuQ-)发了很多其他资料
   { avatar: '/about/hq/2021/影临光.jpg', name: '影临光' }, // 23社刊
@@ -25,6 +26,7 @@ const external = [
   { avatar: 'https://www.github.com/xingzelei.png', name: 'INFINITY', title: '夏樱乐团/gal群' },
   { avatar: '/about/hq/2023/北洛.jpeg', name: '北洛', title: '冰糖樱花'},
   { avatar: '/maintainer/椅子.jpeg', name: '椅子', title: '夏樱组/Re:START工作室'},
+  { avatar: '/about/hq/2022/岚曦.jpeg', name: '岚曦', title: '术群' },
 ]
 
 </script>
