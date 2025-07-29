@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="/group/vocaloid-utau-fans/styles.css">
+
 # WHUDAYS-Vocaloid/Utau Fans
 
 <div class="miku-bar-top"></div>
@@ -20,8 +22,7 @@
 
 群里聚集了不少各种类型的虚拟歌姬相关作品创作者，包括调教、画手、编曲等。当然，除了创作者还有热爱虚拟歌手的同好们。
 
-<!-- 在文件头部或按钮前引入样式 -->
-<link rel="stylesheet" href="/group/vocaloid-utau-fans/styles.css">
+
 
 <p align="center">
   <a href="/group/vocaloid-utau-fans/members/" class="primary-btn">
