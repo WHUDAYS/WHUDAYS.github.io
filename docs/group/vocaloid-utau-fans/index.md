@@ -23,7 +23,7 @@
 群里聚集了不少各种类型的虚拟歌手相关作品创作者，包括调教、画手、编曲等。当然，除了创作者还有众多热爱虚拟歌手的同好们。
 
 <p align="center">
-  <a href="/group/vocaloid-utau-fans/members/" class="primary-btn">
+  <a href="/group/vocaloid-utau-fans/members" class="primary-btn">
     查看主要成员
   </a>
 </p>
@@ -40,7 +40,7 @@
 我们也曾与武汉地区其他高校，包括华中科技大学、中南财经大学、华中师范大学、华中农业大学等的虚拟歌手同好交流群合作举办过活动！
 
 <p align="center">
-  <a href="/group/vocaloid-utau-fans/events/" class="primary-btn">
+  <a href="/group/vocaloid-utau-fans/events" class="primary-btn">
     查看活动记录
   </a>
 </p>
