@@ -17,12 +17,13 @@
   border: none;
   outline: none;
 }
+
 .primary-btn:hover {
   background: #2ea89a;
 }
 
 .miku-bar-top {
-  height: 35px;
+  height: 30px;
   background: #262627;
   border-radius: 8px 8px 0 0;
   position: relative;
@@ -31,7 +32,6 @@
 
 .miku-bar-center {
   background: #E61880;
-  padding: 0.1px 0;
   margin: 0;
   border-radius: 0;
   position: relative;
@@ -40,14 +40,14 @@
 }
 
 .miku-bar-text {
-  padding: 0;
+  padding: 5px 0;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
 }
 
 .miku-bar-bottom {
-  height: 35px;
+  height: 30px;
   background: #262627;
   border-radius: 0 0 8px 8px;
   margin-bottom: 20px;
@@ -57,50 +57,82 @@
 
 .member-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 24px;
   margin: 30px auto;
   max-width: 900px;
   padding: 10px;
 }
 
-.member-card {
-  background: #eff2f3;
-  border-radius: 12px;
-  box-shadow: 0 2px 12px #39c5bb33;
-  padding: 20px 10px;
-  text-align: center;
-  transition: box-shadow 0.2s;
+.primary-btn,
+.primary-btn:visited,
+.primary-btn:active,
+.primary-btn:focus,
+.primary-btn:hover {
+  text-decoration: none !important;
+  color: #fff !important;
 }
 
-.dark .member-card {
-  background: #1c1d1d;
-  box-shadow: 0 2px 12px #39c5bb55;
-}
-
-.member-card:hover {
-  box-shadow: 0 4px 24px #E6188055;
-}
-
-.member-avatar {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 10px;
-  box-shadow: 0 0 8px #39c5bb88;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.member-info .member-name {
-  font-size: 20px;
+.primary-btn {
+  background: #39c5bb;
+  color: #fff;
+  padding: 10px 24px;
+  border-radius: 6px;
   font-weight: bold;
-  margin-bottom: 4px;
-}
-.member-info .member-role {
-  font-size: 16px;
-  color: #666;
+  box-shadow: #39c5bbaa 0 0 10px 3px;
+  border: none;
+  outline: none;
 }
 
+.primary-btn:hover {
+  background: #2ea89a;
+}
+
+.miku-bar-top {
+  height: 30px;
+  background: #262627;
+  border-radius: 8px 8px 0 0;
+  position: relative;
+  z-index: 1;
+}
+
+.miku-bar-center {
+  background: #E61880;
+  margin: 0;
+  border-radius: 0;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 0 24px 8px #E61880cc;
+}
+
+.miku-bar-text {
+  padding: 5px 0;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+}
+
+.miku-bar-bottom {
+  height: 30px;
+  background: #262627;
+  border-radius: 0 0 8px 8px;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.member-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  margin: 30px auto;
+  max-width: 900px;
+  padding: 10px;
+}
+
+.img-desc {
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 18px;
+}

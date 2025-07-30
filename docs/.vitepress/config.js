@@ -178,6 +178,24 @@ export default defineConfig({
 					]
 				}
 			],
+			'/group/vocaloid-utau-fans/': [
+				{
+					text: "Vocaloid Utau Fans",
+					collapsed: false,
+					items: [
+						{ text: "简介", link: "/group/vocaloid-utau-fans/" },
+						{
+							text: "主要成员",
+							collapsed: false,
+							items: [
+								{ text: "成员一览", link: "/group/vocaloid-utau-fans/members" },
+								{ text: "RemeaMiku (岚曦)", link: "/group/vocaloid-utau-fans/members/remeamiku" },
+							]
+						},
+						{ text: "活动记录", link: "/group/vocaloid-utau-fans/events/" },
+					]
+				}
+			],
 			'/message-box/': [
 				{
 					text: "留声箱",
