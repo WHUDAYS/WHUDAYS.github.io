@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="/group/vocaloid-utau-fans/styles.css">
 
-# Vocaloid/Utau Fans 主要成员
+# Vocaloid/Utau Fans 主要成员一览
 
 <div class="miku-bar-top"></div>
 <div class="miku-bar-center">
@@ -10,13 +10,13 @@
 </div>
 <div class="miku-bar-bottom"></div>
 
-## 成员一览
+欢迎更多的虚拟歌手爱好者加入~
 
 <div class="member-grid">
   <MemberCard
     name="RemeaMiku (岚曦)"
     avatar="https://www.gravatar.com/avatar/7ea3bb38623196a9fe127d460831eb91?s=200&d=identicon&r=g"
-    description="插画/设计"
+    description="绘画苦手 ミク最高！"
     link="/group/vocaloid-utau-fans/members/remeamiku"
     :badges="[
       { type: 'tip', text: '管理员' },
@@ -63,4 +63,8 @@
 
 </div>
 
-## 作品集
+::: info 提示
+
+   可联系维护者或直接在仓库提交 PR 将自己加入成员列表
+
+:::
