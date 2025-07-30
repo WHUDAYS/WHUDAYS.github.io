@@ -1,38 +1,66 @@
 <link rel="stylesheet" href="/group/vocaloid-utau-fans/styles.css">
 
-# Vocaloid/Utau Fans 主要成员们
+# Vocaloid/Utau Fans 主要成员
 
 <div class="miku-bar-top"></div>
 <div class="miku-bar-center">
-  <p class="miku-bar-text">
-    ~ 此页面正在调教中 ~
-  </p>
+  <div class="miku-bar-text">
+   ~ 此页面正在调教中 ~
+  </div>
 </div>
 <div class="miku-bar-bottom"></div>
 
+## 成员一览
+
 <div class="member-grid">
-  <div class="member-card">
-    <img class="member-avatar" src="https://www.gravatar.com/avatar/7ea3bb38623196a9fe127d460831eb91?s=200&d=identicon&r=g" alt="RemeaMiku">
-    <div class="member-info">
-      <div class="member-name">RemeaMiku (岚曦)</div>
-      <Badge type="tip" text="管理员" />
-      <Badge type="warning" text="创作者" />
-      <Badge type="info" text="维护" />
-      <div class="member-role">插画/设计/IT</div>
-    </div>
-  </div>
-  <!-- 可继续添加其他成员 -->
-  <!-- <div class="member-card">
-    <img class="member-avatar" src="头像路径或链接" alt="替代文字">
-    <div class="member-info">
-      <div class="member-name">你的名字</div>
-      <Badge type="tip" text="群主" />
-      <Badge type="tip" text="管理员" />
-      <Badge type="warning" text="创作者" />
-      <Badge type="info" text="维护" />
-      <div class="member-role">调教/后期/作曲/作词/写文/插画/设计/IT</div>
-    </div>
-  </div> -->
+  <MemberCard
+    name="RemeaMiku (岚曦)"
+    avatar="https://www.gravatar.com/avatar/7ea3bb38623196a9fe127d460831eb91?s=200&d=identicon&r=g"
+    description="插画/设计"
+    link="/group/vocaloid-utau-fans/members/remeamiku"
+    :badges="[
+      { type: 'tip', text: '管理员' },
+      { type: 'warning', text: '创作者' },
+      { type: 'info', text: '维护者' }
+    ]"
+    :socials="[
+      { platform: 'pixiv', url: 'https://www.pixiv.net/users/24701727', icon: '/group/vocaloid-utau-fans/members/sns/pixiv.svg' },
+      { platform: 'github', url: 'https://github.com/RemeaMiku', icon: '/group/vocaloid-utau-fans/members/sns/github.svg' },
+      { platform: 'bilibili', url: 'https://space.bilibili.com/86866407', icon: '/group/vocaloid-utau-fans/members/sns/bilibili.svg' }
+    ]"
+  />
+
+  <!-- 
+  成员卡模板 - 添加新成员时复制下面的代码并修改相应信息：
+  
+  <MemberCard
+    name="成员名称 (昵称)"
+    avatar="头像图片URL"
+    description="角色/技能描述"
+    link="/group/vocaloid-utau-fans/members/成员个人页面"
+    :badges="[
+      { type: 'tip', text: '徽章1' },
+      { type: 'warning', text: '徽章2' },
+      { type: 'info', text: '徽章3' }
+    ]"
+    :socials="[
+      { platform: '平台名', url: '社交媒体链接', icon: '/group/vocaloid-utau-fans/members/sns/图标.svg' }
+    ]"
+  />
+  
+  徽章类型说明：
+  - type: 'tip' - 管理员
+  - type: 'warning' - 创作者
+  - type: 'info'  - 维护者
+  - type: 'danger'  - 群主
+  
+  常用社交平台图标（可在 public/group/vocaloid-utau-fans/sns/ 下追加）：
+  - pixiv: /group/vocaloid-utau-fans/sns/pixiv.svg
+  - github: /group/vocaloid-utau-fans/sns/github.svg
+  - bilibili: /group/vocaloid-utau-fans/sns/bilibili.svg
+
+  -->
 
 </div>
 
+## 作品集
