@@ -192,7 +192,7 @@ export default defineConfig({
 								{ text: "RemeaMiku (岚曦)", link: "/group/vocaloid-utau-fans/members/remeamiku" },
 							]
 						},
-						{ text: "活动记录", link: "/group/vocaloid-utau-fans/events/" },
+						{ text: "活动记录", link: "/group/vocaloid-utau-fans/events" },
 					]
 				}
 			],
