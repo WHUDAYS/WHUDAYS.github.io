@@ -180,7 +180,7 @@ export default defineConfig({
 			],
 			'/group/vocaloid-utau-fans/': [
 				{
-					text: "Vocaloid Utau Fans",
+					text: "Vocaloid/Utau Fans",
 					collapsed: false,
 					items: [
 						{ text: "简介", link: "/group/vocaloid-utau-fans/" },
