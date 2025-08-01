@@ -188,11 +188,17 @@ export default defineConfig({
 							text: "主要成员",
 							collapsed: false,
 							items: [
-								{ text: "成员一览", link: "/group/vocaloid-utau-fans/members" },
 								{ text: "RemeaMiku (岚曦)", link: "/group/vocaloid-utau-fans/members/remeamiku" },
 							]
 						},
-						{ text: "活动记录", link: "/group/vocaloid-utau-fans/events" },
+						{ text: "活动记录", 
+						  collapsed: false,  
+						  items: [
+							{ text:"漫协活动出摊",link:"/group/vocaloid-utau-fans/events/whudays"},
+							{ text: "演唱会观影", link: "/group/vocaloid-utau-fans/events/live-watching" },
+							{ text: "初音未来 16 周年纪念生日会", link: "/group/vocaloid-utau-fans/events/miku16th" },
+							{ text: "日常卡拉OK", link: "/group/vocaloid-utau-fans/events/karaoke" },
+						  ]},
 					]
 				}
 			],
