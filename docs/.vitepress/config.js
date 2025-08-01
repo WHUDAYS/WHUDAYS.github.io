@@ -180,7 +180,7 @@ export default defineConfig({
 			],
 			'/group/vocaloid-utau-fans/': [
 				{
-					text: "Vocaloid Utau Fans",
+					text: "Vocaloid/Utau Fans",
 					collapsed: false,
 					items: [
 						{ text: "简介", link: "/group/vocaloid-utau-fans/" },
@@ -192,7 +192,7 @@ export default defineConfig({
 								{ text: "RemeaMiku (岚曦)", link: "/group/vocaloid-utau-fans/members/remeamiku" },
 							]
 						},
-						{ text: "活动记录", link: "/group/vocaloid-utau-fans/events/" },
+						{ text: "活动记录", link: "/group/vocaloid-utau-fans/events" },
 					]
 				}
 			],
