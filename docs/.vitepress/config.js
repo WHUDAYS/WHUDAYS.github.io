@@ -194,10 +194,10 @@ export default defineConfig({
 						{ text: "活动记录", 
 						  collapsed: false,  
 						  items: [
-							{ text:"漫协活动出摊",link:"/group/vocaloid-utau-fans/events/whudays"},
+							{ text: "漫协活动出摊", link:"/group/vocaloid-utau-fans/events/whudays"},
 							{ text: "演唱会观影", link: "/group/vocaloid-utau-fans/events/live-watching" },
 							{ text: "初音未来 16 周年纪念生日会", link: "/group/vocaloid-utau-fans/events/miku16th" },
-							{ text: "日常卡拉OK", link: "/group/vocaloid-utau-fans/events/karaoke" },
+							{ text: "日常卡拉 OK", link: "/group/vocaloid-utau-fans/events/karaoke" },
 						  ]},
 					]
 				}
