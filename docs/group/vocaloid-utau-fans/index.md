@@ -2,14 +2,6 @@
 
 # WHUDAYS-Vocaloid/Utau Fans
 
-<div class="miku-bar-top"></div>
-<div class="miku-bar-center">
-  <div class="miku-bar-text">
-    ~ 此页面正在调教中 ~
-  </div>
-</div>
-<div class="miku-bar-bottom"></div>
-
 ![WHUDAYS-Vocaloid/Utau Fans](/group/vocaloid-utau-fans/logo.jpg)
 
 ## 关于
