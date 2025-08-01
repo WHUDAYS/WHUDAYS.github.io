@@ -40,25 +40,29 @@
   <MemberCard
     name="成员名称 (昵称)"
     avatar="头像图片URL"
-    description="角色/技能描述"
-    link="/group/vocaloid-utau-fans/members/成员个人页面"
+    description="成员描述"
+    link="/group/vocaloid-utau-fans/#成员"
     :badges="[
-      { type: 'tip', text: '徽章1' },
-      { type: 'warning', text: '徽章2' },
-      { type: 'info', text: '徽章3' }
+      { type: 'danger', text: '群主' },
+      { type: 'tip', text: '管理员' },
+      { type: 'warning', text: '创作者' },
+      { type: 'info', text: '维护者' }
     ]"
     :socials="[
       { platform: '平台名', url: '社交媒体链接', icon: '/group/vocaloid-utau-fans/members/sns/图标.svg' }
     ]"
   />
+
+  头像图片说明：
+  - 引用静态的图片资源：将头像图片放在 docs/public/group/vocaloid-utau-fans/members/[你名称的文件夹] 目录下，图片名称建议改为 avatar，头像图片URL替换为 /group/vocaloid-utau-fans/members/[你名称的文件夹]/avatar.[图片后缀]，引用时注意格式后缀是 png 还是 jpg 还是 jpeg
+  - 引用动态图片链接（推荐）:
+    -  QQ 头像：https://q1.qlogo.cn/g?b=qq&nk=[你的 QQ 账号]&s=100
+    -  Gravatar 头像：https://www.gravatar.com/avatar/[你的账户邮箱的 MD5 哈希值]?s=200&d=identicon&r=g
   
-  徽章类型说明：
-  - type: 'tip' - 管理员
-  - type: 'warning' - 创作者
-  - type: 'info'  - 维护者
-  - type: 'danger'  - 群主
+  导航链接说明：
+    如果没有个人介绍详情页面，则不用修改，点击后原地 tp；如果有个人详情页，将页面的 Markdown 文件放到 members 文件夹里，链接改成 /group/vocaloid-utau-fans/members/[Markdown 文件名]
   
-  常用社交平台图标（可在 public/group/vocaloid-utau-fans/sns/ 下追加）：
+  常用社交平台图标（可在 docs/public/group/vocaloid-utau-fans/sns/ 下追加静态资源或指定 URL）：
   - pixiv: /group/vocaloid-utau-fans/sns/pixiv.svg
   - github: /group/vocaloid-utau-fans/sns/github.svg
   - bilibili: /group/vocaloid-utau-fans/sns/bilibili.svg

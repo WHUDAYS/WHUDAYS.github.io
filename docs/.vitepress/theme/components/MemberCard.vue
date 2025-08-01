@@ -56,7 +56,7 @@ defineProps({
   transition: all 0.3s ease;
   display: flex;
   flex-direction: column;
-  min-height: 160px;
+  min-height: 120px;
   transform: scale(1);
 }
 
