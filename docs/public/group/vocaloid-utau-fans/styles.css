@@ -74,8 +74,16 @@
     column-count: 1;
   }
 }
+
 @media (min-width: 1000px) {
   .member-grid {
     column-count: 2;
   }
+}
+
+.img-desc {
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 18px;
 }

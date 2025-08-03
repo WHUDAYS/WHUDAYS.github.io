@@ -2,6 +2,8 @@
 
 # 漫协活动出摊
 
+作为小群在漫协冬日祭或百团招新活动中出摊。
+
 ## 2024 年冬日祭
 
 ![2024 年冬日祭插画作品展示](/group/vocaloid-utau-fans/events/whudays/winter2024/1.jpeg)
@@ -22,6 +24,11 @@
 <div class="img-desc">现场 VOCALOID 调教体验</div>
 
 ## 2023 年春日祭
+
+2023 年 DECO*27 的著名歌曲 “愛言葉” 在漫协新大群名投票中获胜，漫协春日活动以当时《愛言葉》系列最新的《愛言葉 Ⅳ》的曲绘作为封面。
+
+![2023 年春日祭爱言叶封面](/group/vocaloid-utau-fans/events/whudays/spring2023/0.jpg)
+<div class="img-desc">漫协春日活动封面</div>
 
 第一次作为小群在漫协活动上出摊，组织了问答，K歌和涂色卡等活动。
 
