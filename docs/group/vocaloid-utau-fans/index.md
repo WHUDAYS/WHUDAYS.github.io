@@ -22,84 +22,124 @@
     avatar="https://www.gravatar.com/avatar/7ea3bb38623196a9fe127d460831eb91?s=200&d=identicon&r=g"
     description="绘画苦手 ミク最高！"
     link="/group/vocaloid-utau-fans/members/remeamiku"
-    :badges="[{ type: 'tip', text: '管理员' }, { type: 'warning', text: '创作者' }, { type: 'info', text: '维护者' }]"
-    :socials="[{ platform: 'pixiv', url: 'https://www.pixiv.net/users/24701727', icon: '/group/vocaloid-utau-fans/members/sns/pixiv.svg' }, { platform: 'github', url: 'https://github.com/RemeaMiku', icon: '/group/vocaloid-utau-fans/members/sns/github.svg' }, { platform: 'bilibili', url: 'https://space.bilibili.com/86866407', icon: '/group/vocaloid-utau-fans/members/sns/bilibili.svg' }]"
+    :badges="[
+      { type: 'tip', text: '管理员' },
+      { type: 'warning', text: '创作者' },
+      { type: 'info', text: '维护者' }
+    ]"
+    :socials="[
+      { platform: 'pixiv', url: 'https://www.pixiv.net/users/24701727', icon: '/group/vocaloid-utau-fans/members/sns/pixiv.svg' },
+      { platform: 'github', url: 'https://github.com/RemeaMiku', icon: '/group/vocaloid-utau-fans/members/sns/github.svg' },
+      { platform: 'bilibili', url: 'https://space.bilibili.com/86866407', icon: '/group/vocaloid-utau-fans/members/sns/bilibili.svg' }
+    ]"
   />
   <MemberCard
     name="二酸化炭素"
     avatar="https://q1.qlogo.cn/g?b=qq&nk=2078467653&s=100"
     description="霓虹金"
     link=""
-    :badges="[{ type: 'danger', text: '群主' }]"
-    :socials="[]"
+    :badges="[
+      { type: 'danger', text: '群主' }
+    ]"
+    :socials="[
+    ]"
   />
   <MemberCard
     name="-QuQ-"
     avatar="/about/hq/2024/-QuQ-.jpeg"
     description=""
     link=""
-    :badges="[{ type: 'tip', text: '管理员' },{ type: 'info', text: '维护者' }]"
-    :socials="[{ platform: 'github', url: 'https://github.com/shenxianovo', icon: '/group/vocaloid-utau-fans/members/sns/github.svg' },{ platform: 'bilibili', url: 'https://space.bilibili.com/446305918', icon: '/group/vocaloid-utau-fans/members/sns/bilibili.svg' }]"
+    :badges="[
+      { type: 'tip', text: '管理员' },
+      { type: 'info', text: '维护者' }
+    ]"
+    :socials="[
+      { platform: 'github', url: 'https://github.com/shenxianovo', icon: '/group/vocaloid-utau-fans/members/sns/github.svg' },
+      { platform: 'bilibili', url: 'https://space.bilibili.com/446305918', icon: '/group/vocaloid-utau-fans/members/sns/bilibili.svg' }
+    ]"
   />
   <MemberCard
     name="a初音ミクz"
     avatar="https://q1.qlogo.cn/g?b=qq&nk=1687165919&s=100"
     description="隔壁华科的内鬼"
     link=""
-    :badges="[{ type: 'tip', text: '管理员' },]"
-    :socials="[]"
+    :badges="[
+      { type: 'tip', text: '管理员' },
+    ]"
+    :socials="[
+    ]"
   />
   <MemberCard
     name="Arccos"
     avatar="https://q1.qlogo.cn/g?b=qq&nk=2163254470&s=100"
     description=""
     link=""
-    :badges="[{ type: 'tip', text: '管理员' },]"
-    :socials="[]"
+    :badges="[
+      { type: 'tip', text: '管理员' },
+    ]"
+    :socials="[
+    ]"
   />
   <MemberCard
     name="烧烤"
     avatar="https://q1.qlogo.cn/g?b=qq&nk=2780072534&s=100"
     description=""
     link=""
-    :badges="[{ type: 'tip', text: '管理员' },]"
-    :socials="[]"
+    :badges="[
+      { type: 'tip', text: '管理员' },
+    ]"
+    :socials="[
+    ]"
   />
   <MemberCard
     name="Imris"
     avatar="https://q1.qlogo.cn/g?b=qq&nk=3161441399&s=100"
     description=""
     link=""
-    :badges="[{ type: 'tip', text: '管理员' },]"
-    :socials="[]"
+    :badges="[
+      { type: 'tip', text: '管理员' },
+    ]"
+    :socials="[
+    ]"
   />
   <MemberCard
     name="InkFea 墨墨羽"
     avatar="/group/vocaloid-utau-fans/members/inkfea/avatar.jpg"
     description="调校师丨Vup偶尔播播"
     link=""
-    :badges="[{ type: 'tip', text: '管理员' },{ type: 'warning', text: '创作者' },]"
-    :socials="[{ platform: 'bilibili', url: 'https://space.bilibili.com/15135608', icon: '/group/vocaloid-utau-fans/members/sns/bilibili.svg' }]"
+    :badges="[
+      { type: 'tip', text: '管理员' },
+      { type: 'warning', text: '创作者' },
+    ]"
+    :socials="[
+      { platform: 'bilibili', url: 'https://space.bilibili.com/15135608', icon: '/group/vocaloid-utau-fans/members/sns/bilibili.svg' }
+    ]"
   />
   <MemberCard
     name="Jusfans PG"
     avatar="https://q1.qlogo.cn/g?b=qq&nk=943441394&s=100"
     description="中 V 小群主"
     link=""
-    :badges="[{ type: 'danger', text: '群主' },{ type: 'tip', text: '管理员' },]"
-    :socials="[]"
+    :badges="[
+      { type: 'danger', text: '群主' },
+      { type: 'tip', text: '管理员' },
+    ]"
+    :socials="[
+    ]"
   />
   <MemberCard
     name="浅月明"
     avatar="https://q1.qlogo.cn/g?b=qq&nk=2835365089&s=100"
     description=""
     link=""
-    :badges="[{ type: 'tip', text: '管理员' },]"
-    :socials="[]"
+    :badges="[
+      { type: 'tip', text: '管理员' },
+    ]"
+    :socials="[
+    ]"
   />
-</div>
 
-<!-- 
+  <!-- 
   成员卡模板 - 添加新成员时复制下面的代码并修改相应信息：
   
   <MemberCard
@@ -107,8 +147,15 @@
     avatar="头像图片URL"
     description="成员描述"
     link=""
-    :badges="[{ type: 'danger', text: '群主' },{ type: 'tip', text: '管理员' },{ type: 'warning', text: '创作者' },{ type: 'info', text: '维护者' }]"
-    :socials="[{ platform: '平台名', url: '社交媒体链接', icon: '/group/vocaloid-utau-fans/members/sns/图标.svg' }]"
+    :badges="[
+      { type: 'danger', text: '群主' },
+      { type: 'tip', text: '管理员' },
+      { type: 'warning', text: '创作者' },
+      { type: 'info', text: '维护者' }
+    ]"
+    :socials="[
+      { platform: '平台名', url: '社交媒体链接', icon: '/group/vocaloid-utau-fans/members/sns/图标.svg' }
+    ]"
   />
 
   头像图片说明：
@@ -125,7 +172,9 @@
   - github: /group/vocaloid-utau-fans/sns/github.svg
   - bilibili: /group/vocaloid-utau-fans/sns/bilibili.svg
 
--->
+  -->
+
+</div>
 
 欢迎更多的虚拟歌手爱好者加入~
 
