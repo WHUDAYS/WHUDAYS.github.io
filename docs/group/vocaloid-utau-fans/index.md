@@ -16,6 +16,15 @@
 
 主要成员一览：
 
+<!-- 
+Bug 原因：
+- 外部 CSS 文件加载时序不确定
+- SSR 预渲染时样式未加载，客户端 hydration 时样式已加载
+- 导致服务端和客户端渲染结果不一致，触发 hydration mismatch 错误
+解决方案：
+- 使用<ClientOnly>包裹，强制客户端渲染
+-->
+<ClientOnly>
 <div class="member-grid">
   <MemberCard
     name="RemeaMiku (岚曦)"
@@ -98,6 +107,7 @@
     :socials="[]"
   />
 </div>
+</ClientOnly>
 
 <!-- 
   成员卡模板 - 添加新成员时复制下面的代码并修改相应信息：
