@@ -33,8 +33,7 @@
       { platform: 'bilibili', url: 'https://space.bilibili.com/86866407', icon: '/group/vocaloid-utau-fans/members/sns/bilibili.svg' }
     ]"
   />
-
-<MemberCard
+  <MemberCard
     name="二酸化炭素"
     avatar="https://q1.qlogo.cn/g?b=qq&nk=2078467653&s=100"
     description="霓虹金"
@@ -47,7 +46,7 @@
   />
   <MemberCard
     name="-QuQ-"
-    avatar="https://q1.qlogo.cn/g?b=qq&nk=51729575&s=100"
+    avatar="/about/hq/2024/-QuQ-.jpeg"
     description=""
     link=""
     :badges="[
@@ -56,6 +55,7 @@
     ]"
     :socials="[
       { platform: 'github', url: 'https://github.com/shenxianovo', icon: '/group/vocaloid-utau-fans/members/sns/github.svg' },
+      { platform: 'bilibili', url: 'https://space.bilibili.com/446305918', icon: '/group/vocaloid-utau-fans/members/sns/bilibili.svg' }
     ]"
   />
   <MemberCard
@@ -90,8 +90,8 @@
     ]"
     :socials="[
     ]"
-    />
-    <MemberCard
+  />
+  <MemberCard
     name="Imris"
     avatar="https://q1.qlogo.cn/g?b=qq&nk=3161441399&s=100"
     description=""
