@@ -38,7 +38,7 @@
     name="二酸化炭素"
     avatar="https://q1.qlogo.cn/g?b=qq&nk=2078467653&s=100"
     description="霓虹金"
-    link="/group/vocaloid-utau-fans/#成员"
+    link=""
     :badges="[
       { type: 'danger', text: '群主' }
     ]"
@@ -49,7 +49,7 @@
     name="-QuQ-"
     avatar="https://q1.qlogo.cn/g?b=qq&nk=51729575&s=100"
     description=""
-    link="/group/vocaloid-utau-fans/#成员"
+    link=""
     :badges="[
       { type: 'tip', text: '管理员' },
       { type: 'info', text: '维护者' }
@@ -62,7 +62,7 @@
     name="a初音ミクz"
     avatar="https://q1.qlogo.cn/g?b=qq&nk=1687165919&s=100"
     description="隔壁华科的内鬼"
-    link="/group/vocaloid-utau-fans/#成员"
+    link=""
     :badges="[
       { type: 'tip', text: '管理员' },
     ]"
@@ -73,7 +73,7 @@
     name="Arccos"
     avatar="https://q1.qlogo.cn/g?b=qq&nk=2163254470&s=100"
     description=""
-    link="/group/vocaloid-utau-fans/#成员"
+    link=""
     :badges="[
       { type: 'tip', text: '管理员' },
     ]"
@@ -84,7 +84,7 @@
     name="烧烤"
     avatar="https://q1.qlogo.cn/g?b=qq&nk=2780072534&s=100"
     description=""
-    link="/group/vocaloid-utau-fans/#成员"
+    link=""
     :badges="[
       { type: 'tip', text: '管理员' },
     ]"
@@ -95,7 +95,7 @@
     name="Imris"
     avatar="https://q1.qlogo.cn/g?b=qq&nk=3161441399&s=100"
     description=""
-    link="/group/vocaloid-utau-fans/#成员"
+    link=""
     :badges="[
       { type: 'tip', text: '管理员' },
     ]"
@@ -106,7 +106,7 @@
     name="InkFea 墨墨羽"
     avatar="/group/vocaloid-utau-fans/members/inkfea/avatar.jpg"
     description="调校师丨Vup偶尔播播"
-    link="/group/vocaloid-utau-fans/#成员"
+    link=""
     :badges="[
       { type: 'tip', text: '管理员' },
       { type: 'warning', text: '创作者' },
@@ -119,7 +119,7 @@
     name="Jusfans PG"
     avatar="https://q1.qlogo.cn/g?b=qq&nk=943441394&s=100"
     description="中 V 小群主"
-    link="/group/vocaloid-utau-fans/#成员"
+    link=""
     :badges="[
       { type: 'danger', text: '群主' },
       { type: 'tip', text: '管理员' },
@@ -131,7 +131,7 @@
     name="浅月明"
     avatar="https://q1.qlogo.cn/g?b=qq&nk=2835365089&s=100"
     description=""
-    link="/group/vocaloid-utau-fans/#成员"
+    link=""
     :badges="[
       { type: 'tip', text: '管理员' },
     ]"
@@ -146,7 +146,7 @@
     name="成员名称 (昵称)"
     avatar="头像图片URL"
     description="成员描述"
-    link="/group/vocaloid-utau-fans/#成员"
+    link=""
     :badges="[
       { type: 'danger', text: '群主' },
       { type: 'tip', text: '管理员' },
@@ -165,7 +165,7 @@
     -  Gravatar 头像：https://www.gravatar.com/avatar/[你的账户邮箱的 MD5 哈希值]?s=200&d=identicon&r=g
   
   导航链接说明：
-    如果没有个人介绍详情页面，则不用修改，点击后原地 tp；如果有个人详情页，将页面的 Markdown 文件放到 members 文件夹里，链接改成 /group/vocaloid-utau-fans/members/[Markdown 文件名]
+    如果没有个人介绍详情页面，则不用修改；如果有个人详情页，将页面的 Markdown 文件放到 members 文件夹里，链接改成 /group/vocaloid-utau-fans/members/[Markdown 文件名]
   
   常用社交平台图标（可在 docs/public/group/vocaloid-utau-fans/sns/ 下追加静态资源或指定 URL）：
   - pixiv: /group/vocaloid-utau-fans/sns/pixiv.svg
