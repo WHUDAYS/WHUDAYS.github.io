@@ -34,6 +34,111 @@
     ]"
   />
 
+<MemberCard
+    name="二酸化炭素"
+    avatar="https://q1.qlogo.cn/g?b=qq&nk=2078467653&s=100"
+    description="霓虹金"
+    link="/group/vocaloid-utau-fans/#成员"
+    :badges="[
+      { type: 'danger', text: '群主' }
+    ]"
+    :socials="[
+    ]"
+  />
+  <MemberCard
+    name="-QuQ-"
+    avatar="https://q1.qlogo.cn/g?b=qq&nk=51729575&s=100"
+    description=""
+    link="/group/vocaloid-utau-fans/#成员"
+    :badges="[
+      { type: 'tip', text: '管理员' },
+      { type: 'info', text: '维护者' }
+    ]"
+    :socials="[
+      { platform: 'github', url: 'https://github.com/shenxianovo', icon: '/group/vocaloid-utau-fans/members/sns/github.svg' },
+    ]"
+  />
+  <MemberCard
+    name="a初音ミクz"
+    avatar="https://q1.qlogo.cn/g?b=qq&nk=1687165919&s=100"
+    description="隔壁华科的内鬼"
+    link="/group/vocaloid-utau-fans/#成员"
+    :badges="[
+      { type: 'tip', text: '管理员' },
+    ]"
+    :socials="[
+    ]"
+  />
+  <MemberCard
+    name="Arccos"
+    avatar="https://q1.qlogo.cn/g?b=qq&nk=2163254470&s=100"
+    description=""
+    link="/group/vocaloid-utau-fans/#成员"
+    :badges="[
+      { type: 'tip', text: '管理员' },
+    ]"
+    :socials="[
+    ]"
+  />
+  <MemberCard
+    name="烧烤"
+    avatar="https://q1.qlogo.cn/g?b=qq&nk=2780072534&s=100"
+    description=""
+    link="/group/vocaloid-utau-fans/#成员"
+    :badges="[
+      { type: 'tip', text: '管理员' },
+    ]"
+    :socials="[
+    ]"
+    />
+    <MemberCard
+    name="Imris"
+    avatar="https://q1.qlogo.cn/g?b=qq&nk=3161441399&s=100"
+    description=""
+    link="/group/vocaloid-utau-fans/#成员"
+    :badges="[
+      { type: 'tip', text: '管理员' },
+    ]"
+    :socials="[
+    ]"
+  />
+  <MemberCard
+    name="InkFea 墨墨羽"
+    avatar="/group/vocaloid-utau-fans/members/inkfea/avatar.jpg"
+    description="调校师丨Vup偶尔播播"
+    link="/group/vocaloid-utau-fans/#成员"
+    :badges="[
+      { type: 'tip', text: '管理员' },
+      { type: 'warning', text: '创作者' },
+    ]"
+    :socials="[
+      { platform: 'bilibili', url: 'https://space.bilibili.com/15135608', icon: '/group/vocaloid-utau-fans/members/sns/bilibili.svg' }
+    ]"
+  />
+  <MemberCard
+    name="Jusfans PG"
+    avatar="https://q1.qlogo.cn/g?b=qq&nk=943441394&s=100"
+    description="中 V 小群主"
+    link="/group/vocaloid-utau-fans/#成员"
+    :badges="[
+      { type: 'danger', text: '群主' },
+      { type: 'tip', text: '管理员' },
+    ]"
+    :socials="[
+    ]"
+  />
+  <MemberCard
+    name="浅月明"
+    avatar="https://q1.qlogo.cn/g?b=qq&nk=2835365089&s=100"
+    description=""
+    link="/group/vocaloid-utau-fans/#成员"
+    :badges="[
+      { type: 'tip', text: '管理员' },
+    ]"
+    :socials="[
+    ]"
+  />
+
   <!-- 
   成员卡模板 - 添加新成员时复制下面的代码并修改相应信息：
   
