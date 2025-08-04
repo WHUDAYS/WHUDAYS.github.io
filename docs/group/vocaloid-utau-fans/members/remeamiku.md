@@ -4,7 +4,7 @@
 
 -----
 
-<img style="display: block; margin: auto;" src="https://www.gravatar.com/avatar/7ea3bb38623196a9fe127d460831eb91?s=200&d=identicon&r=g" alt="RemeaMiku">
+<img style="display: block; margin: auto;" src="http://q.qlogo.cn/headimg_dl?dst_uin=1597638582&spec=640&img_type=jpg" alt="RemeaMiku">
 
 武大 2020 级本科生，漫协编辑部画手，曾任夏樱组后期组长和 Vocaloid/Utau Fans 群主。
 

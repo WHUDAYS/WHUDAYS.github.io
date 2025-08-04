@@ -28,7 +28,7 @@ Bug 原因：
 <div class="member-grid">
   <MemberCard
     name="RemeaMiku (岚曦)"
-    avatar="https://www.gravatar.com/avatar/7ea3bb38623196a9fe127d460831eb91?s=200&d=identicon&r=g"
+    avatar="https://q1.qlogo.cn/g?b=qq&nk=1597638582&s=100"
     description="绘画苦手 ミク最高！"
     link="/group/vocaloid-utau-fans/members/remeamiku"
     :badges="[{ type: 'tip', text: '管理员' }, { type: 'warning', text: '创作者' }, { type: 'info', text: '维护者' }]"
@@ -125,7 +125,7 @@ Bug 原因：
   - 引用静态的图片资源：将头像图片放在 docs/public/group/vocaloid-utau-fans/members/[你名称的文件夹] 目录下，图片名称建议改为 avatar，头像图片URL替换为 /group/vocaloid-utau-fans/members/[你名称的文件夹]/avatar.[图片后缀]，引用时注意格式后缀是 png 还是 jpg 还是 jpeg
   - 引用动态图片链接（推荐）:
     -  QQ 头像：https://q1.qlogo.cn/g?b=qq&nk=[你的 QQ 账号]&s=100
-    -  Gravatar 头像：https://www.gravatar.com/avatar/[你的账户邮箱的 MD5 哈希值]?s=200&d=identicon&r=g
+    -  [国内无法正常访问] Gravatar 头像：https://www.gravatar.com/avatar/[你的账户邮箱的 MD5 哈希值]?s=200&d=identicon&r=g
   
   导航链接说明：
     如果没有个人介绍详情页面，则不用修改；如果有个人详情页，将页面的 Markdown 文件放到 members 文件夹里，链接改成 /group/vocaloid-utau-fans/members/[Markdown 文件名]
