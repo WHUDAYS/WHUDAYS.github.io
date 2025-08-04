@@ -1,5 +1,12 @@
 <template>
-  <a class="member-card-link" :href="link">
+  <component
+    :is="link ? 'a' : 'div'"
+    class="member-card-link"
+    :href="link || undefined"
+    :tabindex="link ? 0 : -1"
+    :aria-disabled="!link"
+    :style="!link ? ' cursor: default; ' : ''"
+  >
     <div class="member-card">
       <div class="member-card-top">
         <img class="member-avatar" :src="avatar" :alt="name">
@@ -15,7 +22,7 @@
         </a>
       </div>
     </div>
-  </a>
+  </component>
 </template>
 
 <script setup>
@@ -56,7 +63,7 @@ defineProps({
   transition: all 0.3s ease;
   display: flex;
   flex-direction: column;
-  min-height: 160px;
+  min-height: 120px;
   transform: scale(1);
 }
 
