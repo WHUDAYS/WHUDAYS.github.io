@@ -1,11 +1,9 @@
 <template>
-  <component
-    :is="link ? 'a' : 'div'"
+  <a
     class="member-card-link"
-    :href="link || undefined"
-    :tabindex="link ? 0 : -1"
+    :href="link ? link : 'javascript:void(0)'"
     :aria-disabled="!link"
-    :style="!link ? ' cursor: default; ' : ''"
+    :tabindex="link ? 0 : -1"
   >
     <div class="member-card">
       <div class="member-card-top">
@@ -22,7 +20,7 @@
         </a>
       </div>
     </div>
-  </component>
+  </a>
 </template>
 
 <script setup>
