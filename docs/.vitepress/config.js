@@ -184,6 +184,7 @@ export default defineConfig({
 						{ text: "WHUDAYS-冰糖樱花", link: "/group/dry-humor/" },
 						{ text: "WHUDAYS-Touhou Club", link: "/group/touhou-club/" },
 						{ text: "WHUDAYS-Vocaloid/Utau Fans", link: "/group/vocaloid-utau-fans/" },
+						{ text: "WHUDAYS-奇迹大陆", link: "/group/infinity-nikki/" },
 					]
 				}
 			],

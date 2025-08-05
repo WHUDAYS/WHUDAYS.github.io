@@ -57,7 +57,7 @@
 |    三角洲行动交流群     |          WHUDAYS-三角洲行动           |                                                                                 |
 |     魂系游戏交流群      |           WHUDAYS-快乐后院            |    FROM SOFTWARE魂游以及各种魂like的交流群，欢迎各种pve推图萌新以及pvp老ass     |
 |    逃离塔克夫交流群     |              WHUDAYS-EFT              |                            逃离塔科夫绿玩互助吹水群                             |
-|     无限暖暖交流群      |           WHUDAYS-奇迹大陆            |                    欢迎各位搭配师们分享搭配心得和旅行相簿！                     |
+|     无限暖暖交流群      |           [WHUDAYS-奇迹大陆](/group/infinity-nikki/)            |                    欢迎各位搭配师们分享搭配心得和旅行相簿！                     |
 
 ## 手游
 
