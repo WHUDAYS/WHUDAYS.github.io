@@ -1,7 +1,7 @@
 # 管弦组
 
 <p align="center">
-  <img src="/department/band/member-logos/orchestra.jpg" alt="管弦组" width="100%">
+  <img src="/department/band/orchestra/logo.jpg" alt="管弦组" width="100%">
   <span style="font-size: 0.95em; color: #888;">画师：艾其</span>
 </p>
 

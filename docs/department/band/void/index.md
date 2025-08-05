@@ -1,8 +1,8 @@
 # VOID
 
 <p align="center" style="display: flex; gap: 0;">
-  <img src="/department/band/member-logos/void1.jpeg" alt="void1" style="width: 50%; height: auto; display: block;">
-  <img src="/department/band/member-logos/void2.jpeg" alt="void2" style="width: 50%; height: auto; display: block;">
+  <img src="/department/band/void/logo1.jpeg" alt="void1" style="width: 50%; height: auto; display: block;">
+  <img src="/department/band/void/logo2.jpeg" alt="void2" style="width: 50%; height: auto; display: block;">
 </p>
 
 

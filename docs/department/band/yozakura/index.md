@@ -1,6 +1,6 @@
 # 夜桜
 
-![夜桜](/department/band/member-logos/yozakura.jpg)
+![夜桜](/department/band/yozakura/logo.jpg)
 
 排练可以不排，但饭必须要吃
 

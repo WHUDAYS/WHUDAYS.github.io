@@ -1,6 +1,6 @@
 # DayBreak
 
-![DayBreak](/department/band/member-logos/daybreak.jpg)
+![DayBreak](/department/band/daybreak/logo.jpg)
 
 成立于2024.8，cover曲目主要来源为少女乐队/jpop，虽然大家平时忙忙的但是在一起的live都很顺利很krkr！欢迎米娜加入qq粉丝群790632292，有瓦学弟在线发枪！
 
