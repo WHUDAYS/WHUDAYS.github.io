@@ -145,13 +145,7 @@ export default defineConfig({
 								{ text: "Re:START工作室", link: "/department/va/restart/" },
 							]
 						},
-						{
-							text: "夏樱乐团", link: "/department/band/",
-							collapsed: true,
-							items: [
-								{ text: "管弦组", link: "/department/band/orchestra/" },
-							]
-						},
+						{ text: "夏樱乐团", link: "/department/band/" },
 						{ text: "cos部", link: "/department/cos/" },
 						{ text: "编辑部", link: "/department/edit/" },
 						{ text: "wota艺部", link: "/department/wota/" },
@@ -162,6 +156,21 @@ export default defineConfig({
 								{ text: "夏樱组", link: "/department/vtb/" },
 							]
 						},
+					]
+				}
+			],
+			'/department/band/': [
+				{
+					text: "夏樱乐团",
+					collapsed: false,
+					items: [
+						{ text: "简介", link: "/department/band/" },
+						{ text: "管弦组", link: "/department/band/orchestra/" },
+						{ text: "夏凪", link: "/department/band/natsunai/" },
+						{ text: "夜桜", link: "/department/band/yozakura/" },
+						{ text: "VOID", link: "/department/band/void/" },
+						{ text: "DayBreak", link: "/department/band/daybreak/" },
+						{ text: "蓝汐", link: "/department/band/azuretide/" },
 					]
 				}
 			],
