@@ -1,0 +1,29 @@
+.infinity-nikki-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  background: #f09497;
+  padding: 20px;
+  position: relative;
+  overflow: visible;
+  min-height: 80px;
+}
+
+.infinity-nikki-text {
+  color: #fbf8f2;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.infinity-nikki-text img {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  width: 80px;
+  height: auto;
+  z-index: 10;
+  display: block;
+}
