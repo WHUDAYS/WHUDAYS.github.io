@@ -29,10 +29,10 @@
 
 晚会：
 
-| 参演                 | 节目                                                        | 类型             |
-| -------------------- | ----------------------------------------------------------- | ---------------- |
-| Loggy                | My dearest                                                  | 钢琴独奏         |
-| 冰糖Bita             | [蔚蓝色的回忆](https://www.bilibili.com/video/BV11GTHzuEtz) | 宅舞             |
-| 梨紫<br>红温<br>喵柒 | diamond happy<br>calendar girl<br>fashion check             | 宅舞（可能唱跳） |
-| Animus               | 届かない恋<br>closing                                       | 歌曲             |
+| 参演                 | 节目                                                                                           | 类型     |
+| -------------------- | ---------------------------------------------------------------------------------------------- | -------- |
+| Loggy                | My dearest                                                                                     | 钢琴独奏 |
+| 冰糖Bita             | [蔚蓝色的回忆](https://www.bilibili.com/video/BV11GTHzuEtz)                                    | 宅舞     |
+| 梨紫<br>红温<br>喵柒 | [diamond happy<br>calendar girl<br>fashion check](https://www.bilibili.com/video/BV1v5trzwEd5) | 宅舞     |
+| Animus               | 届かない恋<br>closing                                                                          | 歌曲     |
 
