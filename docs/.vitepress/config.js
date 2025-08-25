@@ -185,6 +185,7 @@ export default defineConfig({
 						{ text: "WHUDAYS-Touhou Club", link: "/group/touhou-club/" },
 						{ text: "WHUDAYS-Vocaloid/Utau Fans", link: "/group/vocaloid-utau-fans/" },
 						{ text: "WHUDAYS-奇迹大陆", link: "/group/infinity-nikki/" },
+						{ text: "WHUDAYS-小游戏联机＆游戏搭子群", link: "/group/gametogether/" },
 					]
 				}
 			],
