@@ -9,6 +9,7 @@
   <span style="font-size: 0.95em; color: #888;">海报绘制：山下鸭鸭窝 某旅彳亍者</span>
 </p>
 
+完整视频在[这里](https://www.bilibili.com/video/BV1JXexzkEKD)
 
 ## 节目单
 
