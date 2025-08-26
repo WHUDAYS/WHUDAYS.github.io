@@ -16,3 +16,7 @@
 <a href="https://space.bilibili.com/241970168" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 0.625rem 1.25rem; font-size: 1rem; font-weight: 600; color: var(--vp-button-brand-text); background-color: var(--vp-button-brand-bg); border: 1px solid var(--vp-button-brand-border); border-radius: 20px; text-decoration: none; transition: color 0.25s, border-color 0.25s, background-color 0.25s;">
   夏樱乐团B站主页
 </a>
+
+## 部门历史
+
+- [夏樱乐团史（2023-2024）](/message-box/纱橙靈/band-history)
