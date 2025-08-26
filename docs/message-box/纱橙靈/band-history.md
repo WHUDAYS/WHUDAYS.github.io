@@ -43,7 +43,7 @@ const author = [
 图像拍摄于 2023 年 9 月 18 日（应该吧）。从左至右依次是：纱橙靈、芝士、灰灰（前）、热心市民（后）、瓜、zeit、怀苍、龙井、烛木、kuro、剑语。
 
 <div align="center">
-<img src="./band-history/图片1.png"
+<img src="/message-box/纱橙靈/band-history/图片1.png"
 style="display: block; margin: 0 auto; width:100%" />
 </div>
 
@@ -52,14 +52,14 @@ style="display: block; margin: 0 auto; width:100%" />
 众所周知百团大战有个舞台，能演（超绝简介）。今年也有这个机会。还在暑假期间群内就已发起投票，投票结果为茂桑最喜欢的《**届かない恋**》，乐手从左至右为：ba.芝士、gt.怀苍、key.剑语、vo.羊山、gt.灰灰、dr.纱橙靈。
 
 <div align="center">
-<img src="./band-history/图片2.png" style="display: block; margin: 0 auto; width:100%;" />
+<img src="/message-box/纱橙靈/band-history/图片2.png" style="display: block; margin: 0 auto; width:100%;" />
 </div>
 
 放这个可能大家伙不认识，但是下面这张图应该就很熟悉了（）
 
 
 <div align="center">
-<img src="./band-history/图片3.png" style="display: block; margin: 0 auto; width:100%;" />
+<img src="/message-box/纱橙靈/band-history/图片3.png" style="display: block; margin: 0 auto; width:100%;" />
 </div>
 
 在这次企划中，很快啊，乐器就凑齐了，但是没有主唱...然后有了羊山。这是羊山截至写稿的唯一一次演出，乐团的很多小伙伴估计都不认识了，在这场演出后他选择了深藏功与名原地退休...虽然是原调降八度，但是架不住漫协小伙伴的热情，现场氛围非常棒。这次演出录像也上传至夏樱乐团 B 站官号，然后非常神奇地火了。
@@ -71,7 +71,7 @@ style="display: block; margin: 0 auto; width:100%" />
 话不多说，经投票决定，迎新晚会演出企划定为《**光るなら**》，乐手从左向右依次为：萨克斯：Animnia、小提琴：INFINITY、gt.怀苍&clover、ba.芝士、key.剑语。
 
 <div align="center">
-<img src="./band-history/图片4.png" style="display: block; margin: 0 auto; width:100%;" />
+<img src="/message-box/纱橙靈/band-history/图片4.png" style="display: block; margin: 0 auto; width:100%;" />
 </div>
 
 从企划敲定到正式演出，只合了两遍，大多时候是节奏对不齐，因此在表演当天临时决定加入一个节奏乐器，于是就有了纱橙靈在台子上面敲箱子这档子事）
@@ -89,7 +89,7 @@ style="display: block; margin: 0 auto; width:100%" />
 《**春日影**》，从左至右依次为：ba.芝士、vo.碎月、dr.纱橙靈、key.inori、gt.瓜。
 
 <div align="center">
-<img src="./band-history/图片5.png"
+<img src="/message-box/纱橙靈/band-history/图片5.png"
 style="display: block; margin: 0 auto; width:100%" />
 </div>
 
@@ -99,7 +99,7 @@ style="display: block; margin: 0 auto; width:100%" />
 
 
 <div align="center">
-<img src="./band-history/图片6.png"
+<img src="/message-box/纱橙靈/band-history/图片6.png"
 style="display: block; margin: 0 auto; width:100%" />
 </div>
 
@@ -107,7 +107,7 @@ style="display: block; margin: 0 auto; width:100%" />
 
 
 <div align="center">
-<img src="./band-history/图片7.png"
+<img src="/message-box/纱橙靈/band-history/图片7.png"
 style="display: block; margin: 0 auto; width:100%" />
 </div> 
 
@@ -139,7 +139,7 @@ _以上就是 23-24 年度上半学期的所有乐团活动了，收拾整理一
 《**夏霞**》，从左至右依次为：gt.clover、vo.碎月、ba.萌鸽、dr.热心市民、gt.灰灰、key.inori。
 
 <div align="center">
-<img src="./band-history/图片8.png"
+<img src="/message-box/纱橙靈/band-history/图片8.png"
 style="display: block; margin: 0 auto; width:100%" />
 
 </div>
@@ -147,28 +147,28 @@ style="display: block; margin: 0 auto; width:100%" />
 《**春日影**》，配置同[冬日祭](#p4--冬日祭)。
 
 <div align="center">
-<img src="./band-history/图片9.png"
+<img src="/message-box/纱橙靈/band-history/图片9.png"
 style="display: block; margin: 0 auto; width:100%" />
 </div>
 
 《**メフィスト**》，从左至右依次为：gt.clover、vo.-QuQ-、ba.烛木、dr.热心市民、vo.纱橙靈、gt.灰灰、key.不夜星、vn.INFINITY。
 
 <div align="center">
-<img src="./band-history/图片10.png"
+<img src="/message-box/纱橙靈/band-history/图片10.png"
 style="display: block; margin: 0 auto; width:100%" />
 </div> 
 
 《**老人と海**》，从左至右依次为：gt.clover、ba.烛木、dr.纱橙靈、vo.（我不认识，好像是乐团之外的）、gt.灰灰。
 
 <div align="center">
-<img src="./band-history/图片11.png"
+<img src="/message-box/纱橙靈/band-history/图片11.png"
 style="display: block; margin: 0 auto; width:100%" />
 </div>
 
 《**僕のこと**》，从左至右依次为：vo.六花、key.inori
 
 <div align="center">
-<img src="./band-history/图片12.png"
+<img src="/message-box/纱橙靈/band-history/图片12.png"
 style="display: block; margin: 0 auto; width:100%" />
 </div>
 
@@ -193,7 +193,7 @@ style="display: block; margin: 0 auto; width:100%" />
 比较残念的是在这一年没和大家吃多少饭，这有个记不得是什么时候吃的饭（说是圣诞节），但是人很多，那就放在最后吧。(自己认领吧我就懒得写谁是谁了)
 
 <div align="center">
-<img src="./band-history/图片13.png"
+<img src="/message-box/纱橙靈/band-history/图片13.png"
 style="display: block; margin: 0 auto; width:100%" />
 </div>
 
