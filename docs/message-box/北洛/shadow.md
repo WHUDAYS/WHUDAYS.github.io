@@ -8,7 +8,9 @@ const author = [
 ]
 </script>
 
+<center>
 <VPTeamMembers size="small" :members="author" />
+</center>
 
 > 所谓的社长，不过是为了追寻他，最终成为了他的影子。
 
