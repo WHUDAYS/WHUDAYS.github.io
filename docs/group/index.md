@@ -1,63 +1,56 @@
 # 小群简介
 
-::: warning 警告
-🚧 施工中
-
-很高兴见到你！但很抱歉，这个页面还在施工中QAQ
-
-无论您是小群群主/管理员，还是热心群u，我们都欢迎您[投稿](/maintainer/)材料！
-:::
-
-武大漫协旗下有数十个各类爱好的兴趣小群，游戏、漫画、动画无所不包~ `(‾◡◝)`
+武大漫协旗下有百余个各类爱好的兴趣小群，游戏、漫画、动画无所不包~ `(‾◡◝)`
 
 `进入小群需先成为漫协正式社员哦~`群号在通知群小群列表中！
 
 ## PC 游戏
 
-|         群定位          |                 群名                  |                                      简介                                       |
-| :---------------------: | :-----------------------------------: | :-----------------------------------------------------------------------------: |
-|     Steam玩家联机群     |        WHUDAYS Steam打折公告板        |                                                                                 |
-|     守望先锋游戏群      |           WHUDAYS-守望战线            |                                                                                 |
-|     Valorant交流群      |           WHUDAYS-Valorant            |                           不需要强力FPS基础，欢迎来玩                           |
-|    漫协吃鸡类游戏群     |          WHUDAYS 快递服务中⼼          |                                                                                 |
-|     彩虹六号游戏群      |  WHUDAYS Rainbow Six Club AVE-MUJICA  | 武汉大学动漫协会彩虹六号交流群，欢迎各位新手老登前来交流，目标围攻杯夺冠（bushi |
-|     英雄联盟交流群      |           LOLer in whudays            |                            whudays所联系的撸友私⼈群                             |
-|       Dota2游戏群       |             WHUDAYS文明2              |                                                                                 |
-|     战地系列游戏群      |            WHUDAYS-战地选⼿            |                                                                                 |
-|      I Wanna游戏群      |           WHUDAYS iw⼿残协会           |                                                                                 |
-|      ⽂明系列游戏群      |             WHUDAYS ⽂明6              |                                                                                 |
-|    300英雄游戏交流群    |             三百逗B奔北坡             |                                                                                 |
-|     魔兽世界游戏群      |              WHUDAYS-WoW              |                                                                                 |
-|       FF14游戏群        |            whudays-鲜美⻝材            |                                                                                 |
-|    ⻛暴英雄游戏交流群    |           whudays⽇常⻛暴要⽕            |                                                                                 |
-| MMORPG⿊⾊沙漠游戏交流群  |            WHU-⿊沙偶像天团            |                                                                                 |
-|     怪物猎人交流群      |             WHU跳车杂技团             |                                                                                 |
-|     undertale交流群     |           WHUDAYS Undertale           |                                  欢迎ut党来玩                                   |
-|     GTA5联机交流群      |          WHUDAYS-自由洛圣都           |                                                                                 |
-|    武⼤漫协剑三交流群    |           WHUDAYS剑三交流群           |                                                                                 |
-|     太吾绘卷交流群      |          Whudays-太吾交流群           |                                                                                 |
-|     星际争霸游戏群      |           WHU DAYS-星鸡争霸           |                                                                                 |
-| 战争雷霆/坦克世界交流群 |           WHU少战研究同好会           |                                                                                 |
-|       apex交流群        |             WHUDAYS APEX              |                                                                                 |
-|     Minecraft交流群     |         Whu's Minecraft World         |                                                                                 |
-|      P社游戏讨论群      | WHUDAYS-珞珈第二联合王国「珞珈-瑜伽」 |                                                                                 |
-|        COD交流群        |     WHUDAYS-使命召唤Call of Duty      |                                                                                 |
-|       欧卡2交流群       |        WHUDAYS-欧洲运输业交流         |                                                                                 |
-|     流放之路交流群      |         WHUDays-流放者藏身处          |           你谐的流放之路玩家交流群，可能以国际服为主，也欢迎国服玩家            |
-|     永劫无间交流群      |         WHUDAYS永劫无间坐牢群         |                                                                                 |
-|   Dread Hunger交流群    |         WHUDAYS-DH海上美食家          |                                                                                 |
-|     炉石传说交流群      |         WHUDAYS-都让开要炸了          |                              欢迎来炉石群里一起玩~                              |
-|        CS2交流群        |            WHUDAYS-CS2分部            |              喜欢fps马枪在沙二寻找快感的uu可以加群一起开黑练定位哦              |
-|     战舰世界交流群      |       WHUDAYS臭海豹默默楼粉丝群       |                                                                                 |
-|     月亮计划交流群      |           WHU hana协会总部            |                             月亮计划相关内容交流群                              |
-|     卡拉彼丘交流群      |        WHUDAYS404基地NOT FOUND        |                           我们要成为 卡拉彼丘 高手！                            |
-|  碧蓝幻想Relink交流群   |         WHUDAYS-花都希德霍姆          |                               欢迎同好们一起共斗                                |
-|      PC肉鸽交流群       |         WHUDAYS-肉鸽爱好者群          |                       欢迎玩肉鸽游戏的大佬萌新们进群玩耍                        |
-|    星露谷物语交流群     |       WHUDAYS-星露谷物语交流群        |                                                                                 |
-|    三角洲行动交流群     |          WHUDAYS-三角洲行动           |                                                                                 |
-|     魂系游戏交流群      |           WHUDAYS-快乐后院            |    FROM SOFTWARE魂游以及各种魂like的交流群，欢迎各种pve推图萌新以及pvp老ass     |
-|    逃离塔克夫交流群     |              WHUDAYS-EFT              |                            逃离塔科夫绿玩互助吹水群                             |
-|     无限暖暖交流群      |           [WHUDAYS-奇迹大陆](/group/infinity-nikki/)            |                    欢迎各位搭配师们分享搭配心得和旅行相簿！                     |
+|         群定位          |                    群名                    |                                      简介                                       |
+| :---------------------: | :----------------------------------------: | :-----------------------------------------------------------------------------: |
+|     Steam玩家联机群     |          WHUDAYS Steam打折公告板           |                                                                                 |
+|     守望先锋游戏群      |              WHUDAYS-守望战线              |                                                                                 |
+|     Valorant交流群      |              WHUDAYS-Valorant              |                           不需要强力FPS基础，欢迎来玩                           |
+|    漫协吃鸡类游戏群     |            WHUDAYS 快递服务中⼼             |                                                                                 |
+|     彩虹六号游戏群      |    WHUDAYS Rainbow Six Club AVE-MUJICA     | 武汉大学动漫协会彩虹六号交流群，欢迎各位新手老登前来交流，目标围攻杯夺冠（bushi |
+|     英雄联盟交流群      |              LOLer in whudays              |                            whudays所联系的撸友私⼈群                             |
+|       Dota2游戏群       |                WHUDAYS文明2                |                                                                                 |
+|     战地系列游戏群      |              WHUDAYS-战地选⼿               |                                                                                 |
+|      I Wanna游戏群      |             WHUDAYS iw⼿残协会              |                                                                                 |
+|      ⽂明系列游戏群      |                WHUDAYS ⽂明6                |                                                                                 |
+|    300英雄游戏交流群    |               三百逗B奔北坡                |                                                                                 |
+|     魔兽世界游戏群      |                WHUDAYS-WoW                 |                                                                                 |
+|       FF14游戏群        |              whudays-鲜美⻝材               |                                                                                 |
+|    ⻛暴英雄游戏交流群    |              whudays⽇常⻛暴要⽕              |                                                                                 |
+| MMORPG⿊⾊沙漠游戏交流群  |              WHU-⿊沙偶像天团               |                                                                                 |
+|     怪物猎人交流群      |               WHU跳车杂技团                |                                                                                 |
+|     undertale交流群     |             WHUDAYS Undertale              |                                  欢迎ut党来玩                                   |
+|     GTA5联机交流群      |             WHUDAYS-自由洛圣都             |                                                                                 |
+|    武⼤漫协剑三交流群    |             WHUDAYS剑三交流群              |                                                                                 |
+|     太吾绘卷交流群      |             Whudays-太吾交流群             |                                                                                 |
+|     星际争霸游戏群      |             WHU DAYS-星鸡争霸              |                                                                                 |
+| 战争雷霆/坦克世界交流群 |             WHU少战研究同好会              |                                                                                 |
+|       apex交流群        |                WHUDAYS APEX                |                                                                                 |
+|     Minecraft交流群     |           Whu's Minecraft World            |                                                                                 |
+|      P社游戏讨论群      |   WHUDAYS-珞珈第二联合王国「珞珈-瑜伽」    |                                                                                 |
+|        COD交流群        |        WHUDAYS-使命召唤Call of Duty        |                                                                                 |
+|       欧卡2交流群       |           WHUDAYS-欧洲运输业交流           |                                                                                 |
+|     流放之路交流群      |            WHUDays-流放者藏身处            |           你谐的流放之路玩家交流群，可能以国际服为主，也欢迎国服玩家            |
+|     永劫无间交流群      |           WHUDAYS永劫无间坐牢群            |                                                                                 |
+|   Dread Hunger交流群    |            WHUDAYS-DH海上美食家            |                                                                                 |
+|     炉石传说交流群      |            WHUDAYS-都让开要炸了            |                              欢迎来炉石群里一起玩~                              |
+|        CS2交流群        |              WHUDAYS-CS2分部               |              喜欢fps马枪在沙二寻找快感的uu可以加群一起开黑练定位哦              |
+|     战舰世界交流群      |         WHUDAYS臭海豹默默楼粉丝群          |                                                                                 |
+|     月亮计划交流群      |              WHU hana协会总部              |                             月亮计划相关内容交流群                              |
+|     卡拉彼丘交流群      |          WHUDAYS404基地NOT FOUND           |                           我们要成为 卡拉彼丘 高手！                            |
+|  碧蓝幻想Relink交流群   |            WHUDAYS-花都希德霍姆            |                               欢迎同好们一起共斗                                |
+|      PC肉鸽交流群       |            WHUDAYS-肉鸽爱好者群            |                       欢迎玩肉鸽游戏的大佬萌新们进群玩耍                        |
+|    星露谷物语交流群     |          WHUDAYS-星露谷物语交流群          |                                                                                 |
+|    三角洲行动交流群     |             WHUDAYS-三角洲行动             |                                                                                 |
+|     魂系游戏交流群      |              WHUDAYS-快乐后院              |    FROM SOFTWARE魂游以及各种魂like的交流群，欢迎各种pve推图萌新以及pvp老ass     |
+|    逃离塔克夫交流群     |                WHUDAYS-EFT                 |                            逃离塔科夫绿玩互助吹水群                             |
+|     无限暖暖交流群      | [WHUDAYS-奇迹大陆](/group/infinity-nikki/) |                    欢迎各位搭配师们分享搭配心得和旅行相簿！                     |
+|      小游戏联机群       |       WHUDAYS-小游戏联机＆游戏搭子群       |           1+1>2！人生得意须尽欢，莫使游戏空对月！欢迎加入群一起联机！           |
 
 ## 手游
 
@@ -107,8 +100,11 @@
 |      memento mori交流群      |                 WHUDAYS-memento mori                 |                                                                                   |
 |       决战平安京交流群       |                    WHUDAYS-平安京                    |                                                                                   |
 |        崩坏 因缘精灵         |                WHUDAYS-崩坏 因缘精灵                 |                                                                                   |
+|        蛋仔派对交流群        |                   WHUDAYS 蛋仔派对                   |                       欢迎所有打蛋仔派对的朋友们在这里组队                        |
+
 
 ## 其他游戏
+
 |        群定位        |                   群名                   |                                              简介                                               |
 | :------------------: | :--------------------------------------: | :---------------------------------------------------------------------------------------------: |
 |    stg游戏交流群     |             whudays stg club             |                                    包括但不限于东方，街机stg                                    |
@@ -118,7 +114,7 @@
 |     武⼤漫协⾳游群     |               WHU-DAYS⾳游                |                                                                                                 |
 |    竞技麻将交流群    |            WHUDAYS-棋牌研讨室            |                                                                                                 |
 |    武大漫协桌游群    |            WHUDAYS桌游研究部             |                  漫协桌游部♡不定期举办线上下桌游活动♡一起来和桌游娘愉快玩耍吧♡                  |
-|    武⼤漫协MC分部     |          Whu's Minecraft World           |                                                                                                 |
+|    武大漫协MC分部    |          Whu's Minecraft World           |                                                                                                 |
 |    Galgame交流群     | [WHUDAYS Galgame Party](/group/galgame/) |                                                                                                 |
 |     NS联机交流群     |           Whudays NS联机交流群           |                                                                                                 |
 |      乙游交流群      |            WHUDAYS乙女相声部             |                      国乙/日乙/bggb文学/一般向游戏乙向创作等内容均可讨论～                      |
