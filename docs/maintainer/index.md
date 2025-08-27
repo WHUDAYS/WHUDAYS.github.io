@@ -34,10 +34,14 @@ const external = [
 
 </script>
 
-<VPTeamMembers size="small" :members="maintainers" />
+<center>
+  <VPTeamMembers size="small" :members="maintainers" />
+</center>
+
+[建站初衷](/message-box/quq/words)
 
 投稿方式：
-- QQ私信：51729575
+- QQ私信：51729575（~~快来戳我加好友！~~）
 - QQ邮箱：51729575@qq.com
 
 您可以将相关材料写成一份word文档发给维护者并告知需求，维护者收到后会第一时间添加~
