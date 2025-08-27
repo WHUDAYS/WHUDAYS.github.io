@@ -28,6 +28,8 @@ const external = [
   { avatar: '/about/hq/2023/北洛.jpeg', name: '北洛', title: '冰糖樱花'},
   { avatar: '/maintainer/椅子.jpeg', name: '椅子', title: '夏樱组/Re:START工作室'},
   { avatar: '/about/hq/2022/岚曦.jpeg', name: '岚曦', title: '术群' },
+  { avatar: '/group/galgame/group-owner/Darkream.png', name: 'Darkream', title: 'gal群' },
+  { avatar: '/maintainer/初春.png', name: '初春', title: 'whudays.org域名' },
 ]
 
 </script>
