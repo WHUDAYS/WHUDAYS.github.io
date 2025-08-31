@@ -5,29 +5,31 @@
 ::: warning 警告
 - 2015学年-2021学年头像为2025.05.29从QQ采集（感谢`铜鼓`QAQ）
 - 由于站点维护者是23届的小登，所以肯定会有遗漏...
-- 如果您想补充/更换头像或是任何其他信息，欢迎联系[维护者](/maintainer/)（发邮件/加好友都行！），如果各位老大能补充的话我什么都会做的！！！
+- 如果您想补充/更换头像或是任何其他信息，欢迎联系[维护者](/maintainer/)（发邮件/加好友都行！），如果各位老大能补充的话我什么都会做的！！！（~~你不跟我联系的话我也不知道怎么补充...~~）
 - `>_<`
 :::
 
 <script setup>
-  import { VPTeamMembers } from 'vitepress/theme'
+import { VPTeamMembers } from 'vitepress/theme'
 
-const hq_2025 = [{ avatar: '/about/hq/2025/avatar.jpg', name: '2025HQ', title: '2025.6-2026.6' }]
-const hq_2024 = [{ avatar: '/about/hq/2024/avatar.png', name: '2024HQ', title: '2024.6-2025.6' }]
-const hq_2023 = [{ avatar: '/about/hq/2023/avatar.png', name: '2023HQ', title: '2023.6-2024.6' }]
+const hq_2025 = [{ avatar: '/about/hq/2025/avatar.jpg', name: '2025HQ', title: '2025.6-2026.6', sponsor:'/about/hq/2025', actionText:'详情页' }]
+const hq_2024 = [{ avatar: '/about/hq/2024/avatar.png', name: '2024HQ', title: '2024.6-2025.6', sponsor:'/about/hq/2024', actionText:'详情页' }]
+const hq_2023 = [{ avatar: '/about/hq/2023/avatar.png', name: '2023HQ', title: '2023.6-2024.6', sponsor:'/about/hq/2023', actionText:'详情页' }]
 </script>
 
 ## 2025学年
 
-<VPTeamMembers size="small" :members="hq_2025" />
-
-[详情页](/about/hq/2025)
+<center>
+  <VPTeamMembers size="small" :members="hq_2025" />
+</center>
 
 ## 2024学年
 
-<VPTeamMembers size="small" :members="hq_2024" />
+<center>
+  <VPTeamMembers size="small" :members="hq_2024" />
+</center>
 
-[详情页](/about/hq/2024)
+::: details 展开
 
 - 社长：茂桑
 - 指导老师：纱月Satsuki
@@ -52,11 +54,15 @@ const hq_2023 = [{ avatar: '/about/hq/2023/avatar.png', name: '2023HQ', title: '
 - 夏樱组
   - 组长：阳
 
+:::
+
 ## 2023学年
 
-<VPTeamMembers size="small" :members="hq_2023" />
+<center>
+  <VPTeamMembers size="small" :members="hq_2023" />
+</center>
 
-[详情页](/about/hq/2023)
+::: details 展开
 
 - 社长：g瓜
 - 副社长：wiccan、六花、zeit、kanoto
@@ -84,9 +90,13 @@ const hq_2023 = [{ avatar: '/about/hq/2023/avatar.png', name: '2023HQ', title: '
 - 夏樱组
   - 组长：白珞
 
+:::
+
 ## 2022学年
 
 [详情页](/about/hq/2022)
+
+::: details 展开
 
 - 社长：g瓜
 - 副社长：葑菲、影临光、冰荷、陨阳
@@ -108,9 +118,13 @@ const hq_2023 = [{ avatar: '/about/hq/2023/avatar.png', name: '2023HQ', title: '
   - 组长：ange
   - 副部长：丛雨、岚曦
 
+:::
+
 ## 2021学年
 
 [详情页](/about/hq/2021)
+
+::: details 展开
 
 - 社长：影临光
 - 副社长：七月疯兔、壹個、影黎、72
@@ -129,9 +143,13 @@ const hq_2023 = [{ avatar: '/about/hq/2023/avatar.png', name: '2023HQ', title: '
 - 夏樱乐团
   - 团长：Greedy Watermelon
 
+:::
+
 ## 2020学年
 
 [详情页](/about/hq/2020)
+
+::: details 展开
 
 - 社长：72
 - 副社长：Rosie、掉线、骑士、大粽
@@ -156,9 +174,13 @@ const hq_2023 = [{ avatar: '/about/hq/2023/avatar.png', name: '2023HQ', title: '
   - 副部-秘书：优格
   - 副部-杂物：方块
 
+:::
+
 ## 2019学年
 
 [详情页](/about/hq/2019)
+
+::: details 展开
 
 - 社长：名字
 - 副社长：子非羽、橘七、龙虾
@@ -175,9 +197,13 @@ const hq_2023 = [{ avatar: '/about/hq/2023/avatar.png', name: '2023HQ', title: '
   - 部长：骑士
   - 副部长：sunet、朝日、咲、秋山、冰菓、EIP
 
+:::
+
 ## 2018学年
 
 [详情页](/about/hq/2018)
+
+::: details 展开
 
 - 社长：DiVE
 - 副社长：米斯特、圆酒、三三、中出
@@ -194,9 +220,13 @@ const hq_2023 = [{ avatar: '/about/hq/2023/avatar.png', name: '2023HQ', title: '
   - 部长：中出
   - 副部长：柯基、彼方、名字、三日、一瞬
 
+:::
+
 ## 2017学年
 
 [详情页](/about/hq/2017)
+
+::: details 展开
 
 - 社长：残念
 - 副社长：魔王、北大门的天灾、天狗、铜鼓
@@ -214,10 +244,14 @@ const hq_2023 = [{ avatar: '/about/hq/2023/avatar.png', name: '2023HQ', title: '
 - 外联部
   - 部长：彼方、弦月
 
+:::
+
 ## 2016学年
 
 [详情页](/about/hq/2016)
-- 社长：evy
+- 社长
+::: details 展开
+：evy
 - 副社长：SRin、包子、不科学
 - 演音部
   - 部长：Kuma
@@ -233,9 +267,13 @@ const hq_2023 = [{ avatar: '/about/hq/2023/avatar.png', name: '2023HQ', title: '
 - 外联部
   - 部长：魔王
 
+:::
+
 ## 2015学年
 
 [详情页](/about/hq/2015)
+
+::: details 展开
 
 - 社长：鬼目
 - 副社长：喵少、眠子、罪恶、86
@@ -252,9 +290,13 @@ const hq_2023 = [{ avatar: '/about/hq/2023/avatar.png', name: '2023HQ', title: '
   - 部长：千澈
   - 副部长：live（秘书）、包子（公关）、时雨（风纪）
 
+:::
+
 ## 2014学年
 
 [详情页](/about/hq/2014)
+
+::: details 展开
 
 - 社长：安妮
 - 副社长：骚年、世闲
@@ -272,9 +314,13 @@ const hq_2023 = [{ avatar: '/about/hq/2023/avatar.png', name: '2023HQ', title: '
   - 部长：喵少
   - 副部长：妖梦（秘书）、罪恶（公关）、眠子（线上）
 
+:::
+
 ## 2013学年
 
 [详情页](/about/hq/2013)
+
+::: details 展开
 
 - 社长：正面
 - 副社长：D君、店长、Miyu、魍魉
@@ -294,9 +340,13 @@ const hq_2023 = [{ avatar: '/about/hq/2023/avatar.png', name: '2023HQ', title: '
   - 部长：岚
   - 副部长：神妖、小丑、筒子
 
+:::
+
 ## 2012学年
 
 [详情页](/about/hq/2012)
+
+::: details 展开
 
 - 社长：牙签
 - 副社长：谅、新八
@@ -318,21 +368,35 @@ const hq_2023 = [{ avatar: '/about/hq/2023/avatar.png', name: '2023HQ', title: '
 - 元老院
   - 院长：史蒂芬肖、队形、海陆风
 
+:::
+
 ## 2011学年
 
 [详情页](/about/hq/2011)
 
+::: details 展开
+
 - 社长：肉仔
 - 副社长：透明、队形
+
+:::
 
 ## 2010学年
 
 [详情页](/about/hq/2010)
 
+::: details 展开
+
 - 社长：小雨
+
+:::
 
 ## 2009学年
 
 [详情页](/about/hq/2009)
 
+::: details 展开
+
 - 社长：老大(玳)
+
+:::
