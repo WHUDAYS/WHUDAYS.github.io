@@ -2,23 +2,38 @@
 
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme'
+import * as icons from '/.vitepress/theme/icons.js';
+
 
 const maintainers = [
-  { avatar: '/about/hq/2024/-QuQ-.jpeg', name: '-QuQ-', title: '2025-现在', links: [ { icon: 'github', link: 'https://github.com/shenxianovo' } ] },
+  { avatar: '/about/hq/2024/-QuQ-.jpeg', name: '-QuQ-', title: '2025-现在', links: [ { icon: 'github', link: 'https://github.com/shenxianovo' } ],
+  desc:'你好（）' },
 ]
 
 // 协史编写群中贡献者
 // 除了群主其他人就按年份排了...
 const group = [
-  { avatar: '/about/hq/2015/喵少.jpg', name: '喵少' }, // 协史群群主，15-17年资料收集，摇人大神
+  { avatar: '/about/hq/2015/喵少.jpg', name: '喵少',
+    desc:'漫协远古新鲜木乃伊'
+   }, // 协史群群主，15-17年资料收集，摇人大神
   { avatar: '/about/hq/2012/店长.jpeg', name: '店长' }, // 14年之前记录
   { avatar: '/about/hq/2012/正面.jpeg', name: '正面' }, // 13冬日祭录播
   { avatar: '/about/hq/2013/世闲.jpg', name: '世闲' }, // 夏樱原始设定
   { avatar: '/about/hq/2017/铜鼓.jpg', name: '铜鼓' }, // 15-21hq头像，部分其他资料
-  { avatar: '/about/hq/2019/名字.jpg', name: '名字' }, // 给我(-QuQ-)发了很多其他资料
-  { avatar: '/about/hq/2021/影临光.jpg', name: '影临光' }, // 23社刊
+  { avatar: '/about/hq/2019/名字.jpg', name: '名字',
+      links: [ 
+      { icon: { svg: icons.youtube }, link:' https://www.youtube.com/@fukuda_channel7443'},
+      { icon: { svg: icons.bilibili }, link:'https://space.bilibili.com/310503350'},
+      { icon: { svg: icons.x }, link:'https://x.com/FukudaSanDesuka'},
+      { icon: { svg: icons.bangumi }, link:'https://bangumi.tv/user/fukudasan_desuk'},
+      { icon: { svg: icons.steam }, link:'https://steamcommunity.com/id/NamaeFutsuu/'},
+    ],
+    desc:'名字很普通的彩虹头'
+   }, // 给我(-QuQ-)发了很多其他资料
   { avatar: '/about/hq/2023/涅普智可.png', name: '涅普智可' }, // 22、23学年撰写
-  { avatar: '/about/hq/2024/-QuQ-.jpeg', name: '-QuQ-' }, // 站点建立者，维护牛马
+  { avatar: '/about/hq/2024/-QuQ-.jpeg', name: '-QuQ-',
+    desc:'为什么会在这里呢'
+   }, // 站点建立者，维护牛马
 ]
 
 // 外部贡献者(GitHub提交PR，或是提供小群/部门相关材料)
