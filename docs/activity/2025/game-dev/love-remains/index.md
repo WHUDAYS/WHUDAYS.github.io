@@ -1,5 +1,18 @@
 # 恋心依旧
 
+<script setup>
+import {
+  VPTeamPageSection,
+  VPTeamMembers
+} from 'vitepress/theme';
+
+const devTeam = [
+  { avatar: 'https://q1.qlogo.cn/g?b=qq&nk=1937246146&s=100', name: '刚睡醒的渐蓝宝贝', title: '策划' },
+  { avatar: 'https://q1.qlogo.cn/g?b=qq&nk=2126924110&s=100', name: 'Touma Kazusa', title: '剧本' },
+  { avatar: 'https://q1.qlogo.cn/g?b=qq&nk=985271234&s=100', name: '45450721', title: '美术' },
+];
+</script>
+
 ## 简介
 
 > “有些鸟儿是注定不会被关在笼子里的，因为它们的每一片羽毛都闪耀着自由的光辉。”
@@ -31,3 +44,8 @@
 
 ## 制作团队
 
+<VPTeamPageSection>
+  <template #members>
+    <VPTeamMembers size="small" :members="devTeam" />
+  </template>
+</VPTeamPageSection>
