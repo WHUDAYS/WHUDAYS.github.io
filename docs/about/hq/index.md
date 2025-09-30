@@ -12,9 +12,14 @@
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme'
 
+// 如果要添加新的年份或对某一年的信息进行补充请按照以下三条添加
+// 如补充2022年的头像，请在上传头像到/public/about/hq/2022/后，复制下面一条被注释的代码，取消注释后将下方的##2022学年中的hq(2022)替换为hq_2022
+// const hq_2022 = [{ avatar: '/about/hq/2022/avatar.jpg', name: '2022HQ', title: '2022.6-2023.6', sponsor:'/about/hq/2022', actionText:'详情页' }]
 const hq_2025 = [{ avatar: '/about/hq/2025/avatar.jpg', name: '2025HQ', title: '2025.6-2026.6', sponsor:'/about/hq/2025', actionText:'详情页' }]
 const hq_2024 = [{ avatar: '/about/hq/2024/avatar.png', name: '2024HQ', title: '2024.6-2025.6', sponsor:'/about/hq/2024', actionText:'详情页' }]
 const hq_2023 = [{ avatar: '/about/hq/2023/avatar.png', name: '2023HQ', title: '2023.6-2024.6', sponsor:'/about/hq/2023', actionText:'详情页' }]
+
+// 对于部分年份信息缺省的默认值，如果你不理解这是什么，请不要修改ですわ
 const hq = (year) => {
   const nextYear = year + 1;
 return [{ avatar: '/about/hq/avatar.png',name: `${year}HQ`, title: `${year}.6-${nextYear}.6`, sponsor:`/about/hq/${year}`, actionText:'详情页' }];
@@ -33,11 +38,64 @@ return [{ avatar: '/about/hq/avatar.png',name: `${year}HQ`, title: `${year}.6-${
   <VPTeamMembers size="small" :members="hq_2024" />
 </center>
 
+<div style="display: none;">
+- 社长：茂桑
+- 指导老师：纱月Satsuki
+- 演音部
+  - 部长：-QuQ-
+  - 歌姬组组长：西加尔
+  - 配音组组长：scapino
+- 编辑部
+  - 部长：树枝
+  - 美编：丝瓜炖汤
+- cos部
+  - 部长：YY
+  - 副部长：埃兰伊亚-Elenia
+- 暗部
+  - 部长：storm
+  - 外联组组长：wweiyi
+  - 秘书组组长：风又千夜
+- 夏樱乐团
+  - 团长：灰灰
+- wota艺部
+  - 部长：悠梦
+- 夏樱组
+  - 组长：阳
+</div>
+
 ## 2023学年
 
 <center>
   <VPTeamMembers size="small" :members="hq_2023" />
 </center>
+
+<div style="display: none;">
+- 社长：g瓜
+- 副社长：wiccan、六花、zeit、kanoto
+- 演音部
+  - 部长：烧烤
+  - 歌姬组组长：cosθ
+  - cv组组长：安轩
+- 编辑部
+  - 部长：枕风眠
+  - 文编：雕霜
+  - 美编：吸吸
+  - 特别鸣谢：始华
+- cos部
+  - 部长：风沉白
+  - 副部：北洛
+- 暗部
+  - 部长：茂桑
+  - 线上组组长：干君
+  - 秘书组组长：涅普智可
+  - 外联组组长：土川
+- wota艺部
+  - 部长：悠梦
+- 夏樱乐团
+  - 团长：纱橙靈
+- 夏樱组
+  - 组长：白珞
+</div>
 
 ## 2022学年
 
@@ -45,11 +103,52 @@ return [{ avatar: '/about/hq/avatar.png',name: `${year}HQ`, title: `${year}.6-${
   <VPTeamMembers size="small" :members="hq(2022)" />
 </center>
 
+<div style="display: none;">
+- 社长：g瓜
+- 副社长：葑菲、影临光、冰荷、陨阳
+- 演音部
+  - 部长：六花
+  - 副部长：阿柘、五花喵
+- 编辑部
+  - 部长：kanato
+  - 副部长：11、木樨、鸭鸭、kurumi
+- cos部
+  - 部长：wiccan
+  - 副部长：伊卡、悠梦
+- 暗部
+  - 部长：zeit
+  - 副部长：平板、霜依、汐宫
+- 夏樱乐团
+  - 团长：龙井
+- 夏樱组
+  - 组长：ange
+  - 副部长：丛雨、岚曦
+</div>
+
 ## 2021学年
 
 <center>
   <VPTeamMembers size="small" :members="hq(2021)" />
 </center>
+
+<div style="display: none;">
+- 社长：影临光
+- 副社长：七月疯兔、壹個、影黎、72
+- 演音部
+  - 部长：葑菲
+  - 副部长：开跌、学徒
+- 编辑部
+  - 部长：Tabacco
+  - 副部长：叁末、子安、饿龙
+- cos部
+  - 部长：冰荷
+  - 副部长：秦淮、千遇、WJ
+- 暗部
+  - 部长：陨阳
+  - 副部长：ange、神代、ym
+- 夏樱乐团
+  - 团长：Greedy Watermelon
+</div>
 
 ## 2020学年
 
@@ -57,11 +156,53 @@ return [{ avatar: '/about/hq/avatar.png',name: `${year}HQ`, title: `${year}.6-${
   <VPTeamMembers size="small" :members="hq(2020)" />
 </center>
 
+<div style="display: none;">
+- 社长：72
+- 副社长：Rosie、掉线、骑士、大粽
+- 编辑部
+  - 部长：影临光
+  - 文编：壹個、阵雨
+  - 美编：尼采棉被
+- 演音部
+  - 部长：疯兔
+  - 歌姬组-组长：砌槐
+  - cv组-组长：槑菌
+  - 后期组组长：春阁下
+- cos部
+  - 部长：影黎
+  - 活动组组长：樨宇
+  - 宅舞组组长：洛棠
+  - 后勤组组长：咕咕咕
+- 暗部
+  - 部长：72
+  - 副部-线上：Narcissus
+  - 副部-外联：zz、ym
+  - 副部-秘书：优格
+  - 副部-杂物：方块
+</div>
+
 ## 2019学年
 
 <center>
   <VPTeamMembers size="small" :members="hq(2019)" />
 </center>
+
+<div style="display: none;">
+- 社长：名字
+- 副社长：子非羽、橘七、龙虾
+- 演音部
+  - 部长：大粽
+  - 副部长：砌槐、秋啾、冬阳
+- 编辑部
+  - 部长：安怡
+  - 副部长：掉线、咕咕、海豹
+- Cos部
+  - 部长：Rosie
+  - 副部长：听海、夷辰、C酱
+- 暗部
+  - 部长：骑士
+  - 副部长：sunet、朝日、咲、秋山、冰菓、EIP
+</div>
 
 ## 2018学年
 
@@ -69,11 +210,46 @@ return [{ avatar: '/about/hq/avatar.png',name: `${year}HQ`, title: `${year}.6-${
   <VPTeamMembers size="small" :members="hq(2018)" />
 </center>
 
+<div style="display: none;">
+- 社长：DiVE
+- 副社长：米斯特、圆酒、三三、中出
+- 演音部
+  - 部长：米斯特
+  - 副部长：红鲤、三问、晗酱、龙虾
+- 编辑部
+  - 部长：圆酒
+  - 副部长：橘七、ATP、昭昭、仙洛
+- cos部
+  - 部长：三三
+  - 副部长：爱姬、阿弄、子非羽
+- 暗部
+  - 部长：中出
+  - 副部长：柯基、彼方、名字、三日、一瞬
+</div>
+
 ## 2017学年
 
 <center>
   <VPTeamMembers size="small" :members="hq(2017)" />
 </center>
+
+<div style="display: none;">
+- 社长：残念
+- 副社长：魔王、北大门的天灾、天狗、铜鼓
+- 演音部
+  - 部长：茶子
+  - 副部长：米斯特温特、声灵、中三病
+- 编辑部
+  - 部长：圆酒
+  - 副部长：电锯、劫灰
+- cos部
+  - 部长：李子
+  - 副部长：凛、美妈、黑羽
+- 常务部
+  - 部长：DiVE
+- 外联部
+  - 部长：彼方、弦月
+</div>
 
 ## 2016学年
 
@@ -81,11 +257,46 @@ return [{ avatar: '/about/hq/avatar.png',name: `${year}HQ`, title: `${year}.6-${
   <VPTeamMembers size="small" :members="hq(2016)" />
 </center>
 
+<div style="display: none;">
+- 社长：evy
+- 副社长：SRin、包子、不科学
+- 演音部
+  - 部长：Kuma
+  - 副部长：桐谷和人、elegy、九日、鸭梨、小天
+- 编辑部
+  - 部长：大痴
+  - 副部长：非渣即触、树皮、北大门的天灾
+- cos部
+  - 部长：天狗
+  - 副部长：九日、Layla、穹妹
+- 常务部
+  - 部长：残念
+- 外联部
+  - 部长：魔王
+</div>
+
 ## 2015学年
 
 <center>
   <VPTeamMembers size="small" :members="hq(2015)" />
 </center>
+
+<div style="display: none;">
+- 社长：鬼目
+- 副社长：喵少、眠子、罪恶、86
+- 演音部
+  - 部长：杂音
+  - 副部长：Evy、Lion、玫音
+- 编辑部
+  - 部长：well
+  - 副部长：猫中毒、冷凝、TheEscapist
+- cos部
+  - 部长：阿嘞
+  - 副部长：Srin、别恙、豆子
+- 暗部
+  - 部长：千澈
+  - 副部长：live（秘书）、包子（公关）、时雨（风纪）
+</div>
 
 ## 2014学年
 
@@ -93,16 +304,77 @@ return [{ avatar: '/about/hq/avatar.png',name: `${year}HQ`, title: `${year}.6-${
   <VPTeamMembers size="small" :members="hq(2014)" />
 </center>
 
+<div style="display: none;">
+- 社长：安妮
+- 副社长：骚年、世闲
+- 秘书长：阿木
+- 演音部
+  - 部长：鬼目
+  - 副部长：zear、节操
+- 编辑部
+  - 部长：10086
+  - 副部长：阿呵、少爷戋、叁月
+- cos部
+  - 部长：光彩
+  - 副部长：Rey、小千、小沸
+- 暗部
+  - 部长：喵少
+  - 副部长：妖梦（秘书）、罪恶（公关）、眠子（线上）
+</div>
+
 ## 2013学年
 
 <center>
   <VPTeamMembers size="small" :members="hq(2013)" />
 </center>
+
+<div style="display: none;">
+- 社长：正面
+- 副社长：D君、店长、Miyu、魍魉
+- 演音部
+  - 部长：满天
+  - 副部长：锐桑、大漠、Panda
+- 编辑部
+  - 部长：世闲
+  - 副部长：明蛋、⑨、小怨
+- cos部
+  - 部长：小吧
+  - 副部长：安妮、毛毛虫、菠萝
+- 秘书处
+  - 部长：小阳
+  - 副部长：阿木、骚年
+- 公关部
+  - 部长：岚
+  - 副部长：神妖、小丑、筒子
+</div>
+
 ## 2012学年
 
 <center>
   <VPTeamMembers size="small" :members="hq(2012)" />
 </center>
+
+<div style="display: none;">
+- 社长：牙签
+- 副社长：谅、新八
+- 演音部
+  - 部长：Miyu
+  - 副部长：大漠、D君、正面、Brickgao
+- 编辑部
+  - 部长：雪雁
+  - 副部长：花开、天狗
+- cos部
+  - 部长：缓歌
+  - 副部长：魍魉、苏妹、Celia、聿修、店长
+- 公关部
+  - 部长：夜魔
+  - 副部长：FS、小一、爱德
+- 秘书处
+  - 部长：正面
+  - 副部长：小阳
+- 元老院
+  - 院长：史蒂芬肖、队形、海陆风
+</div>
 
 ## 2011学年
 
@@ -110,14 +382,27 @@ return [{ avatar: '/about/hq/avatar.png',name: `${year}HQ`, title: `${year}.6-${
   <VPTeamMembers size="small" :members="hq(2011)" />
 </center>
 
+<div style="display: none;">
+- 社长：肉仔
+- 副社长：透明、队形
+</div>
+
 ## 2010学年
 
 <center>
   <VPTeamMembers size="small" :members="hq(2010)" />
 </center>
 
+<div style="display: none;">
+- 社长：小雨
+</div>
+
 ## 2009学年
 
 <center>
   <VPTeamMembers size="small" :members="hq(2009)" />
 </center>
+
+<div style="display: none;">
+- 社长：老大(玳)
+</div>
