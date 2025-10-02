@@ -20,7 +20,7 @@ const group = [
   { avatar: '/about/hq/2012/正面.jpeg', name: '正面' }, // 13冬日祭录播
   { avatar: '/about/hq/2013/世闲.jpg', name: '世闲' }, // 夏樱原始设定
   { avatar: '/about/hq/2017/铜鼓.jpg', name: '铜鼓' }, // 15-21hq头像，部分其他资料
-  { avatar: '/about/hq/2019/名字.jpg', name: '名字',
+  { avatar: '/about/hq/2018/名字.jpeg', name: '名字',
       links: [ 
       { icon: { svg: icons.youtube }, link:' https://www.youtube.com/@fukuda_channel7443'},
       { icon: { svg: icons.bilibili }, link:'https://space.bilibili.com/310503350'},
