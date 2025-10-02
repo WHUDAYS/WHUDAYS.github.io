@@ -12,9 +12,12 @@
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme'
 
-const hq_2025 = [{ avatar: '/about/hq/2025/avatar.jpg', name: '2025HQ', title: '2025.6-2026.6', sponsor:'/about/hq/2025', actionText:'详情页' }]
-const hq_2024 = [{ avatar: '/about/hq/2024/avatar.png', name: '2024HQ', title: '2024.6-2025.6', sponsor:'/about/hq/2024', actionText:'详情页' }]
+const hq_2025 = [{ avatar: '/about/hq/2025/avatar.jpg', name: 'WHUDAYS-2025HQ', title: '2025.6-2026.6', sponsor:'/about/hq/2025', actionText:'详情页' }]
+const hq_2024 = [{ avatar: '/about/hq/2024/avatar.png', name: 'WHUDAYS-2024HQ', title: '2024.6-2025.6', sponsor:'/about/hq/2024', actionText:'详情页' }]
 const hq_2023 = [{ avatar: '/about/hq/2023/avatar.png', name: '2023HQ', title: '2023.6-2024.6', sponsor:'/about/hq/2023', actionText:'详情页' }]
+const hq_2019 = [{ avatar: '/about/hq/2019/avatar.png', name: '2019HQ', title: '2019.6-2020.6', sponsor:'/about/hq/2019', actionText:'详情页' }]
+const hq_2018 = [{ avatar: '/about/hq/2018/avatar.jpg', name: 'WHU-DAYS HQ-2018', title: '2018.6-2019.6', sponsor:'/about/hq/2018', actionText:'详情页' }]
+const hq_2017 = [{ avatar: '/about/hq/2017/avatar.png', name: 'WHU DAYS 管理の交流群', title: '2017.6-2018.6', sponsor:'/about/hq/2017', actionText:'详情页' }]
 </script>
 
 ## 2025学年
@@ -29,7 +32,7 @@ const hq_2023 = [{ avatar: '/about/hq/2023/avatar.png', name: '2023HQ', title: '
   <VPTeamMembers size="small" :members="hq_2024" />
 </center>
 
-::: details 展开
+<div style="display: none;">
 
 - 社长：茂桑
 - 指导老师：纱月Satsuki
@@ -54,7 +57,7 @@ const hq_2023 = [{ avatar: '/about/hq/2023/avatar.png', name: '2023HQ', title: '
 - 夏樱组
   - 组长：阳
 
-:::
+</div>
 
 ## 2023学年
 
@@ -62,7 +65,7 @@ const hq_2023 = [{ avatar: '/about/hq/2023/avatar.png', name: '2023HQ', title: '
   <VPTeamMembers size="small" :members="hq_2023" />
 </center>
 
-::: details 展开
+<div style="display:none">
 
 - 社长：g瓜
 - 副社长：wiccan、六花、zeit、kanoto
@@ -90,7 +93,7 @@ const hq_2023 = [{ avatar: '/about/hq/2023/avatar.png', name: '2023HQ', title: '
 - 夏樱组
   - 组长：白珞
 
-:::
+</div>
 
 ## 2022学年
 
@@ -178,9 +181,11 @@ const hq_2023 = [{ avatar: '/about/hq/2023/avatar.png', name: '2023HQ', title: '
 
 ## 2019学年
 
-[详情页](/about/hq/2019)
+<center>
+  <VPTeamMembers size="small" :members="hq_2019" />
+</center>
 
-::: details 展开
+<div style="display:none">
 
 - 社长：名字
 - 副社长：子非羽、橘七、龙虾
@@ -197,13 +202,15 @@ const hq_2023 = [{ avatar: '/about/hq/2023/avatar.png', name: '2023HQ', title: '
   - 部长：骑士
   - 副部长：sunet、朝日、咲、秋山、冰菓、EIP
 
-:::
+</div>
 
 ## 2018学年
 
-[详情页](/about/hq/2018)
+<center>
+  <VPTeamMembers size="small" :members="hq_2018" />
+</center>
 
-::: details 展开
+<div style="display:none">
 
 - 社长：DiVE
 - 副社长：米斯特、圆酒、三三、中出
@@ -220,13 +227,15 @@ const hq_2023 = [{ avatar: '/about/hq/2023/avatar.png', name: '2023HQ', title: '
   - 部长：中出
   - 副部长：柯基、彼方、名字、三日、一瞬
 
-:::
+</div>
 
 ## 2017学年
 
-[详情页](/about/hq/2017)
+<center>
+  <VPTeamMembers size="small" :members="hq_2017" />
+</center>
 
-::: details 展开
+<div style="display:none">
 
 - 社长：残念
 - 副社长：魔王、北大门的天灾、天狗、铜鼓
@@ -244,7 +253,7 @@ const hq_2023 = [{ avatar: '/about/hq/2023/avatar.png', name: '2023HQ', title: '
 - 外联部
   - 部长：彼方、弦月
 
-:::
+</div>
 
 ## 2016学年
 
