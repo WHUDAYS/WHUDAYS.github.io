@@ -88,6 +88,14 @@ export default defineConfig({
 					items: [
 						{ text: "漫协大事记", link: "/activity/" },
 						{
+							text: "社团迎新",
+							collapsed: true,
+							items: [
+								{ text: "2025迎新", link: "/activity/2025/welcome-party" },
+								{ text: "2024迎新", link: "/activity/2024/welcome-party" },
+							]
+						},
+						{
 							text: "冬日祭系列",
 							collapsed: true,
 							items: [
@@ -103,6 +111,7 @@ export default defineConfig({
 							text: "社刊《樱次元》",
 							collapsed: true,
 							items: [
+								{ text: "2025年9月号", link: "/activity/2025/magazine" },
 								{ text: "2024年9月号", link: "/activity/2024/magazine" },
 								{ text: "2023年9月号", link: "/activity/2023/magazine" },
 								{ text: "2022年9月号", link: "/activity/2022/magazine" },
