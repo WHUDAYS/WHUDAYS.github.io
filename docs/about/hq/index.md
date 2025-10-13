@@ -18,6 +18,7 @@ const hq_2023 = [{ avatar: '/about/hq/2023/avatar.png', name: '2023HQ', title: '
 const hq_2019 = [{ avatar: '/about/hq/2019/avatar.png', name: '2019HQ', title: '2019.6-2020.6', sponsor:'/about/hq/2019', actionText:'详情页' }]
 const hq_2018 = [{ avatar: '/about/hq/2018/avatar.jpg', name: 'WHU-DAYS HQ-2018', title: '2018.6-2019.6', sponsor:'/about/hq/2018', actionText:'详情页' }]
 const hq_2017 = [{ avatar: '/about/hq/2017/avatar.png', name: 'WHU DAYS 管理の交流群', title: '2017.6-2018.6', sponsor:'/about/hq/2017', actionText:'详情页' }]
+const hq_2014 = [{ avatar: '/about/hq/2014/avatar.png', name: 'WHU DAYS-最高议会', title: '2014.6-2015.6', sponsor:'/about/hq/2014', actionText:'详情页' }]
 </script>
 
 ## 2025学年
@@ -303,9 +304,11 @@ const hq_2017 = [{ avatar: '/about/hq/2017/avatar.png', name: 'WHU DAYS 管理�
 
 ## 2014学年
 
-[详情页](/about/hq/2014)
+<center>
+  <VPTeamMembers size="small" :members="hq_2014" />
+</center>
 
-::: details 展开
+<div style="display:none">
 
 - 社长：安妮
 - 副社长：骚年、世闲
@@ -323,7 +326,7 @@ const hq_2017 = [{ avatar: '/about/hq/2017/avatar.png', name: 'WHU DAYS 管理�
   - 部长：喵少
   - 副部长：妖梦（秘书）、罪恶（公关）、眠子（线上）
 
-:::
+</div>
 
 ## 2013学年
 
