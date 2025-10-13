@@ -21,63 +21,16 @@
 - 除了部门以外，我们还有许多[兴趣小群](/group/)等你探索~
 - 如果你是新人，请先看[萌新指南](/about/newbie-guide/2025/)
 
-<chat-message avatar="/about/hq/avatar.png" nickname="萌新一枚" message="为什么漫协要叫WHUDAYS呢？" position="right"/>
-<chat-message avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="诶这……这都怪当年某管理的恶趣味……"/>
-<chat-message avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="WHUDAYS……其实是故意的<br><img src='/about/image-3.jpg'>"/>
-<chat-message avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="在2012年前，还没有WHUDAYS的概念"/>
-<chat-message avatar="/about/hq/2014/喵少.jpg" nickname="喵少" message="日在武大...（小声）"/>
-<chat-message avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="@喵少 灵感上还真是，玩了一手“邪恶的人看啥都是邪恶的”的文字游戏梗"/>
-<chat-message avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="至于具体是谁……太久远有点忘了"/>
-<chat-message avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="好像当时想弄社徽嘛，顺便取个名字"/>
-<chat-message avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="大家都想不到啥的时候突然有人说，漫协的日常，那就叫WHUDAYS吧！"/>
-<chat-message avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="群里的“好”声连绵起伏<br><img src='/about/image-3.jpg'>"/>
-<chat-message avatar="/about/hq/2014/喵少.jpg" nickname="喵少" message="笑死"/>
-<chat-message avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="对了，虽然有这方面的梗，但是正经的解释是“漫协的日常”"/>
-<chat-message avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="可别搞错了哦，心里脏的看啥都脏<br><img src='/about/image-4.jpg'>"/>
-
-<script>
-// 聊天框
-class ChatMessage extends HTMLElement {
-  connectedCallback() {
-    const avatar = this.getAttribute('avatar');
-    const nickname = this.getAttribute('nickname');
-    const message = this.getAttribute('message');
-    const position = this.getAttribute('position') || 'left';
-    
-    const flexDirection = position === 'right' ? 'row-reverse' : 'row';
-    const avatarMargin = position === 'right' ? 'margin-left: 10px;' : 'margin-right: 10px;';
-    const messageAlign = position === 'right' ? 'margin-left: auto; max-width: 70%;' : 'margin-right: auto; max-width: 70%;';
-    
-    const nicknameAlign = position === 'right' ? 'text-align: right;' : '';
-    
-    this.innerHTML = `
-      <div class="chat-message" style="display: flex; align-items: center; margin: 10px 0; flex-direction: ${flexDirection};">
-        <img src="${avatar}" alt="Avatar" style="width: 50px; height: 50px; border-radius: 50%; ${avatarMargin}">
-        <div style="${messageAlign}">
-          <div style="font-weight: bold; margin-bottom: 5px; ${nicknameAlign}">${nickname}</div>
-          <div class="message-bubble" style="padding: 8px 12px; border-radius: 10px;">${message}</div>
-        </div>
-      </div>
-    `;
-    
-    this.updateTheme();
-  }
-  
-  updateTheme() {
-    const isDark = document.documentElement.classList.contains('dark');
-    const bubble = this.querySelector('.message-bubble');
-    if (bubble) {
-      bubble.style.backgroundColor = isDark ? '#333' : '#f0f0f0';
-      bubble.style.color = isDark ? '#fff' : '#000';
-    }
-  }
-}
-
-customElements.define('chat-message', ChatMessage);
-
-// 监听主题变化
-const themeObserver = new MutationObserver(() => {
-  document.querySelectorAll('chat-message').forEach(el => el.updateTheme());
-});
-themeObserver.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
-</script>
+<ChatMessage avatar="/about/hq/avatar.png" nickname="萌新一枚" message="为什么漫协要叫WHUDAYS呢？" position="right"/>
+<ChatMessage avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="诶这……这都怪当年某管理的恶趣味……"/>
+<ChatMessage avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="WHUDAYS……其实是故意的<br><img src='/about/image-3.jpg'>"/>
+<ChatMessage avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="在2012年前，还没有WHUDAYS的概念"/>
+<ChatMessage avatar="/about/hq/2014/喵少.jpg" nickname="喵少" message="日在武大...（小声）"/>
+<ChatMessage avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="@喵少 灵感上还真是，玩了一手“邪恶的人看啥都是邪恶的”的文字游戏梗"/>
+<ChatMessage avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="至于具体是谁……太久远有点忘了"/>
+<ChatMessage avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="好像当时想弄社徽嘛，顺便取个名字"/>
+<ChatMessage avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="大家都想不到啥的时候突然有人说，漫协的日常，那就叫WHUDAYS吧！"/>
+<ChatMessage avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="群里的“好”声连绵起伏<br><img src='/about/image-3.jpg'>"/>
+<ChatMessage avatar="/about/hq/2014/喵少.jpg" nickname="喵少" message="笑死"/>
+<ChatMessage avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="对了，虽然有这方面的梗，但是正经的解释是“漫协的日常”"/>
+<ChatMessage avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="可别搞错了哦，心里脏的看啥都脏<br><img src='/about/image-4.jpg'>"/>
