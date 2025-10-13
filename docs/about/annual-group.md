@@ -7,19 +7,19 @@ import {
 } from 'vitepress/theme';
 
 const annualGroups = [
-  { avatar: '/about/annual-group/幻想乡.png', name: '幻想乡', title: '2025' },
-  { avatar: '/about/annual-group/春日影.png', name: '春日影', title: '2024' },
-  { avatar: '/about/annual-group/愛言葉.png', name: '愛言葉', title: '2023' },
-  { avatar: '/about/annual-group/虹之咲.jpg', name: '虹之咲', title: '2022' },
-  { avatar: '/about/annual-group/迦勒底.jpg', name: '迦勒底', title: '2021' },
-  { avatar: '/about/annual-group/秀知院.jpg', name: '秀知院', title: '2020' },
-  { avatar: '/about/annual-group/绯想天.jpg', name: '绯想天', title: '2019' },
-  { avatar: '/about/annual-group/樱公馆.jpeg', name: '樱公馆', title: '2018' },
-  { avatar: '/about/annual-group/卡巴拉生命树.jpeg', name: '卡巴拉生命树', title: '2017' },
-  { avatar: '/about/annual-group/异世界.jpg', name: '异世界', title: '2016' },
-  { avatar: '/about/annual-group/奥德赛圣殿.jpeg', name: '奥德赛圣殿', title: '2015' },
-  { avatar: '/about/annual-group/世界线.jpeg', name: '世界线', title: '2014' },
-  { avatar: '/about/annual-group/自漫协新世界.jpeg', name: '自漫协新世界', title: '2013' },
+  { avatar: '/about/annual-group/幻想乡.png', name: 'WHUDAYS-幻想乡', title: '2025' },
+  { avatar: '/about/annual-group/春日影.png', name: 'WHUDAYS-春日影', title: '2024' },
+  { avatar: '/about/annual-group/愛言葉.png', name: 'WHUDAYS-愛言葉', title: '2023' },
+  { avatar: '/about/annual-group/虹之咲.jpg', name: 'WHUDAYS-虹之咲', title: '2022' },
+  { avatar: '/about/annual-group/迦勒底.jpg', name: 'WHUDAYS-迦勒底', title: '2021' },
+  { avatar: '/about/annual-group/秀知院.jpg', name: 'WHUDAYS-秀知院', title: '2020' },
+  { avatar: '/about/annual-group/绯想天.jpg', name: 'WHUDAYS-绯想天', title: '2019' },
+  { avatar: '/about/annual-group/樱公馆.jpeg', name: 'WHUDAYS-樱公馆', title: '2018' },
+  { avatar: '/about/annual-group/卡巴拉生命树.jpeg', name: 'WHUDAYS-卡巴拉生命树', title: '2017' },
+  { avatar: '/about/annual-group/异世界.jpg', name: 'WHUDAYS-异世界', title: '2016' },
+  { avatar: '/about/annual-group/奥德赛圣殿.jpeg', name: 'WHUDAYS-奥德赛圣殿', title: '2015' },
+  { avatar: '/about/annual-group/世界线.jpeg', name: 'WHUDAYS-世界线', title: '2014' },
+  { avatar: '/about/annual-group/自漫协新世界.jpeg', name: 'WHU-自漫协新世界', title: '2013' },
   { avatar: '/about/annual-group/宅居动物集结处.jpeg', name: '宅居动物集结处', title: '2012' },
 ];
 </script>
