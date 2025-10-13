@@ -25,25 +25,25 @@ const props = defineProps({
 const { isDark } = useData()
 
 const flexDirection = computed(() => props.position === 'right' ? 'row-reverse' : 'row')
-const avatarMargin = computed(() => props.position === 'right' ? 'margin-left: 10px' : 'margin-right: 10px')
 const messageAlign = computed(() => props.position === 'right' ? 'margin-left: auto; max-width: 70%' : 'margin-right: auto; max-width: 70%')
-const nicknameAlign = computed(() => props.position === 'right' ? 'text-align: right' : '')
+const nicknameAlign = computed(() => props.position === 'right' ? 'right' : 'left')
 
 const bubbleBg = computed(() => isDark.value ? '#333' : '#f0f0f0')
 const textColor = computed(() => isDark.value ? '#fff' : '#000')
 
 const messageStyle = computed(() => ({
   display: 'flex',
-  alignItems: 'center',
+  alignItems: 'flex-end',
   margin: '10px 0',
-  flexDirection: flexDirection.value
+  flexDirection: flexDirection.value,
+  gap: '5px'
 }))
 
 const avatarStyle = computed(() => ({
   width: '50px',
   height: '50px',
   borderRadius: '50%',
-  margin: avatarMargin.value
+  marginTop: '-5px'
 }))
 
 const contentStyle = computed(() => {
@@ -59,7 +59,7 @@ const contentStyle = computed(() => {
 const nicknameStyle = computed(() => ({
   fontWeight: 'bold',
   marginBottom: '5px',
-  textAlign: nicknameAlign.value || 'left'
+  textAlign: nicknameAlign.value
 }))
 
 const bubbleStyle = computed(() => ({

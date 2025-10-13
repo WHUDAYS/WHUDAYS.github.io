@@ -21,6 +21,8 @@
 - 除了部门以外，我们还有许多[兴趣小群](/group/)等你探索~
 - 如果你是新人，请先看[萌新指南](/about/newbie-guide/2025/)
 
+<ClientOnly>
+
 <ChatMessage avatar="/about/hq/avatar.png" nickname="萌新一枚" message="为什么漫协要叫WHUDAYS呢？" position="right"/>
 <ChatMessage avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="诶这……这都怪当年某管理的恶趣味……"/>
 <ChatMessage avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="WHUDAYS……其实是故意的<br><img src='/about/image-3.jpg'>"/>
@@ -34,3 +36,5 @@
 <ChatMessage avatar="/about/hq/2014/喵少.jpg" nickname="喵少" message="笑死"/>
 <ChatMessage avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="对了，虽然有这方面的梗，但是正经的解释是“漫协的日常”"/>
 <ChatMessage avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="可别搞错了哦，心里脏的看啥都脏<br><img src='/about/image-4.jpg'>"/>
+
+</ClientOnly>
