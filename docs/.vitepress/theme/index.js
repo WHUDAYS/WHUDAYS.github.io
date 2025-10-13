@@ -4,6 +4,7 @@ import {
 } from '@nolebase/vitepress-plugin-git-changelog/client'
 import '@nolebase/vitepress-plugin-git-changelog/client/style.css'
 import MemberCard from './components/MemberCard.vue'
+import ChatMessage from './components/ChatMessage.vue'
 
 export default {
 	extends: DefaultTheme,
@@ -11,5 +12,6 @@ export default {
 	enhanceApp({ app }) {
 		app.use(NolebaseGitChangelogPlugin)
 		app.component('MemberCard', MemberCard)
+		app.component('ChatMessage', ChatMessage)
 	},
 }
