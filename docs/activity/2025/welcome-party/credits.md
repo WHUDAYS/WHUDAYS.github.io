@@ -62,7 +62,7 @@ const performers = [
   { avatar: '/about/hq/2024/灰灰.jpeg', name: '灰灰', title: 'void · 支援吉他', desc:'燃尽了' },
   { avatar: qq('2634161337'), name: '夏洛', title: '萤火虫算法 · 吉他', desc:'希望以后会越来越好'},
   { avatar: qq('2889100147'), name: '纱夜天仪', title: '萤火虫算法 · 鼓手', desc:'キラキラキラ きらめいていてよ'},
-  { avatar: qq('3357148314'), name: '纱夜天仪', title: '萤火虫算法 · 主唱', desc:'喵'},
+  { avatar: qq('3357148314'), name: 'daki', title: '萤火虫算法 · 主唱', desc:'喵'},
   { avatar: qq('3066816169'), name: '勿严', title: '萤火虫算法 · 贝斯', desc:'其实我也没有上过学……'},
   { avatar: qq('2665083348'), name: '狸雨', title: '萤火虫算法 · 吉他', desc:'你说得对'},
   { avatar: qq('1587692733'), name: '茂桑', title: '夜桜 · 吉他' },
