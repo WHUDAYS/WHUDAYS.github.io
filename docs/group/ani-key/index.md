@@ -1,12 +1,10 @@
 # 武汉大学动漫协会 · 番键会小群
 
-![](/group/ani-key/logo2.jpeg)
+![现群头像（绘制于第三次番键会）](/group/ani-key/logo2.jpeg)
+<small>现群头像（绘制于第三次番键会）</small>
 
-<small>[(2)](/group/ani-key/logo2.jpeg) 现群头像（绘制于第三次番键会）</small>
-
-![](/group/ani-key/logo.jpeg)
-
-<small>[(2)](/group/ani-key/logo.jpeg) 第一任群头像（绘制于第二次番键会）</small>
+![第一任群头像（绘制于第二次番键会）](/group/ani-key/logo.jpeg)
+<small>第一任群头像（绘制于第二次番键会）</small>
 
 ##  关于本群
 
