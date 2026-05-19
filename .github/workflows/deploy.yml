@@ -54,12 +54,12 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      # 使用 最新的 PNPM
-      # 你也可以指定为具体的版本
+      # 使用 兼容Node20的最后 PNPM 版本 10.32
+      # 你也可以在之后更新 前提是更新所有插件使其与Node兼容
       - uses: pnpm/action-setup@v4
         name: Install pnpm
         with:
-          version: latest
+          version: 10.32
           # version: 9
           run_install: false
 
