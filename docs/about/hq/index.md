@@ -12,6 +12,7 @@
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme'
 
+const hq_2026 = [{ avatar: '/about/hq/2026/avatar.jpg', name: 'WHUDAYS-2026HQ', title: '2026.6-2027.6', sponsor:'/about/hq/2026', actionText:'详情页' }]
 const hq_2025 = [{ avatar: '/about/hq/2025/avatar.jpg', name: 'WHUDAYS-2025HQ', title: '2025.6-2026.6', sponsor:'/about/hq/2025', actionText:'详情页' }]
 const hq_2024 = [{ avatar: '/about/hq/2024/avatar.png', name: 'WHUDAYS-2024HQ', title: '2024.6-2025.6', sponsor:'/about/hq/2024', actionText:'详情页' }]
 const hq_2023 = [{ avatar: '/about/hq/2023/avatar.png', name: '2023HQ', title: '2023.6-2024.6', sponsor:'/about/hq/2023', actionText:'详情页' }]
@@ -20,6 +21,12 @@ const hq_2018 = [{ avatar: '/about/hq/2018/avatar.jpg', name: 'WHU-DAYS HQ-2018'
 const hq_2017 = [{ avatar: '/about/hq/2017/avatar.png', name: 'WHU DAYS 管理の交流群', title: '2017.6-2018.6', sponsor:'/about/hq/2017', actionText:'详情页' }]
 const hq_2014 = [{ avatar: '/about/hq/2014/avatar.png', name: 'WHU DAYS-最高议会', title: '2014.6-2015.6', sponsor:'/about/hq/2014', actionText:'详情页' }]
 </script>
+
+## 2025学年
+
+<center>
+  <VPTeamMembers size="small" :members="hq_2026" />
+</center>
 
 ## 2025学年
 
