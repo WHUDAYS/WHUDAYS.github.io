@@ -21,9 +21,9 @@ features:
     details: 快来看吧很好看的（x
     link: https://www.bilibili.com/video/BV1MGmGYgEEE
 
-  - title: 2024冬日祭
-    details: 武汉大学2024冬日祭晚会
-    link: /activity/2024/winter-festival
+  - title: 2026春日祭
+    details: 武汉大学2026春日庆典
+    link: /activity/2025/spring-festival
   
   - title: 2025樱染初夏乐队专场
     details: あなたのチンコは何センチ？
