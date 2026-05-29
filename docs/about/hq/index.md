@@ -22,7 +22,7 @@ const hq_2017 = [{ avatar: '/about/hq/2017/avatar.png', name: 'WHU DAYS 管理�
 const hq_2014 = [{ avatar: '/about/hq/2014/avatar.png', name: 'WHU DAYS-最高议会', title: '2014.6-2015.6', sponsor:'/about/hq/2014', actionText:'详情页' }]
 </script>
 
-## 2025学年
+## 2026学年
 
 <center>
   <VPTeamMembers size="small" :members="hq_2026" />
