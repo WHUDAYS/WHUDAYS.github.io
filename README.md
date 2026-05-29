@@ -31,6 +31,8 @@
 > 我们希望各位添加的是一些有意义的材料，类似以下的上传我们将不会通过
 > 1. 照搬群头像和群介绍[#26](https://github.com/WHUDAYS/WHUDAYS.github.io/pull/26#pullrequestreview-2981897408)
 > 2. 到此一游或是测试信息[#3](https://github.com/WHUDAYS/WHUDAYS.github.io/pull/3)、[#5](https://github.com/WHUDAYS/WHUDAYS.github.io/pull/5)
+>
+> 我们不太希望项目的Contributors被各种AI协作者污染，所以如果你一定要使用AI编写本项目，请在commit时记得删除AI的Co-Authors，否则我们将不会通过你的上传[#98](https://github.com/WHUDAYS/WHUDAYS.github.io/pull/98)
 
 本站基于`Vitepress`框架搭建。简单来说，这是一个将Markdown文本转换为静态网页的工具，能够让你专心于文本撰写而非网页设计。
 
