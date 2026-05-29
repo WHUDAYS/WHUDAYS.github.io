@@ -74,3 +74,6 @@
 |  -   | 2026寒假 |     线上     |  寒假放映会  |
 |  3   | 20260314 |    会议室    | 一月新番闲聊 |
 
+<a href="/group/ani-key/activity/" rel="noopener noreferrer" style="display: inline-block; padding: 0.625rem 1.25rem; font-size: 1rem; font-weight: 600; color: var(--vp-button-brand-text); background-color: var(--vp-button-brand-bg); border: 1px solid var(--vp-button-brand-border); border-radius: 20px; text-decoration: none; transition: color 0.25s, border-color 0.25s, background-color 0.25s;">
+  活动详情
+</a>
