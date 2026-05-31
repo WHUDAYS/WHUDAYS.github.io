@@ -8,7 +8,7 @@
 
 </div>
 
-[← 返回番键会活动列表](/group/ani-key/activity/)
+[← 返回番键会小群](/group/ani-key/)
 
 ---
 
