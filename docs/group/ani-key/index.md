@@ -1,79 +1,117 @@
-# 武汉大学动漫协会 · 番键会小群
+---
+title: 番键会小群
+---
 
-![现群头像（绘制于第三次番键会）](/group/ani-key/logo2.jpeg)
-<small>现群头像（绘制于第三次番键会）</small>
+# 番键会小群
 
-![第一任群头像（绘制于第二次番键会）](/group/ani-key/logo.jpeg)
-<small>第一任群头像（绘制于第二次番键会）</small>
+<div align="center">
+  <img src="/group/ani-key/banner.png" alt="番键会 · 武汉大学动漫协会 WHU DAYS" width="480" />
+</div>
 
-##  关于本群
+轻（小说）· 动（画）· 漫（画）研究与交流小群
 
-本群为**武汉大学动漫协会（学生）**下设的**轻（小说）· 动（画）· 漫（画）研究与交流小群**（简称“番键会小群”）。  
-我们以**作品鉴赏、交流讨论、共同观赏与创作氛围建设**为核心，致力于营造友好、开放、有深度的动漫爱好者社群。
+<div class="ak-hero__pics">
+  <figure>
+    <img src="/group/ani-key/logo3.jpeg" alt="现群头像" />
+    <figcaption>现群头像 · 绘于第四次番键会</figcaption>
+  </figure>
+  <figure>
+    <img src="/group/ani-key/logo2.jpeg" alt="二代群头像" />
+    <figcaption>二代群头像 · 绘于第三次番键会</figcaption>
+  </figure>
+  <figure>
+    <img src="/group/ani-key/logo.jpeg" alt="初代群头像" />
+    <figcaption>初代群头像 · 绘于第二次番键会</figcaption>
+  </figure>
+</div>
 
-欢迎对轻小说、动画、漫画（ACG相关）感兴趣的同学加入，一起分享、讨论、锐评与探索。
+> 轻小说 / 动画 / 漫画 / 看番 / 锐评 / 同好
 
-##  群内定位
+## 关于本群
 
-**作品研讨**：不仅“看”，更要“聊”与“想”
+我们是 **武汉大学动漫协会（学生）** 下设的 **轻 · 动 · 漫研究与交流小群**，群友们更习惯叫它“番键会”。
 
-**共同观赏**：强调互动与体验，而非单向观看
+在这里，**看作品**只是起点——我们更想和你一起聊它、想它、争论它。轻小说也好，动画、漫画也罢，只要你愿意分享与吐槽，就总能找到接得住话的人。我们想做的，是一个友好、开放、聊得起来也聊得够深的同好社群。
 
-**社群氛围**：轻松友好、理性有梗但不失深度
+## 我们是怎样一个群
 
-**长期发展**：从活动型小群逐步走向稳定的学习与交流共同体
+- **作品研讨**：不止于“看完”，更在于“聊透”。
+- **共同观赏**：一起看、一起接梗，而不是各看各的。
+- **群里氛围**：轻松有梗，但认真起来也能掰扯明白。
+- **长远来看**：从一场场活动，慢慢长成稳定的同好据点。
 
-## 主要活动
+## 我们都在玩些什么
 
-目前已开展或正在进行的活动包括但不限于：
+已经办过、或正在张罗的活动，包括但远不止：
 
-###  常规活动
-**番键会**：以作品为核心的主题分享与讨论
+**常规活动**
 
-**新番茶话会**：围绕当季新番展开交流
+- **番键会**：围绕一部作品的深度分享与讨论。
+- **新番茶话会**：追当季新番，边追边聊。
+- **暖冬茶会**：偏闲聊向的轻松局，线上线下都有。
+- **每周看番 & 锐评**：一起看、当场聊、事后再复盘。
+- **假期线上看番会**：假期限定，集中开刷。
 
-**暖冬茶会**：偏向轻松闲聊与深度分享的线下/线上交流
+**未来想做（咕咕中）**
 
-**每周看番 & 锐评**：共同观赏+即时讨论+事后复盘
+- **半月常例会**：更成体系的作品分享。
+- **小群刊物**：把群里的评论、文章、二创和安利攒成一册。
+- **主题企划**：某位导演、某家制作公司、某类题材的专场。
 
-**假期线上看番会**：假期限定集中观影与交流
+## 这样的你，我们很欢迎
 
-###  未来规划（可能方向）
-**半月常例会**：更系统化的作品分享与讨论
+- 喜欢动漫、轻小说或漫画，哪怕只是入门
+- 聊得来，也聊得开——观点不同没关系，好好说就行
+- 愿意冒个泡，参与到大家的讨论里
 
-**小群刊物**：收录群内评论、文章、二创或推荐内容
+## 来加入我们吧
 
-**主题企划活动**：如特定导演/制作公司/题材专题讨论
+如果你也想——
 
-## 我们希望你
+- 找一群能一起看番的人
+- 聊点更有深度的动漫话题
+- 认识些志同道合的同好
+- 又或者，只是想找个地方闲聊
 
-- 对动漫、轻小说或漫画**有兴趣**
-- 尊重不同观点，理性讨论
-- 乐于参与群内活动与交流
+那就来 **武大动漫协会 · 番键会小群** 坐坐吧。
 
-##  加入我们
+👉 私聊 QQ：[2844938982](tencent://message/?uin=2844938982)
 
-如果你也想：
-- 找到一群能一起看番的人  
-- 参与更有深度的动漫讨论  
-- 认识志同道合的同好  
-- 单纯闲聊
-
-欢迎加入**武大动漫协会 · 番键会小群**！
-
-加入方式可私聊 QQ2844938982
-
-期待与你一起，在二次元的世界里碰撞出更多精彩
+期待与你在二次元相遇，一起碰撞出更多火花。
 
 ## 已举办活动
 
-| 序号 |   时间   |     地点     |     内容     |
-| :--: | :------: | :----------: | :----------: |
-|  1   | 20251115 | 信息学部青楼 | 十月新番闲聊 |
-|  2   | 20251205 |    会议室    | 年度新番打分 |
-|  -   | 2026寒假 |     线上     |  寒假放映会  |
-|  3   | 20260314 |    会议室    | 一月新番闲聊 |
+| 序号 | 时间 | 地点 | 内容 |
+| :---: | --- | --- | --- |
+| 1 | 2025-11-15 | 信息学部青楼 | [十月新番闲聊（回放）↗](https://meeting.tencent.com/crm/2qYz6pxg5c) |
+| 2 | 2025-12-05 | 会议室 | [年度新番打分 →](/group/ani-key/activity/warm-winter-2025) |
+| — | 2026 寒假 | 线上 | 寒假放映会 |
+| 3 | 2026-03-14 | 会议室 | [一月新番闲聊 →](/group/ani-key/activity/jan-2026) |
+| 4 | 2026-05-31 | 会议室 | [四月新番大吐槽 →](/group/ani-key/activity/apr-2026) |
 
-<a href="/group/ani-key/activity/" rel="noopener noreferrer" style="display: inline-block; padding: 0.625rem 1.25rem; font-size: 1rem; font-weight: 600; color: var(--vp-button-brand-text); background-color: var(--vp-button-brand-bg); border: 1px solid var(--vp-button-brand-border); border-radius: 20px; text-decoration: none; transition: color 0.25s, border-color 0.25s, background-color 0.25s;">
-  活动详情
-</a>
+点击「内容」可查看对应活动的完整报告或回放。
+
+[查看活动参与者名册 →](/group/ani-key/activity/participants)
+
+<style>
+/* 仅保留头像墙样式 */
+.ak-hero__pics{
+  display:flex; justify-content:center; gap:2rem; flex-wrap:wrap;
+  margin:1.6rem 0 2rem;
+}
+.ak-hero__pics figure{ margin:0; text-align:center; }
+.ak-hero__pics img{
+  width:118px; height:118px; object-fit:cover;
+  border:1px solid var(--vp-c-text-1);
+  padding:5px; background:var(--vp-c-bg);
+  outline:1px solid var(--vp-c-divider); outline-offset:3px;
+  transition:filter .35s ease; filter:grayscale(.35);
+}
+.ak-hero__pics img:hover{ filter:grayscale(0); }
+.ak-hero__pics figcaption{
+  margin-top:.85rem; font-size:.74rem; color:var(--vp-c-text-2); font-style:italic;
+}
+@media (max-width:520px){
+  .ak-hero__pics{ gap:1.2rem; }
+}
+</style>
