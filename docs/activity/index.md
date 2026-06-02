@@ -129,7 +129,7 @@
 
 ## 2016年
 
-- **2016-11-12**：于桂操举办[第五届冬日祭晚会](https://www.bilibili.com/video/BV1ts411W7Sp)。
+- **2016-11-12**：于桂操举办[第五届冬日祭](/activity/2016/winter-festival)。
 - **2016-10-28**：武大漫协与网易漫画合作的[万圣节涂鸦活动《你要画个什么鬼？》](/activity/2016/halloween-graffiti)开始
 - **2016-10-22**：[《μ's Final LoveLive Day2》​放映会](/activity/2016/anime-screening/μ's-final-lovelive-day2)
 - **2016-10-05**：[《怪物之子》​放映会](/activity/2016/anime-screening/the-boy-and-the-beast)
