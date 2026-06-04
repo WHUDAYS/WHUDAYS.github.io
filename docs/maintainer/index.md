@@ -30,10 +30,30 @@ const group = [
     ],
     desc:'名字很普通的彩虹头'
    }, // 给我(-QuQ-)发了很多其他资料
-  { avatar: '/about/hq/2023/涅普智可.png', name: '涅普智可' }, // 22、23学年撰写
+  { avatar: '/about/hq/2023/涅普智可.png', name: '涅普智可',
+      links: [ 
+      { icon: { svg: icons.steam }, link:'https://steamcommunity.com/id/Nepchico/'},
+      { icon: { svg: icons.bilibili }, link:'https://space.bilibili.com/16236597'},
+    ],
+    desc:'漫协神秘秘书残骸'
+   }, // 22、23学年撰写，23学年秘书，疑似即将成为新的维护牛马
   { avatar: '/about/hq/2024/-QuQ-.jpeg', name: '-QuQ-',
     desc:'为什么会在这里呢'
    }, // 站点建立者，维护牛马
+  { avatar: '/about/hq/2024/wweiyi.jpeg', name: 'wweiyi',
+    links: [ 
+      { icon: 'github', link: 'https://github.com/wweiyi2004', },
+      { icon: { svg: icons.bilibili }, link:'https://space.bilibili.com/396966752'},
+      { icon: { svg: icons.bangumi }, link:'https://chii.in/user/wweiyi'},
+      { icon: { svg: icons.blog }, link:'https://wweiyi2004.github.io/'},
+    ],
+    desc:'爆裂魔法是艺术，是浪漫，是把不可能变为可能！'
+  }, // 24、25学年外联组长，远古历史考据，番键会编辑
+  { avatar: '/about/hq/2026/Yun_me.jpg', name: 'Yun_me',
+    links: [ 
+    ],
+    desc:''
+   }, // 26学年外联组长，冬日祭部分考据撰写，番键会编辑
 ]
 
 // 外部贡献者(GitHub提交PR，或是提供小群/部门相关材料)
