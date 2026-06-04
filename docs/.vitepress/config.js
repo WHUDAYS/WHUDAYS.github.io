@@ -102,6 +102,7 @@ export default defineConfig({
 								{ text: "第十四届春日祭（2026）", link: "/activity/2025/spring-festival" },
 								{ text: "第十三届冬日祭（2024）", link: "/activity/2024/winter-festival" },
 								{ text: "第十二届冬日祭（2023）", link: "/activity/2023/winter-festival" },
+								{ text: "第六届冬日祭（2017）", link: "/activity/2017/winter-festival" },
 								{ text: "第五届冬日祭（2016）", link: "/activity/2016/winter-festival" },
 								{ text: "第四届冬日祭（2015）", link: "/activity/2015/winter-festival" },
 								{ text: "第三届冬日祭（2014）", link: "/activity/2014/winter-festival" },
