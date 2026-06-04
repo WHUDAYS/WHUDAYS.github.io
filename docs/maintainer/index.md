@@ -50,9 +50,12 @@ const group = [
     desc:'爆裂魔法是艺术，是浪漫，是把不可能变为可能！'
   }, // 24、25学年外联组长，远古历史考据，番键会编辑
   { avatar: '/about/hq/2026/Yun_me.jpg', name: 'Yun_me',
-    links: [ 
+    links: [
+      { icon: 'github', link: 'https://github.com/Yun-me', },
+      { icon: { svg: icons.bilibili }, link:'https://space.bilibili.com/507000104'},
+      { icon: { svg: icons.bangumi }, link:'https://bgm.tv/user/yun_me'}, 
     ],
-    desc:''
+    desc:'哇，这里是哪？！（回到芒果纸箱）'
    }, // 26学年外联组长，冬日祭部分考据撰写，番键会编辑
 ]
 
