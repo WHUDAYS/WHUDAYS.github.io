@@ -73,16 +73,12 @@ jobs:
           echo ${{ github.workspace }}
           pnpm build
 
-        # 资源拷贝
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./docs/.vitepress/dist
-          destination: ./_site
-
-        # 上传 _site 的资源，用于后续部署
+        # 上传 VitePress 构建产物，用于后续部署
+        # 不经 Jekyll 处理（dist/.nojekyll 已禁用），避免下划线开头的文件被丢弃
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./docs/.vitepress/dist
 
   # 部署任务
   deploy:
