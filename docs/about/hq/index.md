@@ -266,9 +266,10 @@ const hq_2014 = [{ avatar: '/about/hq/2014/avatar.png', name: 'WHU DAYS-最高�
 ## 2016学年
 
 [详情页](/about/hq/2016)
-- 社长
+
 ::: details 展开
-：evy
+
+- 社长：evy
 - 副社长：SRin、包子、不科学
 - 演音部
   - 部长：Kuma
