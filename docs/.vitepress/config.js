@@ -24,7 +24,7 @@ export default defineConfig({
 	title: "武汉大学动漫协会-WHUDAYS", // 网站标题
 	description: "武汉大学动漫协会", // 网站描述
 	sitemap: {
-		hostname: "https://whudays.github.io/", // 网站域名
+		hostname: "https://whudays.org/", // 网站域名
 	},
 	head: [
 		['meta', { name: 'keywords', content: '武汉大学动漫协会, 武大漫协, WHUDAYS, ACGN, 动漫社团, 武大动漫社' }],
@@ -35,7 +35,7 @@ export default defineConfig({
 		['meta', { property: 'og:title', content: '武汉大学动漫协会-WHUDAYS' }],
 		['meta', { property: 'og:description', content: '武汉大学动漫协会官方网站，记录社团历史与活动，快来看看吧（！）\\^o^/' }],
 		['meta', { property: 'og:image', content: '/WHUDAYS.png' }],
-		['meta', { property: 'og:url', content: 'https://whudays.github.io/' }],
+		['meta', { property: 'og:url', content: 'https://whudays.org/' }],
 
 		// Google Analytics
 		['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-LQLQ2CEQ64' }],
@@ -227,6 +227,16 @@ export default defineConfig({
 							{ text: "初音未来 16 周年纪念生日会", link: "/group/vocaloid-utau-fans/events/miku16th" },
 							{ text: "日常卡拉 OK", link: "/group/vocaloid-utau-fans/events/karaoke" },
 						  ]},
+					]
+				}
+			],
+			'/maintainer/': [
+				{
+					text: "维护者",
+					collapsed: false,
+					items: [
+						{ text: "维护人员", link: "/maintainer/" },
+						{ text: "贡献指南", link: "/maintainer/contributing" }
 					]
 				}
 			],
