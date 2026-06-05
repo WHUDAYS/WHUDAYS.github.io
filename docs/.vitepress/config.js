@@ -230,6 +230,16 @@ export default defineConfig({
 					]
 				}
 			],
+			'/maintainer/': [
+				{
+					text: "维护者",
+					collapsed: false,
+					items: [
+						{ text: "维护人员", link: "/maintainer/" },
+						{ text: "贡献指南", link: "/maintainer/contributing" }
+					]
+				}
+			],
 			'/message-box/': [
 				{
 					text: "留声箱",
