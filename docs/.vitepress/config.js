@@ -245,7 +245,45 @@ export default defineConfig({
 					text: "留声箱",
 					collapsed: false,
 					items: [
-						{ text: "喵呜", link: "/message-box/" },
+						{ text: "投稿指南", link: "/message-box/" },
+						{
+							text: "店长",
+							collapsed: true,
+							items: [
+								{ text: "店长的话", link: "/message-box/店长/" }
+							]
+						},
+						{
+							text: "北洛",
+							collapsed: true,
+							items: [
+								{ text: "秋日忆，春日影", link: "/message-box/北洛/shadow" }
+							]
+						},
+						{
+							text: "纱橙靈",
+							collapsed: true,
+							items: [
+								{ text: "夏樱乐团史（2023-2024）", link: "/message-box/纱橙靈/band-history" }
+							]
+						},
+						{
+							text: "-QuQ-",
+							collapsed: true,
+							items: [
+								{ text: "关于我", link: "/message-box/quq/" },
+								{ text: "建站初衷", link: "/message-box/quq/words" },
+								{ text: "回忆录", link: "/message-box/quq/memories" },
+								{ text: "社团工作经验参考", link: "/message-box/quq/hq-docs" }
+							]
+						},
+						{
+							text: "Yun_me",
+							collapsed: true,
+							items: [
+								{ text: "一点碎碎念", link: "/message-box/Yun_me/words" }
+							]
+						}
 					]
 				}
 			]
