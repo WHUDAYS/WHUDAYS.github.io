@@ -1,6 +1,7 @@
 ---
 title: 番键会 · 活动名册
 layout: page
+gitChangelog: false
 ---
 <script setup>
 import {
