@@ -77,6 +77,12 @@ export const people = {
     mapByNameAliases: ['xingzelei'],
     mapByEmailAliases: ['billtonxing@gmail.com'],
   },
+  'Nagi': {
+    avatar: 'https://www.github.com/yiyuchichu.png',
+    github: 'yiyuchichu',
+    mapByNameAliases: ['yiyuchichu'],
+    mapByEmailAliases: ['1304739403@qq.com'],
+  },
 
   // === HQ 2024（最新一届，与冲突时优先） ===
   '茂桑': { avatar: '/avatars/茂桑.jpeg' },
