@@ -22,7 +22,7 @@
 ## 本地部署
 
 1. fork 该仓库，然后克隆你的 fork 到本地
-2. 安装 [`node.js`](https://nodejs.org/) 与 [`pnpm`](https://pnpm.io/)
+2. 安装 [`node.js`](https://nodejs.org/)（建议 24+，与 CI 一致）与 [`pnpm`](https://pnpm.io/)
 3. 运行 `pnpm install` 安装依赖
 4. 运行 `pnpm dev` 启动本地服务器，默认地址 `http://localhost:5173/`
 5. 修改页面后，在命令行按 `r` 键重启服务器即可看到效果

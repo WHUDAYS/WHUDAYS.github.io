@@ -35,10 +35,10 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    # node v20 运行
+    # node v24 运行
     strategy:
       matrix:
-        node-version: [20]
+        node-version: [24]
 
     steps:
       # 拉取代码
@@ -54,13 +54,10 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      # 使用 兼容Node20的最后 PNPM 版本 10.32
-      # 你也可以在之后更新 前提是更新所有插件使其与Node兼容
       - uses: pnpm/action-setup@v4
         name: Install pnpm
         with:
           version: 10.32
-          # version: 9
           run_install: false
 
         # 安装依赖
