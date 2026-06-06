@@ -2,9 +2,10 @@
 
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme'
+import { memberOf } from '/.vitepress/data/people.js'
 
 const author = [
-    { avatar: '/about/hq/2023/纱橙靈.jpeg', name: '纱橙靈', title: '作者'},
+    memberOf('纱橙靈', { title: '作者' }),
 ]
 </script>
 

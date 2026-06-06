@@ -22,7 +22,7 @@
 ## 本地部署
 
 1. fork 该仓库，然后克隆你的 fork 到本地
-2. 安装 [`node.js`](https://nodejs.org/) 与 [`pnpm`](https://pnpm.io/)
+2. 安装 [`node.js`](https://nodejs.org/)（建议 24+，与 CI 一致）与 [`pnpm`](https://pnpm.io/)
 3. 运行 `pnpm install` 安装依赖
 4. 运行 `pnpm dev` 启动本地服务器，默认地址 `http://localhost:5173/`
 5. 修改页面后，在命令行按 `r` 键重启服务器即可看到效果
@@ -57,21 +57,41 @@
 两个组件都依赖客户端渲染，**必须**用 `<ClientOnly>...</ClientOnly>` 包裹，否则会触发 SSR / hydration 不一致的报错。直接照搬现有页面的写法最稳妥。
 :::
 
+### 头像统一注册表
+
+所有人的头像统一登记在 `docs/.vitepress/data/people.js` 里，页面通过 `avatarOf('成员名称')` 取头像，避免在多个页面里重复硬编码 URL。
+
+新增成员时先在 `people.js` 里加一行：
+
+```js
+'-QuQ-':  { avatar: '/avatars/-QuQ-.jpeg' },        // 本地图片
+'九尾晨': { avatar: QQ('1540104836') },              // QQ 头像
+```
+
+- 本地头像：图片放在 `docs/public/avatars/<成员名>.jpg`，写 `'/avatars/<成员名>.jpg'`
+- QQ 头像：直接 `QQ('你的QQ号')`，模块顶部已有 `QQ` helper
+
+注册表里没有的名字会回落到默认占位头像（`PLACEHOLDER_AVATAR`）。
+
 ### ChatMessage 对话气泡
 
 用于呈现聊天记录式的对话（参考 `docs/about/introduction.md`）。
 
 | 属性 | 说明 |
 | --- | --- |
-| `avatar` | 头像图片路径 |
+| `avatar` | 头像图片路径（推荐 `:avatar="avatarOf('xxx')"` 从注册表取） |
 | `nickname` | 昵称 |
 | `message` | 消息内容，支持 `<br>`、内嵌 `<img>` 等 HTML |
 | `position` | `left`（默认）或 `right`，右侧通常表示自己 |
 
 ```md
+<script setup>
+import { avatarOf } from '/.vitepress/data/people.js'
+</script>
+
 <ClientOnly>
-<ChatMessage avatar="/about/hq/avatar.png" nickname="萌新一枚" message="为什么漫协要叫WHUDAYS呢？" position="right"/>
-<ChatMessage avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="这都怪当年某管理的恶趣味……"/>
+<ChatMessage :avatar="avatarOf('')" nickname="萌新一枚" message="为什么漫协要叫WHUDAYS呢？" position="right"/>
+<ChatMessage :avatar="avatarOf('店长')" nickname="店长" message="这都怪当年某管理的恶趣味……"/>
 </ClientOnly>
 ```
 
@@ -82,20 +102,22 @@
 | 属性 | 说明 |
 | --- | --- |
 | `name` | 成员名称 |
-| `avatar` | 头像图片路径或 URL |
+| `avatar` | 头像图片路径或 URL（推荐 `:avatar="avatarOf('xxx')"`） |
 | `description` | 一句话描述 |
 | `link` | 个人详情页链接，没有则留空 `""` |
 | `:badges` | 徽章数组，`type` 可选 `tip` / `warning` / `info` / `danger` |
 | `:socials` | 社交链接数组，每项含 `platform` / `url` / `icon` |
 
-头像推荐用 QQ 头像动态链接：`https://q1.qlogo.cn/g?b=qq&nk=<QQ号>&s=100`；也可将图片放进 `docs/public/...` 后用绝对路径引用。
-
 ```md
+<script setup>
+import { avatarOf } from '/.vitepress/data/people.js'
+</script>
+
 <ClientOnly>
 <div class="member-grid">
   <MemberCard
     name="示例成员"
-    avatar="https://q1.qlogo.cn/g?b=qq&nk=10000&s=100"
+    :avatar="avatarOf('示例成员')"
     description="一句话简介"
     link=""
     :badges="[{ type: 'tip', text: '管理员' }, { type: 'warning', text: '创作者' }]"

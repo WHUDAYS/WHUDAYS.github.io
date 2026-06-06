@@ -6,20 +6,18 @@ import {
   VPTeamMembers
 } from 'vitepress/theme';
 
-function qq(uin, size = 640) {
-  return `https://q1.qlogo.cn/g?b=qq&nk=${uin}&s=${size}`
-}
+import { memberOf } from '/.vitepress/data/people.js'
 
 const staff = [
-  { avatar: qq('7613753'), name: '鸭鸭鸭', title: '封面图绘制 & 排版 · 社团活动/编辑部企划', desc:'我已经完全学会了设计.jpg' },
-  { avatar: qq('3269346878'), name: '里珂', title: '排版 · cos部投稿', desc:'打毛厂要被毛厂打哭QAQ' },
-  { avatar: '/activity/2025/magazine/流澜.jpg', name: '流澜', title: '排版 · 编辑部文手投稿', desc:'立祖宗之法：下辈子绝不再写文' },
-  { avatar: qq('2786123260'), name: 'Biophilia', title: '排版 · 编辑部画手投稿', desc:'小萨，你是不是就在这个时候倒霉的？' },
-  { avatar: '/about/hq/2024/-QuQ-.jpeg', name: '-QuQ-', title: '催命的', desc:'怎么哪都有你' },
+  memberOf('鸭鸭鸭', { title: '封面图绘制 & 排版 · 社团活动/编辑部企划', desc:'我已经完全学会了设计.jpg' }),
+  memberOf('里珂', { title: '排版 · cos部投稿', desc:'打毛厂要被毛厂打哭QAQ' }),
+  memberOf('流澜', { title: '排版 · 编辑部文手投稿', desc:'立祖宗之法：下辈子绝不再写文' }),
+  memberOf('Biophilia', { title: '排版 · 编辑部画手投稿', desc:'小萨，你是不是就在这个时候倒霉的？' }),
+  memberOf('-QuQ-', { title: '催命的', desc:'怎么哪都有你' }),
 ]
 </script>
 
-本学年社刊自`2025/6/23`开始征稿，`2025/9/17`完成制作。共53页。  
+本学年社刊自`2025/6/23`开始征稿，`2025/9/17`完成制作。共53页。
 
 封面图：
 
@@ -39,4 +37,3 @@ const staff = [
 
 
 <VPTeamMembers size="small" :members="staff" />
-

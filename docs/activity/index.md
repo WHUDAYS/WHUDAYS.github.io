@@ -44,7 +44,7 @@
 
 ### 2025-10
 
-- **10-27**：通知群满员，启用新通知群。这里是[迁移说明](/message-box/quq/qq-group-operation/group-migration)
+- **10-27**：通知群满员，启用新通知群。这里是[迁移说明](https://github.com/WHUDAYS/WHUDAYS-HQ/blob/main/2025/%E7%A4%BE%E9%95%BF/%E6%9D%82%E9%A1%B9/20251027%E9%80%9A%E7%9F%A5%E7%BE%A4%E8%BF%81%E7%A7%BB/%E9%80%9A%E7%9F%A5%E7%BE%A4%E8%BF%81%E7%A7%BB%E8%AF%B4%E6%98%8E.md)（WHUDAYS-HQ 私有仓库）
 - **10-26**：百团大战
 - **10-24**：《轻音少女剧场版》放映会
 

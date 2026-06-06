@@ -4,6 +4,10 @@
 
 ![WHUDAYS-Vocaloid/Utau Fans](/group/vocaloid-utau-fans/logo.jpg)
 
+<script setup>
+import { avatarOf } from '/.vitepress/data/people.js'
+</script>
+
 ## 关于
 
 这里是武汉大学动漫协会下属的虚拟歌手交流群 WHUDAYS-Vocaloid/Utau Fans!
@@ -28,7 +32,7 @@ Bug 原因：
 <div class="member-grid">
   <MemberCard
     name="RemeaMiku (岚曦)"
-    avatar="https://q1.qlogo.cn/g?b=qq&nk=1597638582&s=100"
+    :avatar="avatarOf('RemeaMiku (岚曦)')"
     description="绘画苦手 ミク最高！"
     link="/group/vocaloid-utau-fans/members/remeamiku"
     :badges="[{ type: 'tip', text: '管理员' }, { type: 'warning', text: '创作者' }, { type: 'info', text: '维护者' }]"
@@ -36,7 +40,7 @@ Bug 原因：
   />
   <MemberCard
     name="二酸化炭素"
-    avatar="https://q1.qlogo.cn/g?b=qq&nk=2078467653&s=100"
+    :avatar="avatarOf('二酸化炭素')"
     description="霓虹金"
     link=""
     :badges="[{ type: 'danger', text: '群主' }]"
@@ -44,7 +48,7 @@ Bug 原因：
   />
   <MemberCard
     name="-QuQ-"
-    avatar="/about/hq/2024/-QuQ-.jpeg"
+    :avatar="avatarOf('-QuQ-')"
     description=""
     link=""
     :badges="[{ type: 'tip', text: '管理员' },{ type: 'info', text: '维护者' }]"
@@ -52,7 +56,7 @@ Bug 原因：
   />
   <MemberCard
     name="a初音ミクz"
-    avatar="https://q1.qlogo.cn/g?b=qq&nk=1687165919&s=100"
+    :avatar="avatarOf('a初音ミクz')"
     description="隔壁华科的内鬼"
     link=""
     :badges="[{ type: 'tip', text: '管理员' },]"
@@ -60,7 +64,7 @@ Bug 原因：
   />
   <MemberCard
     name="Arccos"
-    avatar="https://q1.qlogo.cn/g?b=qq&nk=2163254470&s=100"
+    :avatar="avatarOf('Arccos')"
     description=""
     link=""
     :badges="[{ type: 'tip', text: '管理员' },]"
@@ -68,7 +72,7 @@ Bug 原因：
   />
   <MemberCard
     name="烧烤"
-    avatar="https://q1.qlogo.cn/g?b=qq&nk=2780072534&s=100"
+    :avatar="avatarOf('烧烤(VOCALOID)')"
     description=""
     link=""
     :badges="[{ type: 'tip', text: '管理员' },]"
@@ -76,7 +80,7 @@ Bug 原因：
   />
   <MemberCard
     name="Imris"
-    avatar="https://q1.qlogo.cn/g?b=qq&nk=3161441399&s=100"
+    :avatar="avatarOf('Imris')"
     description=""
     link=""
     :badges="[{ type: 'tip', text: '管理员' },]"
@@ -84,7 +88,7 @@ Bug 原因：
   />
   <MemberCard
     name="InkFea 墨墨羽"
-    avatar="/group/vocaloid-utau-fans/members/inkfea/avatar.jpg"
+    :avatar="avatarOf('InkFea 墨墨羽')"
     description="调校师丨Vup偶尔播播"
     link=""
     :badges="[{ type: 'tip', text: '管理员' },{ type: 'warning', text: '创作者' },]"
@@ -92,7 +96,7 @@ Bug 原因：
   />
   <MemberCard
     name="Jusfans PG"
-    avatar="https://q1.qlogo.cn/g?b=qq&nk=943441394&s=100"
+    :avatar="avatarOf('Jusfans PG')"
     description="中 V 小群主"
     link=""
     :badges="[{ type: 'danger', text: '群主' },{ type: 'tip', text: '管理员' },]"
@@ -100,7 +104,7 @@ Bug 原因：
   />
   <MemberCard
     name="浅月明"
-    avatar="https://q1.qlogo.cn/g?b=qq&nk=2835365089&s=100"
+    :avatar="avatarOf('浅月明')"
     description=""
     link=""
     :badges="[{ type: 'tip', text: '管理员' },]"
@@ -114,18 +118,19 @@ Bug 原因：
   
   <MemberCard
     name="成员名称 (昵称)"
-    avatar="头像图片URL"
+    :avatar="avatarOf('成员名称 (昵称)')"
     description="成员描述"
     link=""
     :badges="[{ type: 'danger', text: '群主' },{ type: 'tip', text: '管理员' },{ type: 'warning', text: '创作者' },{ type: 'info', text: '维护者' }]"
     :socials="[{ platform: '平台名', url: '社交媒体链接', icon: '/group/vocaloid-utau-fans/members/sns/图标.svg' }]"
   />
 
-  头像图片说明：
-  - 引用静态的图片资源：将头像图片放在 docs/public/group/vocaloid-utau-fans/members/[你名称的文件夹] 目录下，图片名称建议改为 avatar，头像图片URL替换为 /group/vocaloid-utau-fans/members/[你名称的文件夹]/avatar.[图片后缀]，引用时注意格式后缀是 png 还是 jpg 还是 jpeg
-  - 引用动态图片链接（推荐）:
-    -  QQ 头像：https://q1.qlogo.cn/g?b=qq&nk=[你的 QQ 账号]&s=100
-    -  [国内无法正常访问] Gravatar 头像：https://www.gravatar.com/avatar/[你的账户邮箱的 MD5 哈希值]?s=200&d=identicon&r=g
+  头像说明：
+  - 头像统一在 docs/.vitepress/data/people.js 注册表里登记，本页面只用 :avatar="avatarOf('成员名称')"。
+  - 新成员先在 people.js 加一行 `'成员名称': { avatar: ... }`：
+    - 本地图片：放进 docs/public/avatars/，写 `/avatars/<文件名>` 作为 avatar 值
+    - QQ 头像：写 `QQ('你的QQ号')`
+  - 注册表中没有找到的成员名会回落到默认占位头像。
   
   导航链接说明：
     如果没有个人介绍详情页面，则不用修改；如果有个人详情页，将页面的 Markdown 文件放到 members 文件夹里，链接改成 /group/vocaloid-utau-fans/members/[Markdown 文件名]

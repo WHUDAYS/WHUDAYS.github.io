@@ -11,6 +11,10 @@
 
 协会在共青团武汉大学委员会和武汉大学学生社团联合会的指导下独立开展活动。协会活动旨在向社会普及二次元文化，培养成员对动漫的浓厚兴趣，并将其转换为创作动力，进行演剧、配音、翻唱、绘画、剧本、舞蹈、Cosplay、视频剪辑、游戏开发、动画制作等方面的表演和创作，为促进我国动漫产业的发展储备原创人才。
 
+<script setup>
+import { avatarOf } from '/.vitepress/data/people.js'
+</script>
+
 ---
 
 ~~上面的是啥，听起来好高级的样子~~
@@ -23,18 +27,18 @@
 
 <ClientOnly>
 
-<ChatMessage avatar="/about/hq/avatar.png" nickname="萌新一枚" message="为什么漫协要叫WHUDAYS呢？" position="right"/>
-<ChatMessage avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="诶这……这都怪当年某管理的恶趣味……"/>
-<ChatMessage avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="WHUDAYS……其实是故意的<br><img src='/about/image-3.jpg'>"/>
-<ChatMessage avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="在2012年前，还没有WHUDAYS的概念"/>
-<ChatMessage avatar="/about/hq/2014/喵少.jpg" nickname="喵少" message="日在武大...（小声）"/>
-<ChatMessage avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="@喵少 灵感上还真是，玩了一手“邪恶的人看啥都是邪恶的”的文字游戏梗"/>
-<ChatMessage avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="至于具体是谁……太久远有点忘了"/>
-<ChatMessage avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="好像当时想弄社徽嘛，顺便取个名字"/>
-<ChatMessage avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="大家都想不到啥的时候突然有人说，漫协的日常，那就叫WHUDAYS吧！"/>
-<ChatMessage avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="群里的“好”声连绵起伏<br><img src='/about/image-3.jpg'>"/>
-<ChatMessage avatar="/about/hq/2014/喵少.jpg" nickname="喵少" message="笑死"/>
-<ChatMessage avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="对了，虽然有这方面的梗，但是正经的解释是“漫协的日常”"/>
-<ChatMessage avatar="/about/hq/2012/店长.jpeg" nickname="店长" message="可别搞错了哦，心里脏的看啥都脏<br><img src='/about/image-4.jpg'>"/>
+<ChatMessage :avatar="avatarOf('')" nickname="萌新一枚" message="为什么漫协要叫WHUDAYS呢？" position="right"/>
+<ChatMessage :avatar="avatarOf('店长')" nickname="店长" message="诶这……这都怪当年某管理的恶趣味……"/>
+<ChatMessage :avatar="avatarOf('店长')" nickname="店长" message="WHUDAYS……其实是故意的<br><img src='/about/image-3.jpg'>"/>
+<ChatMessage :avatar="avatarOf('店长')" nickname="店长" message="在2012年前，还没有WHUDAYS的概念"/>
+<ChatMessage :avatar="avatarOf('喵少')" nickname="喵少" message="日在武大...（小声）"/>
+<ChatMessage :avatar="avatarOf('店长')" nickname="店长" message="@喵少 灵感上还真是，玩了一手“邪恶的人看啥都是邪恶的”的文字游戏梗"/>
+<ChatMessage :avatar="avatarOf('店长')" nickname="店长" message="至于具体是谁……太久远有点忘了"/>
+<ChatMessage :avatar="avatarOf('店长')" nickname="店长" message="好像当时想弄社徽嘛，顺便取个名字"/>
+<ChatMessage :avatar="avatarOf('店长')" nickname="店长" message="大家都想不到啥的时候突然有人说，漫协的日常，那就叫WHUDAYS吧！"/>
+<ChatMessage :avatar="avatarOf('店长')" nickname="店长" message="群里的“好”声连绵起伏<br><img src='/about/image-3.jpg'>"/>
+<ChatMessage :avatar="avatarOf('喵少')" nickname="喵少" message="笑死"/>
+<ChatMessage :avatar="avatarOf('店长')" nickname="店长" message="对了，虽然有这方面的梗，但是正经的解释是“漫协的日常”"/>
+<ChatMessage :avatar="avatarOf('店长')" nickname="店长" message="可别搞错了哦，心里脏的看啥都脏<br><img src='/about/image-4.jpg'>"/>
 
 </ClientOnly>

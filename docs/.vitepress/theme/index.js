@@ -10,7 +10,9 @@ export default {
 	extends: DefaultTheme,
 	Layout: DefaultTheme.Layout,
 	enhanceApp({ app }) {
-		app.use(NolebaseGitChangelogPlugin)
+		app.use(NolebaseGitChangelogPlugin, {
+			displayAuthorsInsideCommitLine: true,
+		})
 		app.component('MemberCard', MemberCard)
 		app.component('ChatMessage', ChatMessage)
 	},
