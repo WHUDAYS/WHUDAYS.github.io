@@ -2,9 +2,10 @@
 
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme'
+import { memberOf } from '/.vitepress/data/people.js'
 
 const quq = [
-  { avatar: '/about/hq/2024/-QuQ-.jpeg', name: '-QuQ-', title: '呜啊...'},
+  memberOf('-QuQ-', { title: '呜啊...' }),
 ]
 </script>
 

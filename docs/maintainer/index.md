@@ -3,25 +3,25 @@
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme'
 import * as icons from '/.vitepress/theme/icons.js';
+import { memberOf } from '/.vitepress/data/people.js'
 
 
 const maintainers = [
-  { avatar: '/about/hq/2024/-QuQ-.jpeg', name: '-QuQ-', title: '2025-现在', links: [ { icon: 'github', link: 'https://github.com/shenxianovo' } ],
-  desc:'你好（）' },
+  memberOf('-QuQ-', { title: '2025-现在', links: [ { icon: 'github', link: 'https://github.com/shenxianovo' } ],
+    desc:'你好（）'
+  }),
 ]
 
 // 协史编写群中贡献者
 // 除了群主其他人就按年份排了...
 const group = [
-  { avatar: '/about/hq/2015/喵少.jpg', name: '喵少',
-    desc:'漫协远古新鲜木乃伊'
-   }, // 协史群群主，15-17年资料收集，摇人大神
-  { avatar: '/about/hq/2012/店长.jpeg', name: '店长' }, // 14年之前记录
-  { avatar: '/about/hq/2012/正面.jpeg', name: '正面' }, // 13冬日祭录播
-  { avatar: '/about/hq/2013/世闲.jpg', name: '世闲' }, // 夏樱原始设定
-  { avatar: '/about/hq/2017/铜鼓.jpg', name: '铜鼓' }, // 15-21hq头像，部分其他资料
-  { avatar: '/about/hq/2018/名字.jpeg', name: '名字',
-      links: [ 
+  memberOf('喵少', { desc:'漫协远古新鲜木乃伊' }),         // 协史群群主，15-17年资料收集，摇人大神
+  memberOf('店长'),                                         // 14年之前记录
+  memberOf('正面'),                                         // 13冬日祭录播
+  memberOf('世闲'),                                         // 夏樱原始设定
+  memberOf('铜鼓'),                                         // 15-21hq头像，部分其他资料
+  memberOf('名字', {
+    links: [
       { icon: { svg: icons.youtube }, link:' https://www.youtube.com/@fukuda_channel7443'},
       { icon: { svg: icons.bilibili }, link:'https://space.bilibili.com/310503350'},
       { icon: { svg: icons.x }, link:'https://x.com/FukudaSanDesuka'},
@@ -29,45 +29,43 @@ const group = [
       { icon: { svg: icons.steam }, link:'https://steamcommunity.com/id/NamaeFutsuu/'},
     ],
     desc:'名字很普通的彩虹头'
-   }, // 给我(-QuQ-)发了很多其他资料
-  { avatar: '/about/hq/2023/涅普智可.png', name: '涅普智可',
-      links: [ 
+  }), // 给我(-QuQ-)发了很多其他资料
+  memberOf('涅普智可', {
+    links: [
       { icon: { svg: icons.steam }, link:'https://steamcommunity.com/id/Nepchico/'},
       { icon: { svg: icons.bilibili }, link:'https://space.bilibili.com/16236597'},
     ],
     desc:'漫协神秘秘书残骸'
-   }, // 22、23学年撰写，23学年秘书，疑似即将成为新的维护牛马
-  { avatar: '/about/hq/2024/-QuQ-.jpeg', name: '-QuQ-',
-    desc:'为什么会在这里呢'
-   }, // 站点建立者，维护牛马
-  { avatar: '/about/hq/2024/wweiyi.jpeg', name: 'wweiyi',
-    links: [ 
+  }), // 22、23学年撰写，23学年秘书，疑似即将成为新的维护牛马
+  memberOf('-QuQ-', { desc:'为什么会在这里呢' }), // 站点建立者，维护牛马
+  memberOf('wweiyi', {
+    links: [
       { icon: 'github', link: 'https://github.com/wweiyi2004', },
       { icon: { svg: icons.bilibili }, link:'https://space.bilibili.com/396966752'},
       { icon: { svg: icons.bangumi }, link:'https://chii.in/user/wweiyi'},
       { icon: { svg: icons.blog }, link:'https://wweiyi2004.github.io/'},
     ],
     desc:'爆裂魔法是艺术，是浪漫，是把不可能变为可能！'
-  }, // 24、25学年外联组长，远古历史考据，番键会编辑
-  { avatar: '/about/hq/2026/Yun_me.jpg', name: 'Yun_me',
+  }), // 24、25学年外联组长，远古历史考据，番键会编辑
+  memberOf('Yun_me', {
     links: [
       { icon: 'github', link: 'https://github.com/Yun-me', },
       { icon: { svg: icons.bilibili }, link:'https://space.bilibili.com/507000104'},
-      { icon: { svg: icons.bangumi }, link:'https://bgm.tv/user/yun_me'}, 
+      { icon: { svg: icons.bangumi }, link:'https://bgm.tv/user/yun_me'},
     ],
     desc:'哇，这里是哪？！（回到芒果纸箱）'
-   }, // 26学年外联组长，冬日祭部分考据撰写，番键会编辑
+  }), // 26学年外联组长，冬日祭部分考据撰写，番键会编辑
 ]
 
 // 外部贡献者(GitHub提交PR，或是提供小群/部门相关材料)
 const external = [
-  { avatar: 'https://www.github.com/Animnia.png', name: 'Animnia', title: '夏樱乐团/东方群' },
-  { avatar: 'https://www.github.com/xingzelei.png', name: 'INFINITY', title: '夏樱乐团/gal群' },
-  { avatar: '/about/hq/2023/北洛.jpeg', name: '北洛', title: '冰糖樱花'},
-  { avatar: '/maintainer/椅子.jpeg', name: '椅子', title: '夏樱组/Re:START工作室'},
-  { avatar: '/about/hq/2022/岚曦.jpeg', name: '岚曦', title: '术群' },
-  { avatar: '/group/galgame/group-owner/Darkream.png', name: 'Darkream', title: 'gal群' },
-  { avatar: '/maintainer/初春.png', name: '初春', title: 'whudays.org域名' },
+  memberOf('Animnia', { title: '夏樱乐团/东方群' }),
+  memberOf('INFINITY', { title: '夏樱乐团/gal群' }),
+  memberOf('北洛', { title: '冰糖樱花' }),
+  memberOf('椅子', { title: '夏樱组/Re:START工作室' }),
+  memberOf('岚曦', { title: '术群' }),
+  memberOf('Darkream', { title: 'gal群' }),
+  memberOf('初春', { title: 'whudays.org域名' }),
 ]
 
 </script>

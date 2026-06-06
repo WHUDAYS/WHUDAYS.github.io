@@ -3,6 +3,7 @@ import {
 	GitChangelog,
 	GitChangelogMarkdownSection,
 } from '@nolebase/vitepress-plugin-git-changelog/vite'
+import { buildMapAuthors } from './data/people.js'
 
 export default defineConfig({
 	vite: {
@@ -10,6 +11,7 @@ export default defineConfig({
 			GitChangelog({
 				// 填写在此处填写您的仓库链接
 				repoURL: () => 'https://github.com/WHUDAYS/WHUDAYS.github.io',
+				mapAuthors: buildMapAuthors(),
 			}),
 			GitChangelogMarkdownSection({
 				sections: {

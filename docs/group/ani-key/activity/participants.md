@@ -9,13 +9,19 @@ import {
   VPTeamPageSection,
   VPTeamMembers
 } from 'vitepress/theme'
-// 头像走 QQ 实时头像：填上 qq 号即可，会自动取对应头像。
-// 没填 qq 时用占位图。昵称（name）请手动填写。
-const ph = '/group/ani-key/participants/_placeholder.svg'
-const qqAvatar = (uin) =>
-  uin ? `https://q.qlogo.cn/headimg_dl?dst_uin=${uin}&spec=640&img_type=jpg` : ph
-// 优先使用自定义 avatar（没有 QQ 的成员），否则取 QQ 实时头像。
-const build = (list) => list.map((m) => ({ ...m, avatar: m.avatar || qqAvatar(m.qq) }))
+
+import { QQ, avatarOf, PLACEHOLDER_AVATAR } from '/.vitepress/data/people.js'
+
+// 优先注册表，再退回 QQ 实时头像，最后落到占位图。
+const build = (list) => list.map((m) => {
+  const fromRegistry = avatarOf(m.name)
+  return {
+    ...m,
+    avatar: m.avatar
+      || (fromRegistry !== PLACEHOLDER_AVATAR ? fromRegistry : null)
+      || (m.qq ? QQ(m.qq) : PLACEHOLDER_AVATAR),
+  }
+})
 
 // 用法示例： { qq: '2844938982', name: 'wweiyi', title: '线下' }
 
@@ -75,7 +81,7 @@ const jan2026 = build([
 // 四月新番大吐槽（2026-05-31）
 const apr2026 = build([
   { qq: '2804302085', name: '名字普通', title: '线上' },
-  { qq: '', name: 'yihu', title: '线上', avatar: '/group/ani-key/participants/yihu.jpg' },
+  { name: 'yihu', title: '线上' }, // 注册表中已登记本地头像
   { qq: '1459083009', name: '鸿珏', title: '线上' },
   { qq: '1965973734', name: '来者可追', title: '线下' },
   { qq: '2228319054', name: '长野原大介', title: '线下' },
@@ -95,7 +101,7 @@ const apr2026 = build([
 <VPTeamPage>
   <VPTeamPageTitle>
     <template #title>活动名册</template>
-    <template #lead>每次番键会活动到场的同好们。头像取自 QQ 实时头像。</template>
+    <template #lead>每次番键会活动到场的同好们。头像取自 QQ 实时头像或注册表。</template>
   </VPTeamPageTitle>
 
   <VPTeamPageSection>
