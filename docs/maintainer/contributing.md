@@ -42,7 +42,7 @@
 新增内容时，**参考同区域已有的页面**是最快的方式，例如：
 
 - 活动页：参考 `docs/activity/2024/winter-festival.md`
-- 成员卡：参考 `docs/group/vocaloid-utau-fans/index.md`
+- 成员卡：参考 `docs/activity/2025/welcome-party/credits.md`
 - 留声箱：参考 `docs/message-box/quq/words.md`
 
 ## 链接规范
@@ -57,19 +57,28 @@
 两个组件都依赖客户端渲染，**必须**用 `<ClientOnly>...</ClientOnly>` 包裹，否则会触发 SSR / hydration 不一致的报错。直接照搬现有页面的写法最稳妥。
 :::
 
-### 头像统一注册表
+### 人员与头像注册表
 
-所有人的头像统一登记在 `docs/.vitepress/data/people.js` 里，页面通过 `avatarOf('成员名称')` 取头像，避免在多个页面里重复硬编码 URL。
+所有人员的数据统一登记在 `docs/.vitepress/data/people.js` 里，主要有两个作用：
 
-新增成员时先在 `people.js` 里加一行：
+1. **统一头像**：页面通过 `avatarOf('成员名称')` 取头像，避免在多个页面里重复硬编码 URL。
+2. **贡献者匹配**：作为 Git Changelog 插件的数据源。由于同一个贡献者在不同机器上的 Git 名字/邮箱可能不同，通过在这里设置别名，可以将错乱的提交记录合并到同一个人名下。
+
+新增或完善成员数据时，在 `people.js` 里修改：
 
 ```js
-'-QuQ-':  { avatar: '/avatars/-QuQ-.jpeg' },        // 本地图片
-'九尾晨': { avatar: QQ('1540104836') },              // QQ 头像
+'-QuQ-': { 
+  avatar: '/avatars/-QuQ-.jpeg', 
+  github: 'shenxianovo', 
+  mapByNameAliases: ['shenxianovo'], 
+  mapByEmailAliases: ['shenxianovo@gmail.com', 'shenxianovo@outlook.com'] 
+},
+'九尾晨': { avatar: QQ('1540104836') },  // 如果只是普通成员（没有参与网站代码/文档维护），只需头像即可
 ```
 
 - 本地头像：图片放在 `docs/public/avatars/<成员名>.jpg`，写 `'/avatars/<成员名>.jpg'`
 - QQ 头像：直接 `QQ('你的QQ号')`，模块顶部已有 `QQ` helper
+- Github / Git 邮箱设定（仅对代码/文档提交者需要）：根据提交历史中的 Author 和 Email 配置 `mapByNameAliases` / `mapByEmailAliases`，让插件归拢记录。
 
 注册表里没有的名字会回落到默认占位头像（`PLACEHOLDER_AVATAR`）。
 

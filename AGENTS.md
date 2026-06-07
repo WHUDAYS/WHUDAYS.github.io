@@ -30,15 +30,27 @@
 | 任务 | 参考现有文件 |
 | --- | --- |
 | 加活动页 | `docs/activity/2024/winter-festival.md` |
-| 加成员卡 | `docs/group/vocaloid-utau-fans/index.md` |
+| 加成员卡 | `docs/activity/2025/welcome-party/credits.md` |
 | 加留声箱 | `docs/message-box/quq/words.md` |
 | 加部门/小群 | `docs/department/` 或 `docs/group/` 下任一 |
 
-## 自定义组件
+## 针对框架的修改与二开
+
+### 1. 自定义组件
 
 `docs/.vitepress/theme/` 注册了两个全局组件，**必须用 `<ClientOnly>` 包裹**（否则 SSR/hydration 报错）：
 
-- `ChatMessage`：对话气泡。props `avatar` / `nickname` / `message`（支持 HTML）/ `position`。例：`docs/about/introduction.md`
-- `MemberCard`：成员卡。props `name` / `avatar` / `description` / `link` / `:badges` / `:socials`。例：`docs/group/vocaloid-utau-fans/index.md`
+- `ChatMessage`：对话气泡。仅 `docs/about/introduction.md` 中使用。props `avatar` / `nickname` / `message`（支持 HTML）/ `position`。例：
+- `MemberCard`：成员卡。仅在 `docs/group/vocaloid-utau-fans` 中使用。props `name` / `avatar` / `description` / `link` / `:badges` / `:socials`
+
+### 2. gitChangelog 插件
+
+为插件添加了 patch(`patches/@nolebase__vitepress-plugin-git-changelog@2.17.1.patch`) 以显示贡献者名称
 
 用法细节见站点[贡献指南](https://whudays.org/maintainer/contributing)。
+
+### 3. 人员数据与贡献者映射
+
+统一参考和修改 `docs/.vitepress/data/people.js`。
+- **头像复用**：若某一成员的头像已存在，请直接复用，**不要新建条目**。暂无头像可缺省，会自动回退到占位图。
+- **贡献者别名映射**：`people.js` 同时作为 `gitChangelog` 的作者数据源。如果成员是仓库提交者（有 GitHub），需在其数据对象中补充 `github` 字段，并根据 Git 历史配置 `mapByNameAliases` 和 `mapByEmailAliases`，插件才能将不同机器上的 commit 正确归拢到同一作者卡片下。
