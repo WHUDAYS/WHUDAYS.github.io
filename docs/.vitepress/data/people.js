@@ -10,8 +10,9 @@
 //   - buildMapAuthors()     : 派生 git-changelog 的 mapAuthors 配置
 
 const QQ = (uin, size = 640) => `https://q1.qlogo.cn/g?b=qq&nk=${uin}&s=${size}`
+const QQGroup = (uin, size = 640) => `https://p.qlogo.cn/gh/${uin}/${uin}/${size}`
 
-export { QQ }
+export { QQ, QQGroup }
 
 export const PLACEHOLDER_AVATAR = '/avatars/_placeholder.png'
 
@@ -25,6 +26,7 @@ export const people = {
   },
   '72': { avatar: '/avatars/72.jpg' },
   '86': { avatar: '/avatars/86.jpg' },
+  '45450721': { avatar: QQ('985271234') },
 
   // A
   'a初音ミクz': { avatar: QQ('1687165919', 100) },
@@ -58,6 +60,7 @@ export const people = {
   '北大门的天灾': { avatar: '/avatars/北大门的天灾.jpg' },
   '北洛': { avatar: '/avatars/北洛.jpeg' },
   '彼方': { avatar: '/avatars/彼方.jpg' },
+  '彼方酱': { avatar: QQ('532732098') },
   '冰荷': { avatar: '/avatars/冰荷.jpg' },
   'Biophilia': { avatar: QQ('2786123260') },
   '不科学': { avatar: '/avatars/不科学.jpg' },
@@ -66,17 +69,22 @@ export const people = {
   '才子': { avatar: QQ('1282063020') },
   '残长': { avatar: QQ('1626186878') },
   '残念': { avatar: '/avatars/残念.jpg' },
+  '长野原大介': { avatar: QQ('2228319054') },
   '茶子': { avatar: '/avatars/茶子.jpg' },
   '陈田翔': { avatar: QQ('1415265271') },
+  'Check Maid': { avatar: QQ('2601389115') },
+  '吃药图书': { avatar: QQ('3082857745') },
   '初春': { avatar: '/avatars/初春.png' },
   '垂杨': { avatar: QQ('1557019243') },
   '春阁下': { avatar: '/avatars/春阁下.jpg' },
+  '椿梦栀结': { avatar: QQ('3160704251') },
   '椿雪': { avatar: '/avatars/椿雪.jpeg' },
   'C酱': { avatar: '/avatars/C酱.jpg' },
   'clover': { avatar: QQ('2317312342') },
 
   // D
   '大痴': { avatar: '/avatars/大痴.jpg' },
+  '大小姐的⑨': { avatar: QQ('447535077') },
   'daki': { avatar: QQ('3357148314') },
   'Darkream': { avatar: '/avatars/Darkream.png' },
   '大粽': { avatar: '/avatars/大粽.jpg' },
@@ -90,7 +98,7 @@ export const people = {
 
   // E
   'elegy': { avatar: '/avatars/elegy.jpg' },
-  '二酸化炭素': { avatar: QQ('2078467653', 100) },
+  '二酸化碳素': { avatar: QQ('2078467653', 100) },
   '二氧化碳': { avatar: '/avatars/二氧化碳.jpg' },
   'evy': { avatar: '/avatars/Evy.jpg' },
 
@@ -111,6 +119,7 @@ export const people = {
   '黑羽': { avatar: '/avatars/黑羽.jpg' },
   '黑羽仙洛': { avatar: '/avatars/黑羽仙洛.png' },
   '红鲤': { avatar: '/avatars/红鲤.jpg' },
+  '红马尾': { avatar: QQ('1295519365') },
   'horsen🐮': { avatar: QQ('3463550668') },
   '滑瓢': { avatar: QQ('1804183397') },
   '花桑': { avatar: QQ('3330567554') },
@@ -131,9 +140,12 @@ export const people = {
 
   // J
   '剑语': { avatar: QQ('3012766646') },
+  '笺染阡素': { avatar: QQ('3512476499') },
   '劫灰': { avatar: '/avatars/劫灰.jpg' },
   '九日': { avatar: '/avatars/九日.jpg' },
+  '旧水': { avatar: QQ('482913013') },
   '九尾晨': { avatar: QQ('1540104836') },
+  '寂寞嫦娥舒广袖': { avatar: QQ('2180826705') },
   '极夜晓月君': { avatar: QQ('2186387030') },
   '橘七': { avatar: '/avatars/橘七.jpg' },
   'Jusfans PG': { avatar: QQ('943441394', 100) },
@@ -178,6 +190,10 @@ export const people = {
   '米斯特': { avatar: '/avatars/米斯特.jpg' },
   'miu': { avatar: QQ('3307487273') },
   '魔王': { avatar: '/avatars/魔王.jpg' },
+  '魔理沙的扫把': { avatar: QQ('275664704') },
+  'MangLF': { avatar: QQ('1828428227') },
+  '末陌': { avatar: QQ('3161056603') },
+  '喵喵喵': { avatar: QQ('2180826705') },
   'Mushayuki': {
     avatar: QQ('1079056948'),
     github: 'Mushayuki',
@@ -194,6 +210,7 @@ export const people = {
     mapByEmailAliases: ['1304739403@qq.com'],
   },
   'Narcissus': { avatar: '/avatars/narcissus.jpeg' },
+  '南瓜牛奶麻鼠': { avatar: QQ('3089559133') },
   '涅普智可': {
     avatar: '/avatars/涅普智可.png',
     github: 'Nepchico',
@@ -212,6 +229,9 @@ export const people = {
   '秋啾': { avatar: '/avatars/秋啾.jpg' },
   '七月疯兔': { avatar: '/avatars/疯兔.jpeg' },
 
+  // Q
+  'Quank': { avatar: QQ('2180826705') },
+
   // R
   'RemeaMiku (岚曦)': { avatar: QQ('1597638582', 100) },
   'Rosie': { avatar: '/avatars/Rosie.jpg' },
@@ -221,6 +241,7 @@ export const people = {
   '三三': { avatar: '/avatars/三三.jpg' },
   '三问': { avatar: '/avatars/三问.jpg' },
   'scapino': { avatar: '/avatars/scapino.jpeg' },
+  'Shadow': { avatar: QQ('1097072445') },
   '纱橙靈': {
     avatar: '/avatars/纱橙靈.jpeg',
     github: 'Tcelylin',
@@ -246,8 +267,10 @@ export const people = {
   // T
   '桃沢紗奈子': { avatar: QQ('2928433543') },
   'TheEscapist': { avatar: '/avatars/TheEscapist.jpg' },
+  '天边壹颗星': { avatar: QQ('2233521810') },
   '天狗': { avatar: '/avatars/天狗.jpg' },
   '天凉好个秋': { avatar: '/avatars/天凉好个秋.png' },
+  '天一': { avatar: QQ('1436631616') },
   '听海': { avatar: '/avatars/听海.jpg' },
   '铜鼓': { avatar: '/avatars/铜鼓.jpg' },
   'towa': { avatar: '/avatars/towa.jpeg' },
@@ -289,6 +312,7 @@ export const people = {
   '伊伊': { avatar: QQ('1064310442') },
   '椅子': { avatar: '/avatars/椅子.jpeg' },
   '优格': { avatar: '/avatars/优格.jpg' },
+  '幽沐': { avatar: QQ('1438053535') },
   '悠梦': { avatar: '/avatars/悠梦.jpeg' },
   '圆酒': { avatar: '/avatars/圆酒.jpg' },
   'Yun_me': {
@@ -311,6 +335,7 @@ export const people = {
   '竹杖化龙': { avatar: QQ('3139267329') },
   '子非羽': { avatar: '/avatars/子非羽.jpg' },
   '罪恶': { avatar: '/avatars/罪恶.jpg' },
+  '卒子': { avatar: QQ('2350260464') },
 }
 
 export function avatarOf(name) {

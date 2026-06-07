@@ -235,6 +235,26 @@ export default defineConfig({
 					]
 				}
 			],
+			'/group/touhou-club/': [
+				{
+					text: "WHUDAYS-Touhou Club",
+					collapsed: false,
+					items: [
+						{ text: "简介", link: "/group/touhou-club/" },
+						{ text: "鸟船遗迹", link: "/group/touhou-club/bird-ship-ruins" },
+						{
+							text: "燕石博物志", link: "/group/touhou-club/swallow-stone/",
+							collapsed: true,
+							items: [
+								{ text: "武汉THO09 冬去春来", link: "/group/touhou-club/swallow-stone/activity-1" },
+								{ text: "夏日不融冰", link: "/group/touhou-club/swallow-stone/activity-2" },
+								{ text: "武汉大学东方例会-东方秘月集", link: "/group/touhou-club/swallow-stone/activity-3" },
+							]
+						},
+						{ text: "旧约酒馆", link: "/group/touhou-club/old-bar" },
+					]
+				}
+			],
 			'/maintainer/': [
 				{
 					text: "维护者",
