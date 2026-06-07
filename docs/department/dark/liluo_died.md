@@ -1,12 +1,23 @@
+<script setup>
+import { VPTeamMembers } from 'vitepress/theme'
+import { avatarOf, memberOf } from '/.vitepress/data/people.js'
+
+const liluo = [
+  memberOf('利洛', { title: '2006-2025',
+    desc:'永 远 怀 念'
+  }),
+]
+</script>
+
 # 利洛假死
 
-永远不要忘记2025年10月14日。。。。
+<center>
+  <VPTeamMembers size="small" :members="liluo" />
+  <br>
+  <b>永远不要忘记2025年10月14日。。。。</b>
+</center>
 
 ---
-
-<script setup>
-import { avatarOf } from '/.vitepress/data/people.js'
-</script>
 
 <ClientOnly>
 
@@ -21,7 +32,7 @@ import { avatarOf } from '/.vitepress/data/people.js'
 ---
 
 ::: warning 温馨提示
-25级暗部部长`利洛`当天只是发高烧，并无大碍。
+2025学年暗部部长`利洛`当天只是发高烧，并无大碍。
 
 本次事件仅造成冲入他人宿舍的`Yun_me`因为**人一次的勇气酿成一生的内向**
 :::
