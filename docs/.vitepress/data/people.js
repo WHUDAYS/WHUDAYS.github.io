@@ -233,6 +233,13 @@ export const people = {
   // === activity 2025 magazine ===
   '流澜': { avatar: '/avatars/流澜.jpg' },
 
+  // === activity 2025 come-leave ===
+  '澪原初华': { avatar: QQ('2022304191') },
+  '沙拉': { avatar: QQ('985938202') },
+  'xmtx': { avatar: QQ('2252966746') },
+  '乌冬': { avatar: QQ('2035285899') },
+  '陈田翔': { avatar: QQ('1415265271') },
+
   // === maintainer ===
   '椅子': { avatar: '/avatars/椅子.jpeg' },
   '初春': { avatar: '/avatars/初春.png' },
