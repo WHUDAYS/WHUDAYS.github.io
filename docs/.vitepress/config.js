@@ -190,6 +190,7 @@ export default defineConfig({
 						{ text: "VOID", link: "/department/band/void/" },
 						{ text: "DayBreak", link: "/department/band/daybreak/" },
 						{ text: "蓝汐", link: "/department/band/azuretide/" },
+						{ text: "萤火虫算法", link: "/department/band/fireflyalgorithm/" },
 					]
 				}
 			],
