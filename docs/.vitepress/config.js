@@ -95,6 +95,8 @@ export default defineConfig({
 							items: [
 								{ text: "2025迎新", link: "/activity/2025/welcome-party" },
 								{ text: "2024迎新", link: "/activity/2024/welcome-party" },
+								{ text: "2023迎新", link: "/activity/2023/welcome-party" },
+
 							]
 						},
 						{
