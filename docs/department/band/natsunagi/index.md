@@ -1,6 +1,6 @@
 # 夏凪
 
-![夏凪](/department/band/natsunai/logo.png)
+![夏凪](/department/band/natsunagi/logo.png)
 
 借音符延续蝉鸣的频率，记忆里风平浪静的夏天永远鲜明。
 

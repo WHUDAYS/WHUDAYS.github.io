@@ -187,7 +187,7 @@ export default defineConfig({
 					items: [
 						{ text: "简介", link: "/department/band/" },
 						{ text: "管弦组", link: "/department/band/orchestra/" },
-						{ text: "夏凪", link: "/department/band/natsunai/" },
+						{ text: "夏凪", link: "/department/band/natsunagi/" },
 						{ text: "夜桜", link: "/department/band/yozakura/" },
 						{ text: "VOID", link: "/department/band/void/" },
 						{ text: "DayBreak", link: "/department/band/daybreak/" },
