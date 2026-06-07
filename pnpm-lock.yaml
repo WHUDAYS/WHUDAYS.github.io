@@ -5,7 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 patchedDependencies:
-  '@nolebase/vitepress-plugin-git-changelog@2.17.1': f55c80b4d6ae0e590d25c1031b458d10ced6064fbfe4e0900d500e1f1d3814b7
+  '@nolebase/vitepress-plugin-git-changelog@2.17.1':
+    hash: f55c80b4d6ae0e590d25c1031b458d10ced6064fbfe4e0900d500e1f1d3814b7
+    path: patches/@nolebase__vitepress-plugin-git-changelog@2.17.1.patch
 
 importers:
 

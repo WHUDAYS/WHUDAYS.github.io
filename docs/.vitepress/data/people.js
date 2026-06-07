@@ -230,6 +230,15 @@ export const people = {
   'towa': { avatar: '/avatars/towa.jpeg' },
   '伴夏': { avatar: '/avatars/伴夏.jpeg' },
 
+  // === activity 2025 come-leave ===
+  '澪原初华': { avatar: QQ('2022304191') },
+  '沙拉': { avatar: QQ('985938202') },
+  'Suika': { avatar: QQ('2871867114') },
+  'Izumi': { avatar: QQ('3421285702') },
+  '乌冬': { avatar: QQ('2035285899') },
+  'xmtx': { avatar: QQ('2252966746') },
+  '陈田翔': { avatar: QQ('1415265271') },
+
   // === activity 2025 magazine ===
   '流澜': { avatar: '/avatars/流澜.jpg' },
 
