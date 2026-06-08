@@ -163,7 +163,12 @@ export const people = {
   'Layla': { avatar: '/avatars/Layla.jpg' },
   '冷凝': { avatar: '/avatars/冷凝.jpg' },
   '里珂': { avatar: QQ('3269346878') },
-  '利洛': { avatar: QQ('1416439811') },
+  '利洛': { 
+    avatar: QQ('1416439811'),
+    github: 'FallingLeavez',
+    mapByNameAliases: ['FallingLeavez'],
+    mapByEmailAliases: ['1416439811@qq.com', '77148269+FallingLeavez@users.noreply.github.com'],
+  },
   '凛': { avatar: '/avatars/凛.jpg' },
   '澪原初华': { avatar: QQ('2022304191') },
   'Lion': { avatar: '/avatars/Lion.jpg' },
