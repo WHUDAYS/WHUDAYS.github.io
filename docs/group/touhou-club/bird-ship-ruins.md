@@ -19,7 +19,7 @@ const saigyoujiGroupAvatar = QQGroup('891795171')
 
 const mainAdmins = [
   memberOf('红马尾'),
-  memberOf('彼方酱'),
+  memberOf('彼方'),
   memberOf('椿梦栀结'),
   memberOf('大小姐的⑨'),
   memberOf('魔理沙的扫把'),
