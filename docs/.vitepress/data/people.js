@@ -29,7 +29,7 @@ export const people = {
   '45450721': { avatar: QQ('985271234') },
 
   // A
-  'a初音ミクz': { avatar: QQ('1687165919', 100) },
+  'a初音ミクz': { avatar: QQ('1687165919') },
   '爱姬': { avatar: '/avatars/爱姬.jpg' },
   '埃兰伊亚-Elenia': { avatar: QQ('2652573036') },
   '艾其': { avatar: QQ('3551088713') },
@@ -43,7 +43,7 @@ export const people = {
   '阿弄': { avatar: '/avatars/阿弄.jpg' },
   '安轩': { avatar: '/avatars/安轩.jpeg' },
   '安怡': { avatar: '/avatars/安怡.jpg' },
-  'Arccos': { avatar: QQ('2163254470', 100) },
+  'Arccos': { avatar: QQ('2163254470') },
   'Atelier Recittal': { avatar: '/avatars/Atelier Recittal.png' },
   'ATP': { avatar: '/avatars/ATP.jpg' },
   'awaqwq233': {
@@ -59,8 +59,7 @@ export const people = {
   '包子': { avatar: '/avatars/包子.jpg' },
   '北大门的天灾': { avatar: '/avatars/北大门的天灾.jpg' },
   '北洛': { avatar: '/avatars/北洛.jpeg' },
-  '彼方': { avatar: '/avatars/彼方.jpg' },
-  '彼方酱': { avatar: QQ('532732098') },
+  '彼方': { avatar: QQ('532732098') },
   '冰荷': { avatar: '/avatars/冰荷.jpg' },
   'Biophilia': { avatar: QQ('2786123260') },
   '不科学': { avatar: '/avatars/不科学.jpg' },
@@ -98,7 +97,7 @@ export const people = {
 
   // E
   'elegy': { avatar: '/avatars/elegy.jpg' },
-  '二酸化碳素': { avatar: QQ('2078467653', 100) },
+  '二酸化碳素': { avatar: QQ('2078467653') },
   '二氧化碳': { avatar: '/avatars/二氧化碳.jpg' },
   'evy': { avatar: '/avatars/Evy.jpg' },
 
@@ -127,7 +126,7 @@ export const people = {
   '灰灰': { avatar: '/avatars/灰灰.jpeg' },
 
   // I
-  'Imris': { avatar: QQ('3161441399', 100) },
+  'Imris': { avatar: QQ('3161441399') },
   'Inexistent√7': { avatar: QQ('1558570957') },
   'INFINITY': {
     avatar: 'https://www.github.com/xingzelei.png',
@@ -148,7 +147,7 @@ export const people = {
   '寂寞嫦娥舒广袖': { avatar: QQ('2180826705') },
   '极夜晓月君': { avatar: QQ('2186387030') },
   '橘七': { avatar: '/avatars/橘七.jpg' },
-  'Jusfans PG': { avatar: QQ('943441394', 100) },
+  'Jusfans PG': { avatar: QQ('943441394') },
 
   // K
   '开跌': { avatar: '/avatars/开跌.png' },
@@ -164,7 +163,12 @@ export const people = {
   'Layla': { avatar: '/avatars/Layla.jpg' },
   '冷凝': { avatar: '/avatars/冷凝.jpg' },
   '里珂': { avatar: QQ('3269346878') },
-  '利洛': { avatar: QQ('1416439811') },
+  '利洛': { 
+    avatar: QQ('1416439811'),
+    github: 'FallingLeavez',
+    mapByNameAliases: ['FallingLeavez'],
+    mapByEmailAliases: ['1416439811@qq.com', '77148269+FallingLeavez@users.noreply.github.com'],
+  },
   '凛': { avatar: '/avatars/凛.jpg' },
   '澪原初华': { avatar: QQ('2022304191') },
   'Lion': { avatar: '/avatars/Lion.jpg' },
@@ -221,7 +225,7 @@ export const people = {
   // P
   '平板': { avatar: '/avatars/平板.jpeg' },
   '千遇': { avatar: '/avatars/千遇.jpg' },
-  '浅月明': { avatar: QQ('2835365089', 100) },
+  '浅月明': { avatar: QQ('2835365089') },
   '砌槐': { avatar: '/avatars/砌槐.jpg' },
   '秦淮': { avatar: '/avatars/秦淮.jpg' },
   '穹妹': { avatar: '/avatars/穹妹.jpg' },
@@ -233,7 +237,7 @@ export const people = {
   'Quank': { avatar: QQ('2180826705') },
 
   // R
-  'RemeaMiku (岚曦)': { avatar: QQ('1597638582', 100) },
+  'RemeaMiku (岚曦)': { avatar: QQ('1597638582') },
   'Rosie': { avatar: '/avatars/Rosie.jpg' },
 
   // S
@@ -250,7 +254,7 @@ export const people = {
   },
   '沙拉': { avatar: QQ('985938202') },
   '烧烤': { avatar: '/avatars/烧烤.jpeg' },
-  '烧烤(VOCALOID)': { avatar: QQ('2780072534', 100) },
+  '烧烤(VOCALOID)': { avatar: QQ('2780072534') },
   '纱夜天仪': { avatar: QQ('2889100147') },
   '纱月Satsuki': { avatar: '/avatars/纱月Satsuki.jpeg' },
   '社会主义接班人': { avatar: QQ('640015087') },
