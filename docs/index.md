@@ -4,7 +4,7 @@ layout: home
 hero:
   name: WHUDAYS
   text: 武汉大学动漫协会
-  tagline: 武大漫协官方存档 · 1997 年至今的活动、部门与社团记忆
+  tagline: 这是什么QAQ
   image:
     src: /WHUDAYS.png
     alt: logo
