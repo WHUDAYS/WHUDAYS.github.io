@@ -1,0 +1,58 @@
+# 武汉大学动漫协会 (WHUDAYS / 武大漫协)
+
+> 武汉大学动漫协会（简称武大漫协，英文缩写 WHUDAYS）官方历史存档站，由 -QuQ- 建立于 2025-05-12。社团成立于 1997 年，是武汉大学校内 ACGN（动画/漫画/游戏/小说）爱好者社团，本站记录历届干部、活动、部门、小群与社刊。正式域名 whudays.org。
+
+## 关于社团
+
+- [关于本站](https://whudays.org/about/): 本站点的定位与说明
+- [社团介绍](https://whudays.org/about/introduction): 武大漫协是什么、做什么
+- [英灵殿](https://whudays.org/about/hq/): 历届核心干部（HQ）名册，按学年归档（2009 至今）
+- [历年大群](https://whudays.org/about/annual-group): 历届大群编号与时间线
+
+## 萌新指南
+
+- [2025 萌新指南](https://whudays.org/about/newbie-guide/2025/): 新成员入门入口(2025年版)
+- [武大漫协 Q&A](https://whudays.org/about/newbie-guide/2025/faq): 社团常见问题(2025年版)
+- [大群群规](https://whudays.org/about/newbie-guide/2025/rules)
+- [官方账号](https://whudays.org/about/newbie-guide/2025/official-accounts): B 站、QQ 等官方账号入口
+
+## 活动
+
+- [漫协大事记](https://whudays.org/activity/): 全部活动总览
+- [冬日祭 / 春日祭系列](https://whudays.org/activity/2024/winter-festival): 武大漫协招牌庆典，2012 年起每年举办，最新一届为 2026 年春日祭
+- [社刊《樱次元》](https://whudays.org/activity/2024/magazine): 每年 9 月发刊，2013 年创刊
+- [迎新片系列](https://whudays.org/activity/2024/welcome-video): 历年迎新视频
+
+## 部门
+
+- [部门简介](https://whudays.org/department/): 现役与历史部门一览
+- [暗部](https://whudays.org/department/dark/)
+- [演音部](https://whudays.org/department/va/): 含 Re:START 工作室
+- [夏樱乐团](https://whudays.org/department/band/): 含管弦组、夏凪、夜桜、VOID、DayBreak、蓝汐等小队
+- [cos 部](https://whudays.org/department/cos/)
+- [编辑部](https://whudays.org/department/edit/)
+- [wota 艺部](https://whudays.org/department/wota/)
+
+## 小群
+
+- [小群简介](https://whudays.org/group/): 兴趣向同好群组
+- [番键会](https://whudays.org/group/ani-key/)
+- [Galgame Party](https://whudays.org/group/galgame/)
+- [冰糖樱花](https://whudays.org/group/dry-humor/)
+- [Touhou Club](https://whudays.org/group/touhou-club/)
+- [Vocaloid/Utau Fans](https://whudays.org/group/vocaloid-utau-fans/)
+- [奇迹大陆](https://whudays.org/group/infinity-nikki/)
+
+## 留声箱（个人投稿）
+
+- [留声箱投稿指南](https://whudays.org/message-box/): 历任成员的回忆录、随笔、史料
+
+## 维护
+
+- [维护人员](https://whudays.org/maintainer/)
+- [贡献指南](https://whudays.org/maintainer/contributing): 站点投稿与编辑规范
+
+## Optional
+
+- [GitHub 仓库](https://github.com/WHUDAYS/WHUDAYS.github.io): 站点源码
+- [B 站官方账号](https://space.bilibili.com/20942465)

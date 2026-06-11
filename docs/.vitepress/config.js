@@ -24,27 +24,59 @@ export default defineConfig({
 	// 站点级选项
 	lang: 'zh-CN',
 	title: "武汉大学动漫协会-WHUDAYS", // 网站标题
-	description: "武汉大学动漫协会", // 网站描述
+	description: "武汉大学动漫协会（武大漫协 / WHUDAYS）官方历史存档站，记录 1997 年至今的社团活动、部门、成员与刊物。", // 网站描述
 	sitemap: {
 		hostname: "https://whudays.org/", // 网站域名
 	},
 	head: [
-		['meta', { name: 'keywords', content: '武汉大学动漫协会, 武大漫协, WHUDAYS, ACGN, 动漫社团, 武大动漫社' }],
+		['meta', { name: 'keywords', content: '武汉大学动漫协会, 武大漫协, WHUDAYS, ACGN, 动漫社团, 武大动漫社, 冬日祭, 春日祭, 樱次元, 夏樱乐团' }],
 		['meta', { name: 'author', content: '武汉大学动漫协会' }],
-		['meta', { name: 'description', content: '武汉大学动漫协会官方网站，记录社团历史与活动，快来看看吧（！）\\^o^/' }],
+		['meta', { name: 'description', content: '武汉大学动漫协会（武大漫协 / WHUDAYS）官方历史存档站，记录 1997 年至今的社团活动、部门、成员与刊物。' }],
 
 		// Open Graph Protocol
 		['meta', { property: 'og:title', content: '武汉大学动漫协会-WHUDAYS' }],
-		['meta', { property: 'og:description', content: '武汉大学动漫协会官方网站，记录社团历史与活动，快来看看吧（！）\\^o^/' }],
+		['meta', { property: 'og:description', content: '武汉大学动漫协会（武大漫协 / WHUDAYS）官方历史存档站，记录 1997 年至今的社团活动、部门、成员与刊物。' }],
 		['meta', { property: 'og:image', content: '/WHUDAYS.png' }],
-		['meta', { property: 'og:url', content: 'https://whudays.org/' }],
 
 		// Google Analytics
 		['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-LQLQ2CEQ64' }],
 		['script', {}, "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-LQLQ2CEQ64');"],
 
 		['link', { rel: 'icon', href: '/favicon.ico' }],
+
+		// 结构化数据：Organization（帮助搜索 / AI 引擎建立社团实体认知）
+		['script', { type: 'application/ld+json' }, JSON.stringify({
+			"@context": "https://schema.org",
+			"@type": "Organization",
+			"name": "武汉大学动漫协会",
+			"alternateName": ["武大漫协", "WHUDAYS"],
+			"url": "https://whudays.org/",
+			"logo": "https://whudays.org/WHUDAYS.png",
+			"foundingDate": "1997",
+			"parentOrganization": {
+				"@type": "CollegeOrUniversity",
+				"name": "武汉大学",
+				"alternateName": "Wuhan University",
+				"url": "https://www.whu.edu.cn/"
+			},
+			"sameAs": [
+				"https://github.com/WHUDAYS",
+				"https://space.bilibili.com/20942465"
+			]
+		})],
 	],
+
+	// 按页面注入 canonical / og:url，统一主域为 whudays.org
+	transformHead({ pageData }) {
+		const path = pageData.relativePath
+			.replace(/index\.md$/, '')
+			.replace(/\.md$/, '')
+		const url = `https://whudays.org/${path}`
+		return [
+			['link', { rel: 'canonical', href: url }],
+			['meta', { property: 'og:url', content: url }],
+		]
+	},
 
 	themeConfig: {
 		// 主题级选项
