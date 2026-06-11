@@ -24,18 +24,18 @@ export default defineConfig({
 	// 站点级选项
 	lang: 'zh-CN',
 	title: "武汉大学动漫协会-WHUDAYS", // 网站标题
-	description: "武汉大学动漫协会", // 网站描述
+	description: "武汉大学动漫协会（武大漫协 / WHUDAYS）官方历史存档站，记录 1997 年至今的社团活动、部门、成员与刊物。", // 网站描述
 	sitemap: {
 		hostname: "https://whudays.org/", // 网站域名
 	},
 	head: [
-		['meta', { name: 'keywords', content: '武汉大学动漫协会, 武大漫协, WHUDAYS, ACGN, 动漫社团, 武大动漫社' }],
+		['meta', { name: 'keywords', content: '武汉大学动漫协会, 武大漫协, WHUDAYS, ACGN, 动漫社团, 武大动漫社, 冬日祭, 春日祭, 樱次元, 夏樱乐团' }],
 		['meta', { name: 'author', content: '武汉大学动漫协会' }],
-		['meta', { name: 'description', content: '武汉大学动漫协会官方网站，记录社团历史与活动，快来看看吧（！）\\^o^/' }],
+		['meta', { name: 'description', content: '武汉大学动漫协会（武大漫协 / WHUDAYS）官方历史存档站，记录 1997 年至今的社团活动、部门、成员与刊物。' }],
 
 		// Open Graph Protocol
 		['meta', { property: 'og:title', content: '武汉大学动漫协会-WHUDAYS' }],
-		['meta', { property: 'og:description', content: '武汉大学动漫协会官方网站，记录社团历史与活动，快来看看吧（！）\\^o^/' }],
+		['meta', { property: 'og:description', content: '武汉大学动漫协会（武大漫协 / WHUDAYS）官方历史存档站，记录 1997 年至今的社团活动、部门、成员与刊物。' }],
 		['meta', { property: 'og:image', content: '/WHUDAYS.png' }],
 		['meta', { property: 'og:url', content: 'https://whudays.org/' }],
 
