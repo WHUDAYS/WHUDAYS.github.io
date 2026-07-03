@@ -47,13 +47,14 @@ export const people = {
   'Atelier Recittal': { avatar: '/avatars/Atelier Recittal.png' },
   'ATP': { avatar: '/avatars/ATP.jpg' },
   'awaqwq233': {
-    avatar: PLACEHOLDER_AVATAR,
+    avatar: QQ('820288706'),
     github: 'awaqwq233',
     mapByNameAliases: ['awaqwq233'],
     mapByEmailAliases: ['2024302111400@whu.edu.cn'],
   },
 
   // B
+  '白茗': { avatar: QQ('3050428580') },
   '白夜': { avatar: QQ('3356940959') },
   '伴夏': { avatar: '/avatars/伴夏.jpeg' },
   '包子': { avatar: '/avatars/包子.jpg' },
@@ -111,6 +112,7 @@ export const people = {
   '干君': { avatar: '/avatars/干君.jpeg' },
   '瓜': { avatar: '/avatars/瓜.png' },
   '鬼目': { avatar: '/avatars/鬼目.jpg' },
+  '谷川夏': { avatar: QQ('1694524565') },
 
   // H
   '海豹': { avatar: '/avatars/海豹.jpg' },
@@ -118,6 +120,7 @@ export const people = {
   '黑羽': { avatar: '/avatars/黑羽.jpg' },
   '黑羽仙洛': { avatar: '/avatars/黑羽仙洛.png' },
   '红鲤': { avatar: '/avatars/红鲤.jpg' },
+  '花落未殇': { avatar: QQ('1056744164') },
   '红马尾': { avatar: QQ('1295519365') },
   'horsen🐮': { avatar: QQ('3463550668') },
   '滑瓢': { avatar: QQ('1804183397') },
