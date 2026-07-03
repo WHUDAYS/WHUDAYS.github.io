@@ -1,5 +1,11 @@
 # 历年大群
 
+::: info 小广告
+2026年度大群群名正在火热征集中！
+
+目前正在最后的投票阶段，7月9号截止，大家可以前往通知群的特票中投出你心意的群名！
+:::
+
 <script setup>
 import {
   VPTeamPageSection,
@@ -7,6 +13,7 @@ import {
 } from 'vitepress/theme';
 
 const annualGroups = [
+  { avatar: '/avatars/_placeholder.png', name: 'WHUDAYS-不知道', title: '2026' },
   { avatar: '/about/annual-group/幻想乡.png', name: 'WHUDAYS-幻想乡', title: '2025' },
   { avatar: '/about/annual-group/春日影.png', name: 'WHUDAYS-春日影', title: '2024' },
   { avatar: '/about/annual-group/愛言葉.png', name: 'WHUDAYS-愛言葉', title: '2023' },

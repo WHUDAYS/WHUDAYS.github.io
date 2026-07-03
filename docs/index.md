@@ -17,6 +17,10 @@ hero:
       link: https://github.com/WHUDAYS
 
 features:
+  - title: 2026大群群名投票
+    details: 可以前往通知群参加投票！
+    link: /about/annual-group
+
   - title: 2024迎新片
     details: 快来看吧很好看的（x
     link: https://www.bilibili.com/video/BV1MGmGYgEEE
