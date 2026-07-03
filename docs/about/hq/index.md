@@ -34,6 +34,35 @@ const hq_2014 = [{ avatar: '/about/hq/2014/avatar.png', name: 'WHU DAYS-最高�
   <VPTeamMembers size="small" :members="hq_2025" />
 </center>
 
+<div style="display: none;">
+
+- 社长：-QuQ-
+- 代理社长：利洛
+- 指导老师：纱月Satsuki
+- 演音部
+  - 部长：九尾晨
+  - 歌姬组组长：谷川夏
+  - 配音组组长：awaqwq233
+- 编辑部
+  - 部长：鸭鸭鸭
+  - 美编：Biophilia
+  - 文编：流澜
+- cos部
+  - 部长：垂杨
+  - 副部长：白茗
+- 暗部
+  - 部长：利洛
+  - 外联组组长：wweiyi
+  - 外联组组长：花落未殇
+  - 秘书组组长：霂霜
+  - 线上组组长：四角五十分
+- 夏樱乐团
+  - 团长：花桑
+- wota艺部
+  - 部长：谛霞
+
+</div>
+
 ## 2024学年
 
 <center>

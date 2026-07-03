@@ -7,7 +7,12 @@ import { memberOf } from '/.vitepress/data/people.js'
 
 
 const maintainers = [
-  memberOf('-QuQ-', { title: '2025-现在', links: [ { icon: 'github', link: 'https://github.com/shenxianovo' } ],
+  memberOf('-QuQ-', {
+    title: '2025-现在', 
+    links: [
+      { icon: 'github', link: 'https://github.com/shenxianovo' },
+      { icon: { svg: icons.blog }, link:'https://shenxianovo.com' },
+    ],
     desc:'你好（）'
   }),
 ]
@@ -37,7 +42,14 @@ const group = [
     ],
     desc:'漫协神秘秘书残骸'
   }), // 22、23学年撰写，23学年秘书，疑似即将成为新的维护牛马
-  memberOf('-QuQ-', { desc:'为什么会在这里呢' }), // 站点建立者，维护牛马
+  memberOf('-QuQ-', {
+    links: [
+      { icon: 'github', link: 'https://github.com/shenxianovo', },
+      { icon: { svg: icons.bilibili }, link:'https://space.bilibili.com/446305918'},
+      { icon: { svg: icons.blog }, link:'https://shenxianovo.com'},
+    ],
+    desc:'为什么会在这里呢'
+  }), // 站点建立者，维护牛马
   memberOf('wweiyi', {
     links: [
       { icon: 'github', link: 'https://github.com/wweiyi2004', },
