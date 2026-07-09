@@ -7,7 +7,7 @@ import {
 } from 'vitepress/theme';
 
 const annualGroups = [
-  { avatar: '/about/annual-group/放课后.png', name: 'WHUDAYS-放课后', title: '2026' },
+  { avatar: '/about/annual-group/放课后.jpg', name: 'WHUDAYS-放课后', title: '2026' },
   { avatar: '/about/annual-group/幻想乡.png', name: 'WHUDAYS-幻想乡', title: '2025' },
   { avatar: '/about/annual-group/春日影.png', name: 'WHUDAYS-春日影', title: '2024' },
   { avatar: '/about/annual-group/愛言葉.png', name: 'WHUDAYS-愛言葉', title: '2023' },
