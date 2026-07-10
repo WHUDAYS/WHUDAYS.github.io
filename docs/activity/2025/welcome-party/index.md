@@ -30,7 +30,7 @@
 | 谛霞           | wota艺部介绍 |                            |
 | 竹杖化龙       | 打击垫演奏   | [怪物](https://www.bilibili.com/video/BV1gFnizQEgb)                       |
 |                | 互动问答2    |                            |
-| 极夜晓月君     | 歌曲         | [届かない恋](https://www.bilibili.com/video/BV1UAnizUENa)                 |
+| 桜见胧月       | 歌曲         | [届かない恋](https://www.bilibili.com/video/BV1UAnizUENa)                 |
 | 夏樱乐团管弦组 | 器乐演奏     | [DREAM SOLISTER](https://www.bilibili.com/video/BV1AN42zDE7F)             |
 | 花桑           | 夏樱乐团介绍 |                            |
 | void           | 乐队         | [校园小说<br>春日影](https://www.bilibili.com/video/BV1cZ4Ez6Ehi)         |
