@@ -47,7 +47,7 @@ const performers = [
   memberOf('红温', { title: 'アイカツ活動+Diamond Happy' }),
   memberOf('椿雪', { title: '神女劈观', desc:'我唱歌再也不跟不上节奏了太尬了呜呜呜呜呜呜呜呜呜呜呜呜' }),
   memberOf('竹杖化龙', { title: '怪物', desc:'不为所动，做更专业的自己 （）' }),
-  memberOf('极夜晓月君', { title: '届かない恋', desc:'组一辈子漫协吧！偶内该，哇达西！' }),
+  memberOf('桜见胧月', { title: '届かない恋', desc:'组一辈子漫协吧！偶内该，哇达西！' }),
   memberOf('辂木', { title: '夏樱乐团管弦组 · 长笛', desc:'吹奏乐手摩多摩多' }),
   memberOf('滑瓢', { title: '夏樱乐团管弦组 · 小号', desc:'玩的开心嗬' }),
   memberOf('Animnia', { title: '夏樱乐团管弦组 · 萨克斯', desc:'温暖' }),

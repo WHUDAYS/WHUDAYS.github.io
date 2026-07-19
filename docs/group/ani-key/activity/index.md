@@ -22,6 +22,6 @@
 
 参与者：
 
-- 线下：`wweiyi`,`kisso`,`Yun_me`,`独偶一二里`,`樱见胧月`,`C.ovecter`,`mana`,`电气白兰`
+- 线下：`wweiyi`,`kisso`,`Yun_me`,`独偶一二里`,`桜见胧月`,`C.ovecter`,`mana`,`电气白兰`
 - 线上：`名字普通`
 - 活动回放：[十月新番闲聊（访问需申请权限）](https://meeting.tencent.com/crm/2qYz6pxg5c)

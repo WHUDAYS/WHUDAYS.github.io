@@ -148,7 +148,6 @@ export const people = {
   '旧水': { avatar: QQ('482913013') },
   '九尾晨': { avatar: QQ('1540104836') },
   '寂寞嫦娥舒广袖': { avatar: QQ('2180826705') },
-  '极夜晓月君': { avatar: QQ('2186387030') },
   '橘七': { avatar: '/avatars/橘七.jpg' },
   'Jusfans PG': { avatar: QQ('943441394') },
 
@@ -224,6 +223,7 @@ export const people = {
     mapByNameAliases: ['Nepchico'],
     mapByEmailAliases: ['Nepchico@gmail.com', '85654042+Nepchico@users.noreply.github.com'],
   },
+  '涅普智可(23HQ)': { avatar: '/avatars/涅普智可(23HQ).png' },      // 用最弱智的方法实现一人双头像！（x）
 
   // P
   '平板': { avatar: '/avatars/平板.jpeg' },
@@ -314,6 +314,12 @@ export const people = {
   '夷辰': { avatar: '/avatars/夷辰.jpg' },
   '壹個': { avatar: '/avatars/壹個.jpg' },
   'yihu': { avatar: '/avatars/yihu.jpg' },
+  '桜见胧月': {                                     //原cn “极夜晓月君”
+    avatar: QQ('2186387030'),
+    github: 'SakuramiAkatsuki',
+    mapByNameAliases: ['SakuramiAkatsuki'],
+    mapByEmailAliases: ['sakurami_akatsuki@163.com'],
+  },
   '影黎': { avatar: '/avatars/影黎.jpg' },
   '影临光': { avatar: '/avatars/影临光.jpg' },
   '伊伊': { avatar: QQ('1064310442') },
