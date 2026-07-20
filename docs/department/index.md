@@ -11,7 +11,7 @@
 ## 部门简介
 
 <iframe 
-  src="/pdfjs/web/viewer.html?file=/department/2025部门介绍.pdf" 
+  src="/pdfjs/web/viewer.html?file=/department/2026漫协部门介绍.pdf" 
   width="100%" 
   height="800px" 
   style="border: 1px solid #ddd;">
