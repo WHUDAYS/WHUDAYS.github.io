@@ -1,4 +1,4 @@
-# 2025萌新指南（PDF）
+# 2026萌新指南（PDF）
 
 <iframe 
   src="/pdfjs/web/viewer.html?file=/about/newbie-guide/2026/2026萌新指南.pdf" 
