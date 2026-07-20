@@ -19,7 +19,7 @@
 ## Q3：我想入社！该怎么加入呢(☆ω☆*) 
 
 **A3**：
-1. 填写**社员登记表**：
+1. 填写**社员登记表**：[https://docs.qq.com/form/page/DWEVLRVRyYkFHeE5D](https://docs.qq.com/form/page/DWEVLRVRyYkFHeE5D)
 2. 缴纳**30元社费**
 3. 在大群找到秘书组长`p0rt39`私聊发送付款截图，QQ号：1410639679
 4. 收到后会私信发送通知群群号，加入通知群，你就是漫协正式社员啦！

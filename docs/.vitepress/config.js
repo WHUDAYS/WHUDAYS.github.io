@@ -137,7 +137,7 @@ export default defineConfig({
 								{ text: "一、武大漫协Q&A", link: "/about/newbie-guide/2024/01-faq" },
 								{ text: "二、武大漫协大群群规", link: "/about/newbie-guide/2024/02-rules" },
 								{ text: "三、关注武大漫协官方账号", link: "/about/newbie-guide/2024/03-official-accounts" },
-								{ text: "四、2025萌新指南（pdf）", link: "/about/newbie-guide/2024/04-raw" }
+								{ text: "四、2024萌新指南（pdf）", link: "/about/newbie-guide/2024/04-raw" }
 							]
 						},
 					]
