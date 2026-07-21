@@ -302,6 +302,7 @@ export default defineConfig({
 					items: [
 						{ text: "简介", link: "/group/touhou-club/" },
 						{ text: "鸟船遗迹", link: "/group/touhou-club/bird-ship-ruins" },
+						{ text: "幻月珞音", link: "/group/touhou-club/hyly" },
 						{
 							text: "燕石博物志", link: "/group/touhou-club/swallow-stone/",
 							collapsed: true,
