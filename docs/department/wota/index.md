@@ -10,6 +10,15 @@ WOTA艺（光棒艺），最早起源于日式应援，如今已经发展成为�
 
 <div align="center">
   <iframe
+    src="//player.bilibili.com/player.html?isOutside=true&aid=116944409793706&bvid=BV1FmKv6SEv8&cid=40088764613&p=1&autoplay=0"
+    allowfullscreen="true"
+    style="width:100%;aspect-ratio:16/9;max-width:700px;border:none;"
+  ></iframe>
+  <div style="font-size: 0.95em; color: #888; margin: 0.5em 0 1.2em 0;">2026迎新视频企划：INTERNET ANGEL</div>
+</div>
+
+<div align="center">
+  <iframe
     src="//player.bilibili.com/player.html?isOutside=true&aid=113582742247487&bvid=BV18H6TYVEJg&cid=27141800408&p=1&autoplay=0"
     allowfullscreen="true"
     style="width:100%;aspect-ratio:16/9;max-width:700px;border:none;"
