@@ -17,6 +17,10 @@ hero:
       link: https://github.com/WHUDAYS
 
 features:
+  - title: 2026幻光Lucas迎新企划
+    details: 小天使请安，关注幻光Lucas谢谢喵。†升天†
+    link: https://www.bilibili.com/video/BV1FmKv6SEv8
+
   - title: 2024迎新片
     details: 快来看吧很好看的（x
     link: https://www.bilibili.com/video/BV1MGmGYgEEE
