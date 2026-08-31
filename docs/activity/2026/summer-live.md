@@ -9,21 +9,21 @@
   <span style="font-size: 0.95em; color: #888;">海报绘制：山下空</span>
 </p>
 
-视频录播正在剪辑中。。。
+完整录播请看[这里](https://www.bilibili.com/video/BV1sntb68EQg)~
 
 ## 节目单
 
 ### Chapter 1
 
-| 参演        | 曲目                  |
-| ----------- | -------------------- |
-| 九尾晨      | だから僕は音楽を辞めた |
-| 影临光      | daybreak seeker       |
-| 灰灰        | しわあわせ             |
-| 极夜晓月君   | ドライフラワー         |
-| Suika       | 黄色                   |
-| 陆曦和      | 秒針を噛む(bass cover)  |
-| muka        | パズル                  |
+| 参演        | 曲目                                                                       |
+| ----------- | ------------------------------------------------------------------------- |
+| 九尾晨      | [だから僕は音楽を辞めた](https://www.bilibili.com/video/BV1sntb68EQg?p=2)   |
+| 影临光      | [daybreak seeker](https://www.bilibili.com/video/BV1sntb68EQg?p=3)         |
+| 灰灰        | [しわあわせ](https://www.bilibili.com/video/BV1sntb68EQg?p=4)              |
+| 极夜晓月君   | [ドライフラワー](https://www.bilibili.com/video/BV1sntb68EQg?p=5)         |
+| Suika       | [黄色](https://www.bilibili.com/video/BV1sntb68EQg?p=6)                   |
+| 陆曦和      | [秒針を噛む(bass cover)](https://www.bilibili.com/video/BV1sntb68EQg?p=7)  |
+| muka        | [パズル](https://www.bilibili.com/video/BV1sntb68EQg?p=8)                 |
 
 ### 中场游戏：听歌识曲 1
 
@@ -46,13 +46,13 @@
 
 ### Chapter 2
 
-| 参演     | 曲目           |
-| -------- | -------------- |
-| 夜霁     | 下等马         |
-| 澪澪     | 夏日尽头的我们  |
-| wweiyi   | 梦色轨迹       |
-| 文具盒   | 白鸟过河滩      |
-| 梨紫     | 同频 melody    |
+| 参演     | 曲目                                                                |
+| -------- | ------------------------------------------------------------------ |
+| 夜霁     | [下等马](https://www.bilibili.com/video/BV1sntb68EQg?p=10)          |
+| 澪澪     | [夏日尽头的我们](https://www.bilibili.com/video/BV1sntb68EQg?p=11)  |
+| wweiyi   | [梦色轨迹](https://www.bilibili.com/video/BV1sntb68EQg?p=12)        |
+| 文具盒   | [白鸟过河滩](https://www.bilibili.com/video/BV1sntb68EQg?p=13)      |
+| 梨紫     | [同频 melody](https://www.bilibili.com/video/BV1sntb68EQg?p=14)    |
 
 ### 中场游戏：听歌识曲 2
 
@@ -75,16 +75,16 @@
 
 ### Chapter 3
 
-| 参演         | 曲目             |
-| ----------- | ---------------- |
-| 残长        | Unravel          |
-| 烧烤<br>简  | 感情グラス        |
-| 纱橙靈      | TACTIC           |
-| 烧烤        | Imprisoned XII   |
-| 瑠昼        | 星座になれた      |
-| 烧烤<br>简  | うちゅうのふしぎ  |
-| 澪澪        | Eclipse          |
-| 九尾晨      | DAMIDAMI         |
+| 参演         | 曲目                                                                |
+| ----------- | -------------------------------------------------------------------- |
+| 残长        | [Unravel](https://www.bilibili.com/video/BV1sntb68EQg?p=16)          |
+| 烧烤<br>简  | [感情グラス](https://www.bilibili.com/video/BV1sntb68EQg?p=17)        |
+| 纱橙靈      | [TACTIC](https://www.bilibili.com/video/BV1sntb68EQg?p=18)           |
+| 烧烤        | [Imprisoned XII](https://www.bilibili.com/video/BV1sntb68EQg?p=19)   |
+| 瑠昼        | [星座になれたら](https://www.bilibili.com/video/BV1sntb68EQg?p=20)    |
+| 烧烤<br>简  | [うちゅうのふしぎ](https://www.bilibili.com/video/BV1sntb68EQg?p=21)  |
+| 澪澪        | [Eclipse](https://www.bilibili.com/video/BV1sntb68EQg?p=22)          |
+| 九尾晨      | [DAMIDAMI](https://www.bilibili.com/video/BV1sntb68EQg?p=23)         |
 
 ## STAFF 表
 
