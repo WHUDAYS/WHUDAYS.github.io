@@ -108,7 +108,7 @@
 |       卡厄斯梦境交流群       |                 WHUDAYS-有纪奶牛必抽                 |                                                                                    |
 |      火影忍者手游交流群      |                   WHUDAYS-火影忍者                   |                                                                                    |
 |     supercell游戏交流群     |                   WHUDAYS-SUPERCELL                  |                                                                                    |
-
+|        星布谷地交流群        |                  WHUDAYS-午后野咖啡                  |                                                                                    |
 
 ## 其他游戏
 
