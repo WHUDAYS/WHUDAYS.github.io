@@ -1,0 +1,88 @@
+---
+title: "2022HQ"
+layout: page
+gitChangelog: false
+---
+
+import { memberOf } from '@/lib/people'
+
+export const hqLeaders = [
+  memberOf('瓜', { title: '社长', name: 'G瓜' }),
+  memberOf('葑菲', { title: '副社长', desc:'请无愧理想和热爱' }),
+  memberOf('影临光', { title: '副社长' }),
+  memberOf('冰荷', { title: '副社长' }),
+  memberOf('陨阳', { title: '副社长' }),
+];
+
+export const vaMembers = [
+  memberOf('六花', { title: '部长' }),
+  memberOf('阿柘', { title: '副部长' }),
+  memberOf('五花喵', { title: '副部长' }),
+];
+
+export const editMembers = [
+  memberOf('kanato', { title: '部长' }),
+  memberOf('11', { title: '副部长' }),
+  memberOf('木樨', { title: '副部长' }),
+  memberOf('鸭鸭', { title: '副部长' }),
+  memberOf('kurumi', { title: '副部长' }),
+];
+
+export const cosMembers = [
+  memberOf('wiccan', { title: '部长' }),
+  memberOf('伊卡', { title: '副部长' }),
+  memberOf('悠梦', { title: '副部长' }),
+];
+
+export const darkMembers = [
+  memberOf('zeit', { title: '部长' }),
+  memberOf('平板', { title: '副部长' }),
+  memberOf('霜依', { title: '副部长' }),
+  memberOf('汐宫', { title: '副部长',
+    desc:'什么时候把华科打下来'
+  }),
+];
+
+export const bandMembers = [
+  memberOf('龙井', { title: '团长' }),
+];
+
+export const vupMembers = [
+  memberOf('ange', { title: '组长' }),
+  memberOf('丛雨', { title: '副部长' }),
+  memberOf('岚曦', { title: '副部长' }),
+];
+
+<TeamPage>
+  <TeamPageTitle title={<>2022HQ</>} lead={<>2022.6-2023.6</>}>
+
+</TeamPageTitle>
+
+  <TeamPageSection title={<>社长团</>}>
+<TeamMembers size="small" members={hqLeaders} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>演音部</>}>
+<TeamMembers size="small" members={vaMembers} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>编辑部</>}>
+<TeamMembers size="small" members={editMembers} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>cos部</>}>
+<TeamMembers size="small" members={cosMembers} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>暗部</>}>
+<TeamMembers size="small" members={darkMembers} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>夏樱乐团</>}>
+<TeamMembers size="small" members={bandMembers} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>夏樱组</>}>
+<TeamMembers size="small" members={vupMembers} />
+</TeamPageSection>
+</TeamPage>

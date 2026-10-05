@@ -1,5 +1,11 @@
-node_modules
-dist
-cache
-.temp
+node_modules/
+dist/
+cache/
+.temp/
 .DS_Store
+.next/
+.source/
+out/
+*.tsbuildinfo
+next-env.d.ts
+.env*.local

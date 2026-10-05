@@ -1,0 +1,87 @@
+/* Nolebase 2.17.1 component styles and UnoCSS utilities, scoped to this React port.
+ * See git-history-view.tsx for the upstream MIT licence and original-site patch.
+ */
+.git-changelog {
+  --history-bg: #8e96aa24;
+  --history-code-bg: #8e96aa24;
+  color: var(--vp-c-text-1);
+  font-size: 16px;
+  line-height: 24px;
+}
+.dark .git-changelog { --history-bg: #65758529; --history-code-bg: #65758529; }
+.git-changelog h2 {
+  margin: 48px 0 16px;
+  border-top: 1px solid var(--vp-c-divider);
+  padding-top: 24px;
+  letter-spacing: -.02em;
+  line-height: 32px;
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+}
+.git-changelog .git-changelog-anchor {
+  text-decoration: none;
+  position: absolute;
+  left: -.87em;
+  padding-right: .23em;
+  font-weight: 500;
+  opacity: 0;
+  transition: color .25s, opacity .25s;
+}
+.git-changelog h2:hover .git-changelog-anchor,
+.git-changelog-anchor:focus-visible { opacity: 1; }
+.git-changelog a { color: var(--vp-c-brand-1); font-weight: 500; text-decoration: underline; text-underline-offset: 2px; transition: color .25s; }
+.git-changelog a:hover { color: var(--vp-c-brand-2); }
+.git-changelog a:focus-visible,
+.git-changelog button:focus-visible { outline: 2px solid var(--vp-c-brand-1); outline-offset: 3px; border-radius: 4px; }
+.git-changelog code {
+  border-radius: 4px;
+  padding: 3px 6px;
+  background: var(--history-code-bg);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  font-size: .875em;
+  transition: color .25s, background-color .5s;
+}
+.git-changelog-empty { font-style: italic; opacity: .7; }
+.vp-nolebase-git-changelog-history-container { border-radius: 8px; padding: 16px; background: var(--history-bg); }
+.vp-nolebase-git-changelog-history-container[data-fresh] { background: #4ade8029; }
+.vp-nolebase-git-changelog-title { position: relative; color: var(--vp-c-text-1); font-size: 14px; user-select: none; transition: color .2s ease-in-out; }
+.vp-nolebase-git-changelog-title:hover { color: var(--vp-c-brand-1); }
+.git-changelog button { border: 0; padding: 0; color: inherit; background: transparent; font: inherit; line-height: inherit; cursor: pointer; }
+.git-changelog-toggle { display: flex; width: 100%; align-items: center; justify-content: space-between; gap: 12px; text-align: left; }
+.vp-nolebase-git-changelog-last-edited-title { display: inline-flex; align-items: center; gap: 12px; font-weight: 800; }
+.vp-nolebase-git-changelog-view-full-history-title { display: inline-flex; align-items: center; gap: 12px; padding-left: 36px; font-weight: 400; white-space: nowrap; }
+.git-changelog-icon { display: inline-block; flex-shrink: 0; width: 1.2em; min-width: 1.2rem; height: 1.2em; vertical-align: middle; }
+.git-changelog .git-changelog-sort { position: absolute; right: calc(7.2em + 28px); top: 0; height: 100%; display: inline-flex; align-items: center; }
+.git-changelog-chevron { transition: transform .2s ease-in-out; }
+[data-expanded='true'] .git-changelog-chevron { transform: rotate(180deg); }
+.git-changelog-collapse { display: grid; grid-template-rows: 0fr; visibility: hidden; transition: grid-template-rows .2s ease-in-out, visibility .2s; }
+[data-expanded='true'] .git-changelog-collapse { grid-template-rows: 1fr; visibility: visible; }
+.git-changelog-collapse-content { min-height: 0; overflow: hidden; }
+.git-changelog-list { display: grid; grid-template-columns: 30px minmax(0, 1fr); margin: 12px 0 0 -6px; gap: 6px; }
+.git-changelog-list > * { margin-top: auto; margin-bottom: auto; }
+.git-changelog-commit-icon { margin: auto; transform: rotate(90deg); opacity: .3; }
+.git-changelog-entry { display: flex; align-items: baseline; gap: 4px; min-width: 0; }
+.git-changelog-sha { flex-shrink: 0; }
+.git-changelog-sha code { color: var(--vp-c-brand-1); font-size: 14px; line-height: 16px; }
+.git-changelog-content { min-width: 0; overflow-wrap: anywhere; }
+.git-changelog-message { font-size: 14px; line-height: 20px; }
+.vp-nolebase-git-changelog-authors { margin: 4px 0 4px 12px; }
+.vp-nolebase-git-changelog-author { display: inline; margin-right: .5em; white-space: nowrap; }
+.vp-nolebase-git-changelog-author img { display: inline-block; width: 24px; height: 24px; margin: 0; border: 2px solid var(--vp-c-bg-soft); border-radius: 50%; object-fit: cover; vertical-align: middle; }
+.vp-nolebase-git-changelog-author-name { margin-left: .25em; font-size: 14px; line-height: 20px; vertical-align: middle; }
+.git-changelog-content time, .git-changelog-release time { font-size: 12px; line-height: 16px; opacity: .5; }
+.git-changelog-release-icon { display: inline-flex; width: 1.75em; height: 1.75em; margin: auto; border-radius: 50%; background: #9ca3af1a; opacity: .9; }
+.git-changelog-release-icon svg { width: 50%; min-width: 50%; height: 50%; margin: auto; }
+.git-changelog-release { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; }
+.git-changelog-release code { font-weight: 700; }
+@media (max-width: 639px) {
+  .git-changelog-sha, .git-changelog-sha + span { display: none; }
+  .vp-nolebase-git-changelog-view-full-history-title > span { display: none; }
+  .git-changelog .git-changelog-sort { right: calc(1.2em + 16px); }
+  .git-changelog-list { font-size: 12px; }
+  .git-changelog-message, .vp-nolebase-git-changelog-author-name { font-size: 12px; line-height: 16px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .git-changelog-collapse, .git-changelog-chevron { transition: none; }
+}

@@ -1,0 +1,22 @@
+---
+title: "英灵殿"
+layout: page
+gitChangelog: false
+---
+
+import { memberOf } from '@/lib/people'
+
+export const groupOwners = [
+  memberOf('黑羽仙洛'),
+  memberOf('Atelier Recittal'),
+  memberOf('天凉好个秋'),
+  memberOf('zeit'),
+  memberOf('Darkream'),
+];
+
+<TeamPage>
+  <TeamPageTitle title={<>英灵殿</>}>
+
+</TeamPageTitle>
+  <TeamMembers size="small" members={groupOwners} />
+</TeamPage>

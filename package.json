@@ -1,21 +1,46 @@
 {
   "name": "whudays-doc",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "dev": "vitepress dev docs",
-    "build": "vitepress build docs",
-    "preview": "vitepress preview docs"
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.19.0",
+  "engines": {
+    "node": ">=22.18.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "@nolebase/vitepress-plugin-git-changelog": "^2.17.1"
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build --webpack && node scripts/verify-export.mjs",
+    "preview": "serve out --listen 4173 --no-clipboard",
+    "postinstall": "fumadocs-mdx",
+    "typecheck": "fumadocs-mdx && next typegen && tsc --noEmit",
+    "check": "pnpm typecheck && pnpm build"
   },
   "dependencies": {
-    "vitepress": "2.0.0-alpha.5"
+    "@fumadocs/base-ui": "16.16.1",
+    "date-fns": "4.1.0",
+    "fumadocs-core": "16.16.1",
+    "fumadocs-mdx": "15.4.6",
+    "lucide-react": "1.51.0",
+    "next": "16.3.8",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "zbsearch": "4.0.1",
+    "zod": "^4.0.0"
   },
-  "type": "module"
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/mdx": "^2.0.13",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "mdast-util-to-string": "^4.0.0",
+    "parse5": "^8.0.1",
+    "remark-gfm": "^4.0.1",
+    "serve": "14.2.6",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.9.0",
+    "unist-util-visit": "^5.0.0",
+    "vite": "^8.3.2"
+  },
+  "license": "ISC"
 }

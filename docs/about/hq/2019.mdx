@@ -1,0 +1,80 @@
+---
+title: "2019HQ"
+layout: page
+gitChangelog: false
+---
+
+import * as icons from '@/lib/icons';
+import { memberOf } from '@/lib/people'
+
+export const hqLeaders = [
+  memberOf('名字', { title: '社长',
+    links: [
+      { icon: { svg: icons.youtube }, link:' https://www.youtube.com/@fukuda_channel7443'},
+      { icon: { svg: icons.bilibili }, link:'https://space.bilibili.com/310503350'},
+      { icon: { svg: icons.x }, link:'https://x.com/FukudaSanDesuka'},
+      { icon: { svg: icons.bangumi }, link:'https://bangumi.tv/user/fukudasan_desuk'},
+      { icon: { svg: icons.steam }, link:'https://steamcommunity.com/id/NamaeFutsuu/'},
+    ],
+  }),
+  memberOf('子非羽', { title: '副社长' }),
+  memberOf('橘七', { title: '副社长' }),
+  memberOf('龙虾', { title: '副社长' }),
+];
+
+export const vaMembers = [ // 演音部
+  memberOf('大粽', { title: '部长' }),
+  memberOf('砌槐', { title: '副部长' }),
+  memberOf('秋啾', { title: '副部长' }),
+  memberOf('冬阳', { title: '副部长' }),
+];
+
+export const editMembers = [ // 编辑部
+  memberOf('安怡', { title: '部长' }),
+  memberOf('掉线', { title: '副部长' }),
+  memberOf('咕咕', { title: '副部长' }),
+  memberOf('海豹', { title: '副部长' }),
+];
+
+export const cosMembers = [ // Cos部
+  memberOf('Rosie', { title: '部长' }),
+  memberOf('听海', { title: '副部长' }),
+  memberOf('夷辰', { title: '副部长' }),
+  memberOf('C酱', { title: '副部长' }),
+];
+
+export const darkMembers = [ // 暗部
+  memberOf('骑士', { title: '部长' }),
+  memberOf('sunet', { title: '副部长' }),
+  memberOf('朝日', { title: '副部长' }),
+  memberOf('咲', { title: '副部长' }),
+  memberOf('秋山', { title: '副部长' }),
+  memberOf('冰菓', { title: '副部长' }),
+  memberOf('EIP', { title: '副部长' }),
+];
+
+<TeamPage>
+  <TeamPageTitle title={<>2019HQ</>} lead={<>2019.6-2020.6</>}>
+
+</TeamPageTitle>
+
+  <TeamPageSection title={<>社长团</>}>
+<TeamMembers size="small" members={hqLeaders} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>演音部</>}>
+<TeamMembers size="small" members={vaMembers} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>编辑部</>}>
+<TeamMembers size="small" members={editMembers} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>Cos部</>}>
+<TeamMembers size="small" members={cosMembers} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>暗部</>}>
+<TeamMembers size="small" members={darkMembers} />
+</TeamPageSection>
+</TeamPage>

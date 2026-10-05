@@ -1,0 +1,49 @@
+/* Preserved page-specific styles from the VitePress content. */
+
+/* Migrated from docs/group/ani-key/activity/participants.md. */
+.ak-no-changelog{ display:none; }
+.ak-no-changelog ~ h2,
+.ak-no-changelog ~ div{ display:none !important; }
+
+/* Migrated from docs/group/ani-key/index.md. */
+/* 仅保留头像墙样式 */
+.ak-hero__pics{
+  display:flex; justify-content:center; gap:2rem; flex-wrap:wrap;
+  margin:1.6rem 0 2rem;
+}
+.ak-hero__pics figure{ margin:0; text-align:center; }
+.ak-hero__pics img{
+  width:118px; height:118px; object-fit:cover;
+  border:1px solid var(--vp-c-text-1);
+  padding:5px; background:var(--vp-c-bg);
+  outline:1px solid var(--vp-c-divider); outline-offset:3px;
+  transition:filter .35s ease; filter:grayscale(.35);
+}
+.ak-hero__pics img:hover{ filter:grayscale(0); }
+.ak-hero__pics figcaption{
+  margin-top:.85rem; font-size:.74rem; color:var(--vp-c-text-2); font-style:italic;
+}
+@media (max-width:520px){
+  .ak-hero__pics{ gap:1.2rem; }
+}
+
+/* Migrated from docs/index.md. */
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg,rgb(215, 86, 81) 0%, rgb(254, 52, 76) 100%);
+
+  --vp-home-hero-image-background-image: linear-gradient(-45deg,rgb(254, 52, 76) 50%, #47caff 50%);
+  --vp-home-hero-image-filter: blur(44px);
+}
+
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(68px);
+  }
+}

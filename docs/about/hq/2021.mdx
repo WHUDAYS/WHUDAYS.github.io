@@ -1,0 +1,76 @@
+---
+title: "2021HQ"
+layout: page
+gitChangelog: false
+---
+
+import { memberOf } from '@/lib/people'
+
+export const hqLeaders = [
+  memberOf('影临光', { title: '社长' }),
+  memberOf('七月疯兔', { title: '副社长' }),
+  memberOf('壹個', { title: '副社长' }),
+  memberOf('影黎', { title: '副社长' }),
+  memberOf('72', { title: '副社长' }),
+];
+
+export const vaMembers = [ // 演音部
+  memberOf('葑菲', { title: '部长', desc:'请无愧理想与热爱。' }),
+  memberOf('开跌', { title: '歌姬组组长', desc:'欢迎光临麦当劳 自己扫码点餐唔该' }),
+  memberOf('学徒', { title: 'CV组组长' }),
+];
+
+export const editMembers = [ // 编辑部
+  memberOf('Tabacco', { title: '部长' }),
+  memberOf('叁末', { title: '设计' }),
+  memberOf('子安', { title: '文编' }),
+  memberOf('饿龙', { title: '美编' }),
+];
+
+export const cosMembers = [ // cos部
+  memberOf('冰荷', { title: '部长' }),
+  memberOf('秦淮', { title: '活动组组长' }),
+  memberOf('千遇', { title: '后勤组组长' }),
+  memberOf('WJ', { title: '宅舞/WOTA艺组组长' }),
+];
+
+export const darkMembers = [ // 暗部
+  memberOf('陨阳', { title: '部长' }),
+  memberOf('ange', { title: '线上组组长' }),
+  memberOf('神代', { title: '秘书组组长' }),
+  memberOf('ym', { title: '外联组组长' }),
+];
+
+export const bandMembers = [ // 夏樱乐团
+  memberOf('瓜', { title: '团长', name: 'Greedy Watermelon' }),
+];
+
+<TeamPage>
+  <TeamPageTitle title={<>2021HQ</>} lead={<>2021.6-2022.6</>}>
+
+</TeamPageTitle>
+
+  <TeamPageSection title={<>社长团</>}>
+<TeamMembers size="small" members={hqLeaders} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>演音部</>}>
+<TeamMembers size="small" members={vaMembers} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>编辑部</>}>
+<TeamMembers size="small" members={editMembers} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>cos部</>}>
+<TeamMembers size="small" members={cosMembers} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>暗部</>}>
+<TeamMembers size="small" members={darkMembers} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>夏樱乐团</>}>
+<TeamMembers size="small" members={bandMembers} />
+</TeamPageSection>
+</TeamPage>

@@ -1,0 +1,21 @@
+---
+title: "2010HQ"
+layout: page
+gitChangelog: false
+---
+
+import { memberOf } from '@/lib/people'
+
+export const hqLeaders = [
+  memberOf('小雨', { title: '社长' }),
+];
+
+<TeamPage>
+  <TeamPageTitle title={<>2010HQ</>} lead={<>2010.6-2011.6</>}>
+
+</TeamPageTitle>
+
+  <TeamPageSection title={<>社长团</>}>
+<TeamMembers size="small" members={hqLeaders} />
+</TeamPageSection>
+</TeamPage>
