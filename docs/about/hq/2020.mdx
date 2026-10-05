@@ -1,0 +1,71 @@
+---
+title: "2020HQ"
+layout: page
+gitChangelog: false
+---
+
+import { memberOf } from '@/lib/people'
+
+export const hqLeaders = [
+  memberOf('72', { title: '社长' }),
+  memberOf('Rosie', { title: '副社长（cos部）' }),
+  memberOf('掉线', { title: '副社长' }),
+  memberOf('骑士', { title: '副社长（暗部）' }),
+  memberOf('大粽', { title: '副社长（演音部）' }),
+];
+
+export const editMembers = [
+  memberOf('影临光', { title: '部长' }),
+  memberOf('壹個', { title: '文编' }),
+  memberOf('阵雨', { title: '文编' }),
+  memberOf('尼采棉被', { title: '美编' }),
+];
+
+export const vaMembers = [
+  memberOf('七月疯兔', { title: '部长', name: '疯兔' }),
+  memberOf('砌槐', { title: '歌姬组-组长' }),
+  memberOf('槑菌', { title: 'cv组-组长' }),
+  memberOf('春阁下', { title: '后期组组长' }),
+];
+
+export const cosMembers = [
+  memberOf('影黎', { title: '部长' }),
+  memberOf('樨宇', { title: '活动组组长' }),
+  memberOf('洛棠', { title: '宅舞组组长' }),
+  memberOf('咕咕咕', { title: '后勤组组长' }),
+];
+
+export const darkMembers = [
+  memberOf('72', { title: '部长' }),
+  memberOf('Narcissus', { title: '副部-线上' }),
+  memberOf('zz', { title: '副部-外联' }),
+  memberOf('ym', { title: '副部-外联' }),
+  memberOf('优格', { title: '副部-秘书' }),
+  memberOf('方块', { title: '副部-杂物' }),
+];
+
+<TeamPage>
+  <TeamPageTitle title={<>2020HQ</>} lead={<>2020.6-2021.6</>}>
+
+</TeamPageTitle>
+
+  <TeamPageSection title={<>社长团</>}>
+<TeamMembers size="small" members={hqLeaders} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>编辑部</>}>
+<TeamMembers size="small" members={editMembers} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>演音部</>}>
+<TeamMembers size="small" members={vaMembers} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>cos部</>}>
+<TeamMembers size="small" members={cosMembers} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>暗部</>}>
+<TeamMembers size="small" members={darkMembers} />
+</TeamPageSection>
+</TeamPage>

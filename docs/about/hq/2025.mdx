@@ -1,0 +1,141 @@
+---
+title: "2025HQ"
+layout: page
+gitChangelog: false
+---
+
+import * as icons from '@/lib/icons';
+import { memberOf } from '@/lib/people'
+
+export const hqLeaders = [
+  memberOf('-QuQ-', {
+    title: '社长',
+    links: [
+      { icon: 'github', link: 'https://github.com/shenxianovo' },
+      { icon: { svg: icons.bilibili }, link:'https://space.bilibili.com/446305918' },
+      { icon: { svg: icons.blog }, link:'https://shenxianovo.com' },
+    ],
+    desc:'拝啓 未来の私',
+  }),
+  memberOf('利洛', {
+    title: '代理社长',
+    links: [{ icon: { svg: icons.bilibili }, link:'https://space.bilibili.com/165466622' }],
+    desc:'我们的...漫协...会变成什么样子...（抽泣）',
+  }),
+  memberOf('纱月Satsuki', { title: '指导老师' }),
+];
+
+export const vaMembers = [
+  memberOf('九尾晨', {
+    title: '部长',
+    desc: '玛卡巴卡阿卡哇咔米卡玛卡姆'
+  }),
+  memberOf('谷川夏', {
+    title: '歌姬组组长',
+    links: [{ icon: { svg: icons.bilibili }, link: 'https://space.bilibili.com/1984385057' }],
+    desc: '我会一直看着你…\n(逗你的哈哈希望大家天天开心呀'
+  }),
+  memberOf('awaqwq233', {
+    title: '配音组组长',
+    desc: 'awa我喜欢你喵要一直开心喵'  
+  }),
+];
+
+export const editMembers = [
+  memberOf('鸭鸭鸭', {
+    title: '部长',
+    desc: '吃什么。'
+  }),
+  memberOf('流澜', {
+    title: '文编',
+    avatar: '/avatars/流澜_2.jpg', // 上传的图片，和之前的不一样，故此处显式指定
+    desc: '听说如果放五根蜡烛在电脑旁边，再画个十字并辅以三叩九拜，键盘就会在凌晨四点开始自己打字'
+  }),
+  memberOf('Biophilia', {
+    title: '美编',
+    desc: '你是谁，请支持编辑部'
+  }),
+];
+
+export const cosMembers = [
+  memberOf('垂杨', {
+    title: '部长',
+    desc: '团长，车已经准备好了——',
+  }),
+  memberOf('白茗', {
+    title: '副部长',
+    links: [{ icon: { svg: icons.bilibili }, link: 'https://space.bilibili.com/354120193' }],
+    desc: '一如初见'
+  }),
+];
+
+export const darkMembers = [
+  memberOf('利洛', {
+    title: '部长',
+    links: [{ icon: { svg: icons.bilibili }, link: 'https://space.bilibili.com/165466622' }],
+    desc:'我们的...漫协...会变成什么样子...（抽泣）',
+  }),
+  memberOf('wweiyi', {
+    title: '外联组组长',
+    desc: '未来是你们的！'
+  }),
+  memberOf('花落未殇', {
+    title: '外联组组长',
+    desc: '神威难藏泪',
+  }),
+  memberOf('霂霜', {
+    title: '秘书组组长',
+    desc: '霂霜霂霜霂'
+  }),
+  memberOf('四角五十分', {
+    title: '线上组组长',
+    links: [{icon: { svg: icons.xiaohongshu }, link: 'https://xhslink.com/m/3w45syNcf4K'}],
+    desc: '王师北购X6日，家祭无忘告乃翁'
+  }),
+];
+
+export const bandMembers = [
+  memberOf('花桑', {
+    title: '团长',
+    desc: '嗯，sodayo'
+  }),
+];
+
+export const wotaMembers = [
+  memberOf('谛霞', {
+    title: '部长',
+    links: [{ icon: { svg: icons.bilibili }, link: 'https://space.bilibili.com/319415172' }],
+    desc: '其实下届我还在'
+  }),
+];
+
+<TeamPage>
+  <TeamPageTitle title={<>2025HQ</>} lead={<>社长团</>}>
+{/* <template #lead>2025.6-2026.6</template> */}
+</TeamPageTitle>
+  <TeamMembers size="small" members={hqLeaders} />
+
+  <TeamPageSection title={<>演音部</>}>
+<TeamMembers size="small" members={vaMembers} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>编辑部</>}>
+<TeamMembers size="small" members={editMembers} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>cos部</>}>
+<TeamMembers size="small" members={cosMembers} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>暗部</>}>
+<TeamMembers size="small" members={darkMembers} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>夏樱乐团</>}>
+<TeamMembers size="small" members={bandMembers} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>wota艺部</>}>
+<TeamMembers size="small" members={wotaMembers} />
+</TeamPageSection>
+</TeamPage>

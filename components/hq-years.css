@@ -1,0 +1,23 @@
+.hq-year-grid { margin: 24px 0; }
+.hq-year-card .hq-year-link {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+  color: inherit;
+  text-align: center;
+  text-decoration: none;
+}
+.hq-year-card .hq-year-link:focus-visible {
+  outline: 2px solid var(--color-fd-primary);
+  outline-offset: -4px;
+  border-radius: 20px;
+}
+.hq-year-name { min-height: 22px; }
+.hq-year-arrow { position: absolute; top: 16px; right: 16px; color: var(--color-fd-muted-foreground); transition: color .2s; }
+.hq-year-link:hover .hq-year-arrow { color: var(--color-fd-primary); }
+@media (prefers-reduced-motion: reduce) {
+  .hq-year-arrow { transition: none; }
+}

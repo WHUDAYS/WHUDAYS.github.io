@@ -1,0 +1,75 @@
+---
+title: "2016HQ"
+layout: page
+gitChangelog: false
+---
+
+import { memberOf } from '@/lib/people'
+
+export const hqLeaders = [
+  memberOf('evy', { title: '社长' }),
+  memberOf('SRin', { title: '副社长' }),
+  memberOf('包子', { title: '副社长' }),
+  memberOf('不科学', { title: '副社长' }),
+];
+
+export const vaMembers = [ // 演音部
+  memberOf('Kuma', { title: '部长' }),
+  memberOf('桐谷和人', { title: '副部长' }),
+  memberOf('elegy', { title: '副部长' }),
+  memberOf('九日', { title: '副部长' }),
+  memberOf('鸭梨', { title: '副部长' }),
+  memberOf('小天', { title: '副部长' }),
+];
+
+export const editMembers = [ // 编辑部
+  memberOf('大痴', { title: '部长' }),
+  memberOf('非渣即触', { title: '副部长' }),
+  memberOf('树皮', { title: '副部长' }),
+  memberOf('北大门的天灾', { title: '副部长' }),
+];
+
+export const cosMembers = [ // cos部
+  memberOf('天狗', { title: '部长' }),
+  memberOf('九日', { title: '副部长' }),
+  memberOf('Layla', { title: '副部长' }),
+  memberOf('穹妹', { title: '副部长' }),
+];
+
+export const adminMembers = [ // 常务部
+  memberOf('残念', { title: '部长' }),
+];
+
+export const prMembers = [ // 外联部
+  memberOf('魔王', { title: '部长' }),
+];
+
+<TeamPage>
+  <TeamPageTitle title={<>2016HQ</>} lead={<>2016.6-2017.6</>}>
+
+</TeamPageTitle>
+
+  <TeamPageSection title={<>社长团</>}>
+<TeamMembers size="small" members={hqLeaders} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>演音部</>}>
+<TeamMembers size="small" members={vaMembers} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>编辑部</>}>
+<TeamMembers size="small" members={editMembers} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>cos部</>}>
+<TeamMembers size="small" members={cosMembers} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>常务部</>}>
+<TeamMembers size="small" members={adminMembers} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>外联部</>}>
+<TeamMembers size="small" members={prMembers} />
+</TeamPageSection>
+</TeamPage>

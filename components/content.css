@@ -1,0 +1,238 @@
+/*!
+ * Team and badge styles adapted from VitePress 2.0.0-alpha.5 (MIT).
+ * Copyright (c) 2019-present, Yuxi (Evan) You
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
+/* Content components remain server-rendered; the root .dark class handles theme changes. */
+:where(.VPTeamPage, .VPTeamPageTitle, .VPTeamPageSection, .VPTeamMembers) {
+  --whu-team-bg: var(--color-fd-muted, #f6f6f7);
+  --whu-team-page-bg: var(--color-fd-background, #fff);
+  --whu-team-muted: var(--color-fd-muted-foreground, #67676c);
+  --whu-team-border: var(--color-fd-border, #e2e2e3);
+  --whu-team-brand: var(--color-fd-primary, #3451b2);
+  --whu-team-sponsor: #db2777;
+}
+
+.dark :where(.VPTeamPage, .VPTeamPageTitle, .VPTeamPageSection, .VPTeamMembers) {
+  --whu-team-bg: var(--color-fd-muted, #202127);
+  --whu-team-page-bg: var(--color-fd-background, #1b1b1f);
+  --whu-team-muted: var(--color-fd-muted-foreground, #98989f);
+  --whu-team-border: var(--color-fd-border, #3c3f44);
+  --whu-team-brand: var(--color-fd-primary, #a8b1ff);
+}
+
+.ChatMessage {
+  display: flex;
+  align-items: flex-end;
+  gap: 5px;
+  margin: 10px 0;
+  text-align: left;
+}
+
+.ChatMessage[data-position='right'] { flex-direction: row-reverse; }
+.ChatMessage .chat-avatar {
+  flex: 0 0 50px;
+  width: 50px;
+  height: 50px;
+  margin: -5px 0 0;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.ChatMessage .chat-content { min-width: 0; max-width: 70%; margin-right: auto; }
+.ChatMessage[data-position='right'] .chat-content { margin-right: 0; margin-left: auto; }
+.ChatMessage .chat-nickname { margin-bottom: 5px; font-weight: 700; }
+.ChatMessage[data-position='right'] .chat-nickname { text-align: right; }
+.ChatMessage .message-bubble {
+  border-radius: 10px;
+  padding: 8px 12px;
+  color: #000;
+  background: #f0f0f0;
+  overflow-wrap: anywhere;
+}
+.dark .ChatMessage .message-bubble { color: #fff; background: #333; }
+.ChatMessage .message-bubble img { display: block; max-width: 100%; height: auto; margin: 0; }
+.ChatMessage .message-bubble a { color: var(--color-fd-primary, #3451b2); text-decoration: underline; }
+
+.VPBadge {
+  display: inline-block;
+  margin-left: 2px;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  padding: 0 10px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 22px;
+  vertical-align: middle;
+  transform: translateY(-2px);
+}
+.VPBadge.small { padding: 0 6px; line-height: 18px; font-size: 10px; transform: translateY(-8px); }
+.VPBadge.info { color: #67676c; background: #8e96aa24; }
+.VPBadge.tip { color: #3451b2; background: #646cff24; }
+.VPBadge.warning { color: #915930; background: #eab30824; }
+.VPBadge.danger { color: #b8272c; background: #f43f5e24; }
+.dark .VPBadge.info { color: #c2c2c4; background: #65758529; }
+.dark .VPBadge.tip { color: #a8b1ff; background: #646cff29; }
+.dark .VPBadge.warning { color: #f9b44e; background: #eab30829; }
+.dark .VPBadge.danger { color: #f66f81; background: #f43f5e29; }
+
+.member-grid {
+  column-count: 2;
+  column-gap: 24px;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 10px;
+}
+.member-card-link {
+  display: block;
+  break-inside: avoid;
+  margin-bottom: 24px;
+  text-decoration: none;
+  color: inherit;
+}
+.member-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 120px;
+  border-radius: 12px;
+  padding: 20px;
+  background: #eff2f3;
+  box-shadow: 0 2px 12px #39c5bb33;
+  transform: scale(1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.dark .member-card { background: #1c1d1d; box-shadow: 0 2px 12px #39c5bb55; }
+.member-card:hover, .member-card:focus-within { box-shadow: 0 8px 32px #e6188055; transform: scale(1.05); }
+.member-card-target {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border-radius: inherit;
+}
+.member-card-target:focus-visible { outline: 2px solid #39c5bb; outline-offset: 4px; }
+.member-card-top { display: flex; align-items: flex-start; gap: 15px; margin-bottom: 15px; }
+.member-card .member-avatar {
+  flex: 0 0 70px;
+  width: 70px;
+  height: 70px;
+  margin: 0;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 8px #39c5bb88;
+}
+.member-info { flex: 1; min-width: 0; text-align: left; overflow-wrap: anywhere; }
+.member-info .member-name { margin-bottom: 8px; font-size: 18px; font-weight: 700; line-height: 1.2; }
+.member-info .member-description { margin-top: 8px; color: #666; font-size: 14px; }
+.dark .member-info .member-description { color: #b6b6bc; }
+.member-sns { display: flex; justify-content: center; gap: 8px; margin-top: auto; }
+.member-sns a { position: relative; z-index: 2; display: inline-flex; border-radius: 4px; }
+.member-sns a:focus-visible { outline: 2px solid #39c5bb; outline-offset: 4px; }
+.member-sns .member-sns-logo { width: 32px; height: 32px; margin: 0; transition: transform 0.2s; }
+.member-sns a:hover .member-sns-logo, .member-sns a:focus-visible .member-sns-logo { transform: scale(1.1); }
+
+.VPTeamMembers { width: 100%; margin: 24px 0; }
+.VPTeamMembers .team-container { margin: 0 auto; }
+.VPTeamMembers.count-1 .team-container { max-width: 368px; }
+.VPTeamMembers.count-2 .team-container { max-width: 760px; }
+.VPTeamMembers .team-item { min-width: 0; }
+.VPTeamMembersItem {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.VPTeamMembersItem .profile { flex-grow: 1; padding: 20px; }
+.VPTeamMembersItem .data { text-align: center; overflow-wrap: anywhere; }
+.VPTeamMembersItem .avatar { position: relative; flex-shrink: 0; }
+.VPTeamMembersItem .avatar-img { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; border-radius: 50%; object-fit: cover; }
+.VPTeamMembersItem.year-group .name { min-height: 22px; }
+.VPTeamMembersItem .org.link { color: inherit; text-decoration: none; transition: color .2s; }
+.VPTeamMembersItem .org.link:hover { color: var(--whu-team-brand); }
+.VPTeamMembersItem .desc { margin: 12px auto 0; font-size: 14px; line-height: 22px; }
+.VPTeamMembersItem .desc a { color: var(--whu-team-brand); font-weight: 500; text-decoration: underline dotted; transition: color .2s; }
+.VPTeamMembersItem .links { display: flex; justify-content: center; margin-top: 12px; }
+.VPTeamMembersItem .VPSocialLinks { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; }
+.VPTeamMembersItem .VPSocialLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 6px;
+  color: var(--whu-team-muted);
+  text-decoration: none;
+  transition: color 0.25s;
+}
+.VPTeamMembersItem .VPSocialLink:hover { color: var(--whu-team-brand); }
+.VPTeamMembersItem .VPSocialLink:focus-visible { outline: 2px solid var(--whu-team-brand); outline-offset: 2px; }
+.VPTeamMembersItem .team-social-icon, .VPTeamMembersItem .team-social-icon svg { display: block; width: 20px; height: 20px; fill: currentColor; }
+.VPTeamMembersItem .sp-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--whu-team-sponsor);
+  background: var(--whu-team-bg);
+  text-decoration: none;
+  transition: color 0.25s, background-color 0.25s;
+}
+.VPTeamMembersItem .sp-link:hover, .VPTeamMembersItem .sp-link:focus-visible { color: #fff; background: var(--whu-team-sponsor); }
+.VPTeamMembersItem .sp-link:focus-visible { outline: 2px solid var(--whu-team-brand); outline-offset: -3px; }
+.VPTeamMembersItem .sp-icon { flex: 0 0 16px; width: 16px; height: 16px; margin-right: 8px; }
+
+.VPTeamPage { width: 100%; margin: 48px 0 64px; }
+.VPTeamPage > .VPTeamPageSection + .VPTeamPageSection,
+.VPTeamPage > .VPTeamMembers + .VPTeamPageSection { margin-top: 64px; }
+.VPTeamPage > .VPTeamMembers + .VPTeamMembers { margin-top: 24px; }
+.VPTeamPage > .VPTeamMembers { padding: 0; }
+.VPTeamPageTitle { padding: 48px 32px; text-align: center; }
+.VPTeamPageTitle > .title { margin: 0; letter-spacing: 0; line-height: 44px; font-size: 36px; font-weight: 500; }
+.VPTeamPageTitle > .lead { margin: 0 auto; max-width: 512px; padding-top: 12px; line-height: 24px; font-size: 16px; font-weight: 500; color: var(--whu-team-muted); }
+.VPTeamPageSection { padding: 0; }
+.VPTeamPageSection > .title { position: relative; margin: 0 auto; max-width: 1152px; text-align: center; color: var(--whu-team-muted); }
+.VPTeamPageSection .title-line { position: absolute; top: 16px; left: 0; width: 100%; height: 1px; background: var(--whu-team-border); }
+.VPTeamPageSection .title-text { position: relative; display: inline-block; margin: 0; border: 0; padding: 0 24px; letter-spacing: 0; line-height: 32px; font-size: 20px; font-weight: 500; background: var(--whu-team-page-bg); }
+.VPTeamPageSection > .lead { margin: 0 auto; max-width: 480px; padding-top: 12px; text-align: center; line-height: 24px; font-size: 16px; font-weight: 500; color: var(--whu-team-muted); }
+.VPTeamPageSection > .members { margin-top: 24px; }
+.VPTeamPageSection > .members:first-child { margin-top: 0; }
+.VPTeamPageSection > .lead img, .VPTeamPageTitle > .lead img { max-width: 100%; }
+
+@media (max-width: 700px) {
+  .member-grid { column-count: 1; }
+}
+@media (min-width: 768px) {
+  .VPTeamPage > .VPTeamPageTitle + .VPTeamPageSection { margin-top: 16px; }
+  .VPTeamPage > .VPTeamPageSection + .VPTeamPageSection,
+  .VPTeamPage > .VPTeamMembers + .VPTeamPageSection { margin-top: 96px; }
+  .VPTeamPageTitle { padding: 64px 48px 48px; }
+  .VPTeamPageTitle > .title { letter-spacing: -0.5px; line-height: 56px; font-size: 48px; }
+  .VPTeamPageTitle > .lead { max-width: 592px; letter-spacing: 0.15px; line-height: 28px; font-size: 20px; }
+}
+@media (min-width: 960px) {
+  .VPTeamPageTitle { padding: 80px 64px 48px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .member-card, .member-sns-logo { transition: none !important; }
+  .member-card:hover, .member-card:focus-within, .member-sns a:hover .member-sns-logo, .member-sns a:focus-visible .member-sns-logo { transform: none; }
+}

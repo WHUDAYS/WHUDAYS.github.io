@@ -1,0 +1,81 @@
+---
+title: "鸟船遗迹"
+layout: page
+gitChangelog: false
+---
+
+import { memberOf, QQGroup } from '@/lib/people'
+
+export const mainGroupAvatar = QQGroup('310619080')
+export const tsukimiGroupAvatar = QQGroup('1047043631')
+export const saigyoujiGroupAvatar = QQGroup('891795171')
+
+export const mainAdmins = [
+  memberOf('红马尾'),
+  memberOf('彼方'),
+  memberOf('椿梦栀结'),
+  memberOf('大小姐的⑨'),
+  memberOf('魔理沙的扫把'),
+  memberOf('南瓜牛奶麻鼠'),
+  memberOf('Shadow'),
+  memberOf('天边壹颗星'),
+  memberOf('幽沐'),
+  memberOf('利洛'),
+];
+
+export const tsukimiAdmins = [
+  memberOf('利洛'),
+  memberOf('椿梦栀结'),
+  memberOf('Animnia'),
+  memberOf('长野原大介'),
+  memberOf('旧水'),
+  memberOf('天一'),
+];
+
+export const saigyoujiStaff = [
+  memberOf('Check Maid'),
+  memberOf('利洛'),
+  memberOf('椿梦栀结'),
+  memberOf('Animnia'),
+  memberOf('45450721'),
+  memberOf('长野原大介'),
+  memberOf('旧水'),
+  memberOf('天一'),
+  memberOf('笺染阡素'),
+  memberOf('MangLF'),
+  memberOf('末陌'),
+  memberOf('寂寞嫦娥舒广袖'),
+  memberOf('喵喵喵'),
+  memberOf('Quank'),
+  memberOf('天边壹颗星'),
+  memberOf('二酸化碳素'),
+  memberOf('吃药图书'),
+  memberOf('卒子'),
+];
+
+<TeamPage>
+  <TeamPageTitle title={<>鸟船遗迹</>} lead={<>这里记载着截至目前 WHUDAYS Touhou Club 正式群聊及同人社团的全部工作人员，感谢所有人的辛勤付出。</>}>
+
+</TeamPageTitle>
+
+  <TeamPageSection title={<>主群管理</>} lead={<><div style={{"display":"flex","alignItems":"center","justifyContent":"center","gap":"0.5rem"}}>
+        <img src={mainGroupAvatar} alt="WHUDAYS Touhou Club" style={{"width":"64px","height":"64px","borderRadius":"50%"}} />
+        <span>WHUDAYS Touhou Club</span>
+      </div></>}>
+<TeamMembers size="small" members={mainAdmins} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>秘月集 管理</>} lead={<><div style={{"display":"flex","alignItems":"center","justifyContent":"center","gap":"0.5rem"}}>
+        <img src={tsukimiGroupAvatar} alt="秘月集" style={{"width":"64px","height":"64px","borderRadius":"50%"}} />
+        <span>WHUDAYS-东方club-秘月集</span>
+      </div></>}>
+<TeamMembers size="small" members={tsukimiAdmins} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>西行妖储备养料 Staff</>} lead={<><div style={{"display":"flex","alignItems":"center","justifyContent":"center","gap":"0.5rem"}}>
+        <img src={saigyoujiGroupAvatar} alt="西行妖储备养料" style={{"width":"64px","height":"64px","borderRadius":"50%"}} />
+        <span>西行妖储备养料-Staff Only</span>
+      </div></>}>
+<TeamMembers size="small" members={saigyoujiStaff} />
+</TeamPageSection>
+</TeamPage>

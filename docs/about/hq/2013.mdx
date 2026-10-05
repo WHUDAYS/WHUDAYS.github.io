@@ -1,0 +1,79 @@
+---
+title: "2013HQ"
+layout: page
+gitChangelog: false
+---
+
+import { memberOf } from '@/lib/people'
+
+export const hqLeaders = [
+  memberOf('正面', { title: '社长' }),
+  memberOf('D君', { title: '副社长' }),
+  memberOf('店长', { title: '副社长' }),
+  memberOf('Miyu', { title: '副社长' }),
+  memberOf('魍魉', { title: '副社长' }),
+];
+
+export const vaMembers = [ // 演音部
+  memberOf('满天', { title: '部长' }),
+  memberOf('锐桑', { title: '副部长' }),
+  memberOf('大漠', { title: '副部长' }),
+  memberOf('Panda', { title: '副部长' }),
+];
+
+export const editMembers = [ // 编辑部
+  memberOf('世闲', { title: '部长' }),
+  memberOf('明蛋', { title: '副部长' }),
+  memberOf('⑨', { title: '副部长' }),
+  memberOf('小怨', { title: '副部长' }),
+];
+
+export const cosMembers = [ // cos部
+  memberOf('小吧', { title: '部长' }),
+  memberOf('安妮', { title: '副部长' }),
+  memberOf('毛毛虫', { title: '副部长' }),
+  memberOf('菠萝', { title: '副部长' }),
+];
+
+export const secretariatMembers = [ // 秘书处
+  memberOf('小阳', { title: '部长' }),
+  memberOf('阿木', { title: '副部长' }),
+  memberOf('骚年', { title: '副部长' }),
+];
+
+export const prMembers = [ // 公关部
+  memberOf('岚', { title: '部长' }),
+  memberOf('神妖', { title: '副部长' }),
+  memberOf('小丑', { title: '副部长' }),
+  memberOf('筒子', { title: '副部长' }),
+];
+
+<TeamPage>
+  <TeamPageTitle title={<>2013HQ</>} lead={<>2013.6-2014.6</>}>
+
+</TeamPageTitle>
+
+  <TeamPageSection title={<>社长团</>}>
+<TeamMembers size="small" members={hqLeaders} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>演音部</>}>
+<TeamMembers size="small" members={vaMembers} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>编辑部</>}>
+<TeamMembers size="small" members={editMembers} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>cos部</>}>
+<TeamMembers size="small" members={cosMembers} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>秘书处</>}>
+<TeamMembers size="small" members={secretariatMembers} />
+</TeamPageSection>
+
+  <TeamPageSection title={<>公关部</>}>
+<TeamMembers size="small" members={prMembers} />
+</TeamPageSection>
+</TeamPage>
