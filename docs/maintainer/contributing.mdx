@@ -93,6 +93,8 @@ title: "贡献指南"
 - QQ 头像：直接 `QQ('你的QQ号')`，模块顶部已有 `QQ` helper
 - Github / Git 邮箱设定（仅对代码/文档提交者需要）：根据提交历史中的 Author 和 Email 配置 `mapByNameAliases` / `mapByEmailAliases`，让页面历史归拢记录。
 
+页面历史和贡献者由 `fumadocs-page-history` 显示。注册表的键名是站内显示名称，`github` 只决定 GitHub 个人主页链接；例如上面的配置会显示 `-QuQ-`，点击后打开 `shenxianovo` 的主页。修改键名即可修改显示名称，同时应更新页面中 `avatarOf` / `memberOf` 的对应引用。姓名与邮箱别名只在构建期参与匹配，不会传给浏览器。
+
 注册表里没有的名字会回落到默认占位头像（`PLACEHOLDER_AVATAR`）。
 
 ### ChatMessage 对话气泡

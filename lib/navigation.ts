@@ -1,4 +1,5 @@
 import type { Root, Node } from 'fumadocs-core/page-tree';
+import { flattenTree } from 'fumadocs-core/page-tree';
 import type { LayoutTab } from '@fumadocs/base-ui/layouts/shared';
 import { createElement } from 'react';
 import { AudioLines, CalendarDays, FolderOpen, Info, MessagesSquare, UsersRound, Wrench, type LucideIcon } from 'lucide-react';
@@ -38,20 +39,13 @@ export function getSidebar(path: string): Root {
 /** Preserve VitePress pagination, including unlisted-page → section overview. */
 export function getPagination(path: string) {
   const normalize = (value: string) => decodeURI(value).replace(/[?#].*$/, '').replace(/\/index(?:\.html)?$/, '/').replace(/\.html$/, '').replace(/\/$/, '') || '/';
-  const key = Object.keys(sidebars).sort((a, b) => b.length - a.length)
-    .find((prefix) => `${normalize(path)}/`.startsWith(prefix));
-  const links: { name: string; url: string }[] = [];
   const taken = new Set<string>();
-  function collect(items: NavigationItem[]) {
-    for (const item of items) {
-      if (item.link && !taken.has(normalize(item.link))) {
-        taken.add(normalize(item.link));
-        links.push({ name: item.text, url: encodeURI(item.link) });
-      }
-      if (item.items) collect(item.items);
-    }
-  }
-  if (key) collect(sidebars[key]);
+  const links = flattenTree(getSidebar(normalize(path)).children).filter(item => {
+    const url = normalize(item.url);
+    if (taken.has(url)) return false;
+    taken.add(url);
+    return true;
+  });
   const index = links.findIndex((item) => normalize(item.url) === normalize(path));
   return { previous: links[index - 1], next: links[index + 1] };
 }

@@ -7,12 +7,12 @@
 
 ## 本地开发
 
-需要 Node.js 24、pnpm 11。请完整克隆仓库（不要 shallow clone），以显示完整页面历史。
+需要 Node.js 24.14 或更新版本、pnpm 11。请完整克隆仓库（不要 shallow clone），以显示完整页面历史。
 
 ```sh
 pnpm install --frozen-lockfile
 pnpm dev       # http://localhost:3000
-pnpm check     # 类型、静态构建与路由/资源/搜索定位检查
+pnpm check     # 历史回归、类型、静态构建与路由/资源/搜索定位检查
 pnpm preview   # http://localhost:4173，预览 out/ 中的实际静态产物
 ```
 
@@ -21,12 +21,12 @@ pnpm preview   # http://localhost:4173，预览 out/ 中的实际静态产物
 - `docs/**/*.mdx`：内容；原 Markdown 文件名/路由保留，Vue 片段已迁移为 React/MDX
 - `public/`：原有图片、PDF、视频、PDF.js 和独立历史页面，由 Next.js 直接读取，构建时原样输出到站点根目录
 - `lib/navigation.json`：顶栏和按最长路径匹配的分区侧栏
-- `lib/git-history.mjs`：构建期读取页面历史
 - `lib/people.js`、`lib/icons.js`：统一人员、头像、贡献者别名与社交图标
 - `components/content.tsx`：聊天气泡、成员卡、团队页等 React 组件
-- `components/git-history-view.tsx`：页面完整 Git 历史、排序/展开、作者与共同作者
-- `source.config.ts`、`lib/remark-legacy-headings.mjs`：Fumadocs MDX 及历史标题锚点兼容
-- `scripts/`：仅保留发布产物检查；搜索由 Fumadocs 生成，站点地图由 Next.js 生成，本地静态预览使用 `serve`
+- `source.config.ts`：Fumadocs MDX 配置；通过 `remarkGitChangelog` 自动追加贡献者和页面历史，并由 Fumadocs 导出页面更新时间
+- `components/provider.tsx`：通过 Fumadocs 翻译接口组合官方简体中文语言包和页面历史中文预设
+- `lib/remark-legacy-headings.mjs`：历史标题锚点兼容
+- `scripts/`：发布产物检查和页面历史接入回归测试；搜索由 Fumadocs 生成，站点地图由 Next.js 生成，本地静态预览使用 `serve`
 - `out/`：GitHub Pages 静态输出，包含站点地图、CNAME 和原有独立 HTML 存档；文章使用无 `.html` 后缀的地址
 
 ## 投稿与维护
@@ -34,6 +34,8 @@ pnpm preview   # http://localhost:4173，预览 out/ 中的实际静态产物
 欢迎投稿和协助维护！详见[贡献指南](https://whudays.org/maintainer/contributing)。新增页面时请同步更新侧栏，站内链接继续使用绝对路径。`pnpm build` 会检查站内链接与归档资源；失败时不要部署。
 
 图片和附件直接维护在根目录 `public/`。构建检查当前静态页面的站内链接、资源地址和锚点，不依赖旧站迁移快照。
+
+页面历史直接使用 npm 发布的 `fumadocs-page-history`，无需本地补丁。本站在 `source.config.ts` 中通过 `getHistoryPaths` 显式关联迁移前的同路径 `.md` 文件，由包统一合并、去重、排序，不限制数量。迁移同时改写了 Vue/React 语法，部分文件未达到 Git 默认 50% 的重命名相似度阈值，显式路径用于补齐这部分记录。`scripts/page-history.test.mjs` 验证迁移前记录、建页及合并提交，以及复制模板不会混入其他页面的历史。
 
 ## 许可
 
