@@ -1,4 +1,6 @@
 import type { Root, Node } from 'fumadocs-core/page-tree';
+import { flattenTree } from 'fumadocs-core/page-tree';
+import { searchPath } from 'fumadocs-core/breadcrumb';
 import type { LayoutTab } from '@fumadocs/base-ui/layouts/shared';
 import { createElement } from 'react';
 import { AudioLines, CalendarDays, FolderOpen, Info, MessagesSquare, UsersRound, Wrench, type LucideIcon } from 'lucide-react';
@@ -19,13 +21,15 @@ export const sectionTabs: LayoutTab[] = navigation.nav
   .map((item) => ({ title: item.text, url: item.link, icon: createElement(sectionIcons[item.link] ?? FolderOpen, { 'aria-hidden': true }) }));
 
 function convert(item: NavigationItem): Node {
+  // Fumadocs matches tree URLs against its slashless normalized pathname.
+  const url = encodeURI(item.link?.replace(/\/$/, '') || '/');
   if (item.items) return {
     type: 'folder', name: item.text,
     defaultOpen: item.collapsed === false,
-    index: item.link ? { type: 'page', name: item.text, url: encodeURI(item.link) } : undefined,
+    index: item.link ? { type: 'page', name: item.text, url } : undefined,
     children: item.items.map(convert),
   };
-  return { type: 'page', name: item.text, url: encodeURI(item.link ?? '/') };
+  return { type: 'page', name: item.text, url };
 }
 
 export function getSidebar(path: string): Root {
@@ -34,24 +38,28 @@ export function getSidebar(path: string): Root {
   return { name: '菜单', children: key ? sidebars[key].map(convert) : [] };
 }
 
+/** Native root folders add the section to breadcrumbs while keeping sidebar items. */
+export function getLayoutTree(path: string): Root {
+  const tree = getSidebar(path);
+  const section = navigation.nav.find(item => item.link !== '/' && `${path.replace(/\/$/, '')}/`.startsWith(item.link));
+  if (!section || !searchPath(tree.children, path)) return tree;
+  return {
+    name: section.text,
+    children: [{ type: 'folder', root: true, name: section.text, children: tree.children }],
+  };
+}
+
 
 /** Preserve VitePress pagination, including unlisted-page → section overview. */
 export function getPagination(path: string) {
   const normalize = (value: string) => decodeURI(value).replace(/[?#].*$/, '').replace(/\/index(?:\.html)?$/, '/').replace(/\.html$/, '').replace(/\/$/, '') || '/';
-  const key = Object.keys(sidebars).sort((a, b) => b.length - a.length)
-    .find((prefix) => `${normalize(path)}/`.startsWith(prefix));
-  const links: { name: string; url: string }[] = [];
   const taken = new Set<string>();
-  function collect(items: NavigationItem[]) {
-    for (const item of items) {
-      if (item.link && !taken.has(normalize(item.link))) {
-        taken.add(normalize(item.link));
-        links.push({ name: item.text, url: encodeURI(item.link) });
-      }
-      if (item.items) collect(item.items);
-    }
-  }
-  if (key) collect(sidebars[key]);
+  const links = flattenTree(getSidebar(normalize(path)).children).filter(item => {
+    const url = normalize(item.url);
+    if (taken.has(url)) return false;
+    taken.add(url);
+    return true;
+  });
   const index = links.findIndex((item) => normalize(item.url) === normalize(path));
   return { previous: links[index - 1], next: links[index + 1] };
 }

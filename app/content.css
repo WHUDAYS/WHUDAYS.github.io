@@ -1,10 +1,5 @@
 /* Preserved page-specific styles from the VitePress content. */
 
-/* Migrated from docs/group/ani-key/activity/participants.md. */
-.ak-no-changelog{ display:none; }
-.ak-no-changelog ~ h2,
-.ak-no-changelog ~ div{ display:none !important; }
-
 /* Migrated from docs/group/ani-key/index.md. */
 /* 仅保留头像墙样式 */
 .ak-hero__pics{

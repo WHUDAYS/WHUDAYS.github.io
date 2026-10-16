@@ -1,11 +1,13 @@
 'use client';
 
-import { useDocsSearch } from 'fumadocs-core/search/client';
 import { createSearchDatabase } from '@/lib/search-tokenizer';
-import { staticClient } from 'fumadocs-core/search/client/orama-static';
+import navigation from '@/lib/navigation.json';
+import { useState } from 'react';
+import { useStaticSearch } from 'fumadocs-core/search/client/orama-static';
 import {
   SearchDialog, SearchDialogClose, SearchDialogContent, SearchDialogHeader,
   SearchDialogIcon, SearchDialogInput, SearchDialogList, SearchDialogOverlay,
+  TagsList, TagsListItem,
   type SharedProps, type SearchItemType,
 } from '@fumadocs/base-ui/components/dialog/search';
 
@@ -33,10 +35,11 @@ function revealSearchResult(item: SearchItemType) {
 }
 
 export default function StaticSearchDialog(props: SharedProps) {
-  const { search, setSearch, query } = useDocsSearch({
-    client: staticClient({ from: '/search-index.json', initDB: createSearchDatabase }),
+  const [tag, setTag] = useState('');
+  const search = useStaticSearch({
+    from: '/search-index.json', initDB: createSearchDatabase, tag: tag || undefined,
   });
-  return <SearchDialog search={search} onSearchChange={setSearch} isLoading={query.isLoading} {...props} onSelect={revealSearchResult}>
+  return <SearchDialog {...search} {...props} onSelect={revealSearchResult}>
     <SearchDialogOverlay />
     <SearchDialogContent>
       <SearchDialogHeader>
@@ -44,8 +47,14 @@ export default function StaticSearchDialog(props: SharedProps) {
         <SearchDialogInput placeholder="搜索社团活动、成员与文档…" />
         <SearchDialogClose />
       </SearchDialogHeader>
-      {query.error ? <p role="alert" className="p-4">搜索索引加载失败，请检查网络后重新打开搜索</p> :
-        <SearchDialogList items={query.data !== 'empty' ? query.data : null} />}
+      <TagsList tag={tag} onTagChange={value => setTag(value ?? '')} className="border-b p-3" aria-label="搜索分区">
+        <TagsListItem value="" tabIndex={0} aria-pressed={tag === ''}>全部</TagsListItem>
+        {navigation.nav.filter(item => item.link !== '/').map(item => {
+          const value = item.link.split('/')[1];
+          return <TagsListItem key={value} value={value} tabIndex={0} aria-pressed={tag === value}>{item.text}</TagsListItem>;
+        })}
+      </TagsList>
+      <SearchDialogList />
     </SearchDialogContent>
   </SearchDialog>;
 }
