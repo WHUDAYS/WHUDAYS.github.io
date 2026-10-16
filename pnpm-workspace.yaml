@@ -7,4 +7,4 @@ minimumReleaseAgeExclude:
   - '@fumadocs/base-ui@16.16.1 || 16.17.4'
   - '@fumadocs/tailwind@0.1.4'
   - '@fumadocs/language@0.2.14'
-  - fumadocs-page-history@0.3.2
+  - fumadocs-page-history@0.3.2 || 0.3.3

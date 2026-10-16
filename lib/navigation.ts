@@ -1,5 +1,6 @@
 import type { Root, Node } from 'fumadocs-core/page-tree';
 import { flattenTree } from 'fumadocs-core/page-tree';
+import { searchPath } from 'fumadocs-core/breadcrumb';
 import type { LayoutTab } from '@fumadocs/base-ui/layouts/shared';
 import { createElement } from 'react';
 import { AudioLines, CalendarDays, FolderOpen, Info, MessagesSquare, UsersRound, Wrench, type LucideIcon } from 'lucide-react';
@@ -20,19 +21,32 @@ export const sectionTabs: LayoutTab[] = navigation.nav
   .map((item) => ({ title: item.text, url: item.link, icon: createElement(sectionIcons[item.link] ?? FolderOpen, { 'aria-hidden': true }) }));
 
 function convert(item: NavigationItem): Node {
+  // Fumadocs matches tree URLs against its slashless normalized pathname.
+  const url = encodeURI(item.link?.replace(/\/$/, '') || '/');
   if (item.items) return {
     type: 'folder', name: item.text,
     defaultOpen: item.collapsed === false,
-    index: item.link ? { type: 'page', name: item.text, url: encodeURI(item.link) } : undefined,
+    index: item.link ? { type: 'page', name: item.text, url } : undefined,
     children: item.items.map(convert),
   };
-  return { type: 'page', name: item.text, url: encodeURI(item.link ?? '/') };
+  return { type: 'page', name: item.text, url };
 }
 
 export function getSidebar(path: string): Root {
   const key = Object.keys(sidebars).sort((a, b) => b.length - a.length)
     .find((prefix) => `${path.replace(/\/$/, '')}/`.startsWith(prefix));
   return { name: '菜单', children: key ? sidebars[key].map(convert) : [] };
+}
+
+/** Native root folders add the section to breadcrumbs while keeping sidebar items. */
+export function getLayoutTree(path: string): Root {
+  const tree = getSidebar(path);
+  const section = navigation.nav.find(item => item.link !== '/' && `${path.replace(/\/$/, '')}/`.startsWith(item.link));
+  if (!section || !searchPath(tree.children, path)) return tree;
+  return {
+    name: section.text,
+    children: [{ type: 'folder', root: true, name: section.text, children: tree.children }],
+  };
 }
 
 

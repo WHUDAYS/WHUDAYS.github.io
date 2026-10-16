@@ -1,4 +1,5 @@
 import { source, getMarkdownPath } from '@/lib/source';
+import { llmExport } from '@/lib/llms';
 
 export const dynamic = 'force-static';
 export const dynamicParams = false;
@@ -14,7 +15,7 @@ export async function GET(_request: Request, { params }: { params: Promise<{ slu
   const requestedPath = `/markdown/${slug.join('/')}`;
   const page = source.getPages().find(page => getMarkdownPath(page.path) === requestedPath);
   if (!page) return new Response('Not found', { status: 404 });
-  return new Response(await page.data.getText('raw'), {
+  return new Response(await llmExport.page(page), {
     headers: { 'Content-Type': 'text/plain; charset=utf-8' },
   });
 }

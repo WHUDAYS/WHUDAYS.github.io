@@ -15,6 +15,7 @@ export async function GET() {
         url: page.url,
         title: page.data.title,
         description: page.data.description,
+        tag: page.slugs[0],
         structuredData: {
           ...page.data.structuredData,
           contents: [...page.data.structuredData.contents, ...text],

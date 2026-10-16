@@ -84,7 +84,88 @@ async function verifySearch(outDir) {
       return id && url.replace(/\/$/, '') === page && pages.get(page)?.anchors.get(id)?.includes(query);
     })) throw new Error(`Search cannot locate content: ${query} at ${page}`);
   }
-  console.log(`Fumadocs search verified: ${pages.size} pages, ${records.count} records, ${members.size} distinct member names and 9 content queries.`);
+  for (const [tag, query] of [['about', '九尾晨'], ['activity', '春日'], ['department', '演音'],
+    ['group', '初音'], ['message-box', '漫协'], ['maintainer', '贡献']]) {
+    const filtered = staticClient({ from: `data:application/json;base64,${Buffer.from(serialized).toString('base64')}`, initDB: createSearchDatabase, tag });
+    const hits = await filtered.search(query);
+    if (!hits.length || hits.some(hit => new URL(hit.url, origin).pathname.split('/')[1] !== tag)) {
+      throw new Error(`Search section filter failed: ${tag} (${query})`);
+    }
+  }
+  console.log(`Fumadocs search verified: ${pages.size} pages, ${records.count} records, ${members.size} distinct member names, 9 content queries and 6 section filters.`);
+}
+
+/** Check discoverability in the actual static output, including component text. */
+function verifyDiscovery(outDir) {
+  const index = readFileSync(path.join(outDir, 'llms.txt'), 'utf8');
+  const full = readFileSync(path.join(outDir, 'llms-full.txt'), 'utf8');
+  const sitemap = new Set([...readFileSync(path.join(outDir, 'sitemap.xml'), 'utf8').matchAll(/<loc>(.*?)<\/loc>/g)]
+    .map(match => new URL(match[1].replace(/&apos;/g, "'").replace(/&quot;/g, '"').replace(/&amp;/g, '&')).href));
+  const descriptions = new Set();
+  const images = new Set();
+  let breadcrumbs = 0;
+  const files = walk(path.join(repoRoot, 'docs')).filter(file => file.endsWith('.mdx'));
+  if (!index.startsWith('# 武汉大学动漫协会') || !index.includes(`${origin}/llms-full.txt`)) throw new Error('LLM index is missing site information');
+  for (const file of files) {
+    const source = path.relative(path.join(repoRoot, 'docs'), file).split(path.sep).join('/');
+    const canonical = '/' + source.replace(/index\.mdx$/, '').replace(/\.mdx$/, '');
+    const basename = canonical.replace(/\/$/, '') || '/index';
+    const markdownPath = `/markdown${basename}.txt`;
+    const imagePath = `/og${basename}.png`;
+    const html = readFileSync(outputFile(outDir, canonical), 'utf8');
+    const { tags, members } = inspectHtml(html);
+    const meta = (name) => tags.find(tag => tag.tag === 'meta' && (tag.name === name || tag.property === name))?.content;
+    const description = meta('description');
+    if (!description || description.length < 10 || descriptions.has(description)) throw new Error(`Missing or duplicated description: ${canonical}`);
+    descriptions.add(description);
+    for (const name of ['og:description', 'twitter:description']) {
+      if (meta(name) !== description) throw new Error(`Share description differs from page description: ${canonical}`);
+    }
+    const image = meta('og:image');
+    if (image !== `${origin}${encodeURI(imagePath)}` || meta('twitter:image') !== image || meta('twitter:card') !== 'summary_large_image' || images.has(image)) {
+      throw new Error(`Missing or duplicated page share image: ${canonical}`);
+    }
+    images.add(image);
+    const png = readFileSync(path.join(outDir, imagePath));
+    if (png.toString('hex', 0, 8) !== '89504e470d0a1a0a' || png.readUInt32BE(16) !== 1200 || png.readUInt32BE(20) !== 630) {
+      throw new Error(`Share image must be a 1200×630 PNG: ${canonical}`);
+    }
+    const text = readFileSync(path.join(outDir, markdownPath), 'utf8');
+    const sourceMarker = `<!-- Source: ${origin}${canonical} -->`;
+    if (!text.startsWith(sourceMarker) || !full.includes(text) || !index.includes(`${origin}${markdownPath}`)) {
+      throw new Error(`LLM index/full text is missing a page: ${canonical}`);
+    }
+    const prose = text.replace(/```[\s\S]*?```/g, '').replace(/`[^`\n]*`/g, '');
+    if (/^import |^export const |searchComponentBindings|<[\w.]*TeamMembers\b|<iframe\b|style=\{\{/m.test(prose)) {
+      throw new Error(`Unprocessed MDX leaked into LLM text: ${canonical}`);
+    }
+    for (const { name } of members) {
+      if (!text.includes(name)) throw new Error(`LLM text lost member card content: ${name} at ${canonical}`);
+    }
+    if (!sitemap.has(new URL(canonical, origin).href)) throw new Error(`Sitemap lost a content page: ${canonical}`);
+    function visit(node) {
+      if (node.tagName === 'script' && node.attrs.some(attr => attr.name === 'type' && attr.value === 'application/ld+json')) {
+        const schema = JSON.parse(node.childNodes.map(child => child.value ?? '').join(''));
+        if (schema['@type'] === 'BreadcrumbList') {
+          breadcrumbs++;
+          const items = schema.itemListElement;
+          if (items.length < 2 || new URL(items.at(-1).item).pathname !== encodeURI(`${basename === '/index' ? '' : basename}/`)) throw new Error(`Breadcrumb has wrong final page: ${canonical}`);
+          items.forEach((item, position) => {
+            if (item.position !== position + 1 || !item.name || !outputFile(outDir, new URL(item.item).pathname)) {
+              throw new Error(`Breadcrumb has an invalid item: ${canonical}`);
+            }
+          });
+        }
+      }
+      node.childNodes?.forEach(visit);
+    }
+    visit(parse(html));
+  }
+  if ((full.match(/<!-- Source: /g) ?? []).length !== files.length || breadcrumbs < 1) throw new Error('Incomplete LLM or breadcrumb export');
+  const introduction = readFileSync(path.join(outDir, 'markdown/about/introduction.txt'), 'utf8');
+  if (!introduction.includes('WHUDAYS……其实是故意的') || introduction.includes('页面历史')) throw new Error('LLM export lost chat content or included generated history');
+  if (!readFileSync(path.join(outDir, 'markdown/activity/2025/game-dev.txt'), 'utf8').includes('/activity/2025/game-dev/选手手册.pdf')) throw new Error('LLM export lost embedded PDF access');
+  console.log(`Discovery verified: ${files.length} descriptions, processed texts and share images; ${breadcrumbs} breadcrumb schemas; complete llms.txt, llms-full.txt and sitemap.`);
 }
 
 export function outputFile(outDir, pathname) {
@@ -115,6 +196,20 @@ export function verifyExport({ outDir = path.join(repoRoot, 'out') } = {}) {
   for (const file of htmlFiles) {
     const route = '/' + path.relative(outDir, file).split(path.sep).join('/').replace(/index\.html$/, '');
     const document = inspect(file);
+    if (route === '/about/') {
+      const html = readFileSync(file, 'utf8');
+      if (html.includes('ffa9eed871cb7da9c262d7f694de9ea089fa8c6b') || !html.includes('3e4cca360820fd50c9d83a8a3961bd537cef8662')) {
+        fail('stale-history', route, 'Rendered page history must retain the original edit and exclude its pure PR merge. Clear generated build caches after upgrading the history compiler plugin.');
+      }
+    }
+    if (route === '/') {
+      for (const tag of document.tags.filter(tag => tag.tag === 'a' && /\b(?:hero-action|home-feature)\b/.test(tag.class ?? ''))) {
+        const url = new URL(tag.href, origin);
+        if (url.origin === origin && !url.pathname.endsWith('/') && existsSync(path.join(outDir, decodeURL(url.pathname).slice(1), 'index.html'))) {
+          fail('home-route-redirect', route, `Home entry should link directly to its directory URL: ${tag.href}`);
+        }
+      }
+    }
     const references = [
       ...document.tags.filter(tag => tag.href && ['a', 'link'].includes(tag.tag) && !['canonical', 'preconnect', 'dns-prefetch'].includes(tag.rel)).map(tag => ({ value: tag.href, fragment: tag.tag === 'a' })),
       ...document.sources.map(value => ({ value, fragment: false })),
@@ -140,7 +235,10 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
   const reportIndex = process.argv.indexOf('--report');
   const outDir = outIndex >= 0 ? path.resolve(process.argv[outIndex + 1]) : path.join(repoRoot, 'out');
   const report = verifyExport({ outDir });
-  if (report.passed) await verifySearch(outDir);
+  if (report.passed) {
+    await verifySearch(outDir);
+    verifyDiscovery(outDir);
+  }
   if (reportIndex >= 0) writeFileSync(path.resolve(process.argv[reportIndex + 1]), JSON.stringify(report, null, 2) + '\n');
   console.log(JSON.stringify(report.counts, null, 2));
   for (const error of report.errors) console.error(`[${error.kind}] ${error.source}: ${error.message}`);

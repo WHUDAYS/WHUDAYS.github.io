@@ -13,3 +13,7 @@ export function getCanonicalPath(path: string) {
 export function getMarkdownPath(path: string) {
   return `/markdown${getCanonicalPath(path).replace(/\/$/, '') || '/index'}.txt`;
 }
+
+export function getOGImagePath(path: string) {
+  return `/og${getCanonicalPath(path).replace(/\/$/, '') || '/index'}.png`;
+}

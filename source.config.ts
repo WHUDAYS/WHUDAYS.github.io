@@ -7,8 +7,9 @@ import { remarkGitChangelog } from 'fumadocs-page-history/remark';
 import { gitChangelogSchema } from 'fumadocs-page-history/schema';
 import type { HistoryOptions } from 'fumadocs-page-history/git';
 import { buildAuthorMappings } from './lib/people.js';
-import { remarkLegacyHeadings } from './lib/remark-legacy-headings.mjs';
 import { remarkSearchAnchors } from './lib/remark-search-anchors.mjs';
+import { remarkImageZoom } from './lib/remark-image-zoom.mjs';
+import { remarkLLMMedia } from './lib/remark-llm-media.mjs';
 
 const historyOptions = {
   repository: { url: 'https://github.com/WHUDAYS/WHUDAYS.github.io' },
@@ -25,7 +26,22 @@ export const docs = defineDocs({
   docs: {
     files: ['**/*.mdx'],
     lastModified: true,
+    postprocess: {
+      includeProcessedMarkdown: {
+        output: 'function',
+        filterElement(node) {
+          if (node.data && 'searchExcluded' in node.data && node.data.searchExcluded) return false;
+          if (node.type === 'mdxFlowExpression' || node.type === 'mdxTextExpression') return false;
+          if (node.type === 'mdxJsxFlowElement' || node.type === 'mdxJsxTextElement') {
+            if (['History', 'GitContributors', 'link', 'style', 'script'].includes(node.name ?? '')) return false;
+            if (['div', 'span', 'center', 'p'].includes(node.name ?? '')) return 'children-only';
+          }
+          return true;
+        },
+      },
+    },
     schema: pageSchema.extend({
+      description: z.string().min(10),
       layout: z.string().optional(),
       sidebar: z.boolean().optional(),
       outline: z.union([z.boolean(), z.number(), z.array(z.number()), z.string()]).optional(),
@@ -42,7 +58,7 @@ export default defineConfig({
       const index = configured.findIndex((plugin) => plugin === remarkGfm);
       if (index >= 0) configured[index] = [remarkGfm, { singleTilde: false }];
       // Assign card/content targets and exclude hidden lists before indexing.
-      return [remarkLegacyHeadings, remarkSearchAnchors, ...configured, [remarkGitChangelog, {
+      return [remarkSearchAnchors, remarkImageZoom, remarkLLMMedia, ...configured, [remarkGitChangelog, {
         ...historyOptions,
         filter: (filePath: string) => filePath !== path.resolve('docs/index.mdx'),
         display: {

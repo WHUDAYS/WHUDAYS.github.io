@@ -21,8 +21,8 @@ importers:
         specifier: 15.4.7
         version: 15.4.7(@types/mdast@4.0.4)(@types/mdx@2.0.14)(@types/react@19.3.0)(fumadocs-core@16.17.4(@mdx-js/mdx@3.1.1(supports-color@7.2.0))(@types/estree-jsx@1.0.5)(@types/hast@3.0.5)(@types/mdast@4.0.4)(@types/react@19.3.0)(algoliasearch@5.25.0)(lucide-react@1.51.0(@types/react@19.3.0)(react@19.3.0))(next@16.3.8(@types/node@24.19.1)(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(supports-color@7.2.0)(zod@4.6.5))(next@16.3.8(@types/node@24.19.1)(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react@19.3.0)(rolldown@1.2.12)(supports-color@7.2.0)(vite@8.3.2(@types/node@24.19.1)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.1))
       fumadocs-page-history:
-        specifier: 0.3.2
-        version: 0.3.2(a9adbaf758e288cdff863b2c9c01de56)
+        specifier: 0.3.3
+        version: 0.3.3(a9adbaf758e288cdff863b2c9c01de56)
       fumadocs-ui:
         specifier: npm:@fumadocs/base-ui@16.17.4
         version: '@fumadocs/base-ui@16.17.4(@types/mdx@2.0.14)(@types/react@19.3.0)(date-fns@4.1.0)(fumadocs-core@16.17.4(@mdx-js/mdx@3.1.1(supports-color@7.2.0))(@types/estree-jsx@1.0.5)(@types/hast@3.0.5)(@types/mdast@4.0.4)(@types/react@19.3.0)(algoliasearch@5.25.0)(lucide-react@1.51.0(@types/react@19.3.0)(react@19.3.0))(next@16.3.8(@types/node@24.19.1)(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(supports-color@7.2.0)(zod@4.6.5))(next@16.3.8(@types/node@24.19.1)(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(supports-color@7.2.0)(tailwindcss@4.3.3)'
@@ -60,9 +60,6 @@ importers:
       '@types/react-dom':
         specifier: ^19.2.0
         version: 19.3.0(@types/react@19.3.0)
-      mdast-util-to-string:
-        specifier: ^4.0.0
-        version: 4.0.0
       parse5:
         specifier: ^8.0.1
         version: 8.0.1
@@ -1398,8 +1395,8 @@ packages:
       vite:
         optional: true
 
-  fumadocs-page-history@0.3.2:
-    resolution: {integrity: sha512-iL5rt2cdgkO974mxMw98lUS+if63wy2YdbDx2OCuG6Ne4TANlxLOeVkCa6IViMuZ52GXS+ypWOfyeaij9KMQMQ==}
+  fumadocs-page-history@0.3.3:
+    resolution: {integrity: sha512-fpkZaFT5IgeqeTqPu3OyB3PFZIFfNgQAHZRjmg9eIinMwB9BMh3okvxK24LgZufcyrQFEnZLHZsezZ7/laSUUw==}
     engines: {node: '>=24.14.0'}
     peerDependencies:
       fumadocs-core: ^16.17.0
@@ -3482,7 +3479,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  fumadocs-page-history@0.3.2(a9adbaf758e288cdff863b2c9c01de56):
+  fumadocs-page-history@0.3.3(a9adbaf758e288cdff863b2c9c01de56):
     dependencies:
       '@fuma-translate/react': 1.0.2(@types/react@19.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
       '@types/mdast': 4.0.4
