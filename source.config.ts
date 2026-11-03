@@ -63,7 +63,6 @@ export default defineConfig({
         filter: (filePath: string) => filePath !== path.resolve('docs/index.mdx'),
         display: {
           locale: 'zh-CN',
-          hideChangelogHeader: true,
           displayAuthorsInsideCommitLine: true,
         },
       }]];
