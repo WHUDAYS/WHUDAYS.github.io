@@ -64,7 +64,6 @@ export default defineConfig({
         display: {
           locale: 'zh-CN',
           hideChangelogHeader: true,
-          hideContributorsHeader: true,
           displayAuthorsInsideCommitLine: true,
         },
       }]];
